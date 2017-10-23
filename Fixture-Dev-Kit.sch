@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -60,15 +60,21 @@ F0 "Fixture Dev Kit Switches" 60
 F1 "FixtureDevKit_Switches.sch" 60
 $EndSheet
 $Sheet
-S 4050 1100 1100 2600
+S 3450 1100 1100 2600
 U 59EE50B5
 F0 "Fixture Dev Kit - INA" 60
 F1 "FixtureDevKit-INA.sch" 60
 $EndSheet
 $Sheet
-S 5500 1100 1000 2600
+S 4900 1100 1000 2600
 U 59EEAF92
 F0 "Fixture Dev Kit - ADS" 60
 F1 "FixtureDevKit-ADS.sch" 60
+$EndSheet
+$Sheet
+S 6400 1100 950  2600
+U 59EE63FB
+F0 "Fixture Dev Kit Dummy Loads" 60
+F1 "FixtureDevKit-Loads.sch" 60
 $EndSheet
 $EndSCHEMATC

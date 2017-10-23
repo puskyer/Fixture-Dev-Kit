@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
+Sheet 5 6
 Title ""
 Date ""
 Rev ""
@@ -861,4 +861,12 @@ Text Notes 6550 1450 0    157  ~ 0
 TO DO:\n- verify I2C addresses\n- verify voltage devider methodology
 Text Notes 650  800  0    157  ~ 0
 ADS Voltage Read Circuit
+Text Notes 8650 3000 1    60   ~ 0
+NC
+Text Notes 8900 3000 1    60   ~ 0
+NC
+Text Notes 9200 3000 1    60   ~ 0
+NC
+Text Notes 9500 3000 1    60   ~ 0
+NC
 $EndSCHEMATC

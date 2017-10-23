@@ -1,0 +1,288 @@
+EESchema Schematic File Version 2
+LIBS:Fixture-Dev-Kit-rescue
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Fixture-Dev-Kit-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 3700 3500 1    60   ~ 0
+GND\n
+Text Notes 3800 3500 1    60   ~ 0
+TRIGGER
+Text Notes 3900 3500 1    60   ~ 0
+VCC
+$Comp
+L R R?
+U 1 1 59EE69C1
+P 3850 4100
+F 0 "R?" V 3930 4100 50  0000 C CNN
+F 1 "10R, 5W" V 3850 4100 50  0000 C CNN
+F 2 "" V 3780 4100 50  0001 C CNN
+F 3 "" H 3850 4100 50  0001 C CNN
+	1    3850 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Q_NMOS_GDSD Q?
+U 1 1 59EE6A15
+P 3750 4600
+F 0 "Q?" H 3950 4650 50  0000 L CNN
+F 1 "Q_NMOS_GDSD" H 3950 4550 50  0000 L CNN
+F 2 "" H 3950 4700 50  0001 C CNN
+F 3 "" H 3750 4600 50  0001 C CNN
+	1    3750 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 4400 3850 4400
+Wire Wire Line
+	3850 4400 3850 4250
+Wire Wire Line
+	3850 3950 3850 3800
+$Comp
+L Conn_01x03 J?
+U 1 1 59EE6A91
+P 3750 3600
+F 0 "J?" H 3750 3800 50  0000 C CNN
+F 1 "LOAD_0" H 3750 3400 50  0000 C CNN
+F 2 "" H 3750 3600 50  0001 C CNN
+F 3 "" H 3750 3600 50  0001 C CNN
+	1    3750 3600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3750 3800 3750 4100
+Wire Wire Line
+	3750 4100 3550 4100
+Wire Wire Line
+	3550 4100 3550 4600
+Wire Wire Line
+	3650 3800 3650 4050
+Wire Wire Line
+	3650 4050 3500 4050
+Wire Wire Line
+	3500 4050 3500 4800
+Wire Wire Line
+	3500 4800 3850 4800
+Text Notes 4900 3500 1    60   ~ 0
+GND\n
+Text Notes 5000 3500 1    60   ~ 0
+TRIGGER
+Text Notes 5100 3500 1    60   ~ 0
+VCC
+$Comp
+L R R?
+U 1 1 59EE7120
+P 5050 4100
+F 0 "R?" V 5130 4100 50  0000 C CNN
+F 1 "10R, 5W" V 5050 4100 50  0000 C CNN
+F 2 "" V 4980 4100 50  0001 C CNN
+F 3 "" H 5050 4100 50  0001 C CNN
+	1    5050 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Q_NMOS_GDSD Q?
+U 1 1 59EE7126
+P 4950 4600
+F 0 "Q?" H 5150 4650 50  0000 L CNN
+F 1 "Q_NMOS_GDSD" H 5150 4550 50  0000 L CNN
+F 2 "" H 5150 4700 50  0001 C CNN
+F 3 "" H 4950 4600 50  0001 C CNN
+	1    4950 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 4400 5050 4400
+Wire Wire Line
+	5050 4400 5050 4250
+Wire Wire Line
+	5050 3950 5050 3800
+$Comp
+L Conn_01x03 J?
+U 1 1 59EE712F
+P 4950 3600
+F 0 "J?" H 4950 3800 50  0000 C CNN
+F 1 "LOAD_0" H 4950 3400 50  0000 C CNN
+F 2 "" H 4950 3600 50  0001 C CNN
+F 3 "" H 4950 3600 50  0001 C CNN
+	1    4950 3600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4950 3800 4950 4100
+Wire Wire Line
+	4950 4100 4750 4100
+Wire Wire Line
+	4750 4100 4750 4600
+Wire Wire Line
+	4850 3800 4850 4050
+Wire Wire Line
+	4850 4050 4700 4050
+Wire Wire Line
+	4700 4050 4700 4800
+Wire Wire Line
+	4700 4800 5050 4800
+Text Notes 6200 3500 1    60   ~ 0
+GND\n
+Text Notes 6300 3500 1    60   ~ 0
+TRIGGER
+Text Notes 6400 3500 1    60   ~ 0
+VCC
+$Comp
+L R R?
+U 1 1 59EE72D7
+P 6350 4100
+F 0 "R?" V 6430 4100 50  0000 C CNN
+F 1 "10R, 5W" V 6350 4100 50  0000 C CNN
+F 2 "" V 6280 4100 50  0001 C CNN
+F 3 "" H 6350 4100 50  0001 C CNN
+	1    6350 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Q_NMOS_GDSD Q?
+U 1 1 59EE72DD
+P 6250 4600
+F 0 "Q?" H 6450 4650 50  0000 L CNN
+F 1 "Q_NMOS_GDSD" H 6450 4550 50  0000 L CNN
+F 2 "" H 6450 4700 50  0001 C CNN
+F 3 "" H 6250 4600 50  0001 C CNN
+	1    6250 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6450 4400 6350 4400
+Wire Wire Line
+	6350 4400 6350 4250
+Wire Wire Line
+	6350 3950 6350 3800
+$Comp
+L Conn_01x03 J?
+U 1 1 59EE72E6
+P 6250 3600
+F 0 "J?" H 6250 3800 50  0000 C CNN
+F 1 "LOAD_0" H 6250 3400 50  0000 C CNN
+F 2 "" H 6250 3600 50  0001 C CNN
+F 3 "" H 6250 3600 50  0001 C CNN
+	1    6250 3600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6250 3800 6250 4100
+Wire Wire Line
+	6250 4100 6050 4100
+Wire Wire Line
+	6050 4100 6050 4600
+Wire Wire Line
+	6150 3800 6150 4050
+Wire Wire Line
+	6150 4050 6000 4050
+Wire Wire Line
+	6000 4050 6000 4800
+Wire Wire Line
+	6000 4800 6350 4800
+Text Notes 7400 3500 1    60   ~ 0
+GND\n
+Text Notes 7500 3500 1    60   ~ 0
+TRIGGER
+Text Notes 7600 3500 1    60   ~ 0
+VCC
+$Comp
+L R R?
+U 1 1 59EE72F6
+P 7550 4100
+F 0 "R?" V 7630 4100 50  0000 C CNN
+F 1 "10R, 5W" V 7550 4100 50  0000 C CNN
+F 2 "" V 7480 4100 50  0001 C CNN
+F 3 "" H 7550 4100 50  0001 C CNN
+	1    7550 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Q_NMOS_GDSD Q?
+U 1 1 59EE72FC
+P 7450 4600
+F 0 "Q?" H 7650 4650 50  0000 L CNN
+F 1 "Q_NMOS_GDSD" H 7650 4550 50  0000 L CNN
+F 2 "" H 7650 4700 50  0001 C CNN
+F 3 "" H 7450 4600 50  0001 C CNN
+	1    7450 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 4400 7550 4400
+Wire Wire Line
+	7550 4400 7550 4250
+Wire Wire Line
+	7550 3950 7550 3800
+$Comp
+L Conn_01x03 J?
+U 1 1 59EE7305
+P 7450 3600
+F 0 "J?" H 7450 3800 50  0000 C CNN
+F 1 "LOAD_0" H 7450 3400 50  0000 C CNN
+F 2 "" H 7450 3600 50  0001 C CNN
+F 3 "" H 7450 3600 50  0001 C CNN
+	1    7450 3600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7450 3800 7450 4100
+Wire Wire Line
+	7450 4100 7250 4100
+Wire Wire Line
+	7250 4100 7250 4600
+Wire Wire Line
+	7350 3800 7350 4050
+Wire Wire Line
+	7350 4050 7200 4050
+Wire Wire Line
+	7200 4050 7200 4800
+Wire Wire Line
+	7200 4800 7550 4800
+Text Notes 550  750  0    157  ~ 0
+Dummy Load Circuit
+$EndSCHEMATC
