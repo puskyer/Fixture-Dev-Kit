@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 6
+Sheet 6 7
 Title ""
 Date ""
 Rev ""
@@ -283,4 +283,6 @@ Wire Wire Line
 	7200 4050 7200 4800
 Wire Wire Line
 	7200 4800 7550 4800
+Text Notes 550  750  0    157  ~ 0
+Dummy Load Circuit
 $EndSCHEMATC
