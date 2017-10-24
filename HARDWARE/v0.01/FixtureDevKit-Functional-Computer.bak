@@ -277,7 +277,7 @@ Text Label 10100 1250 0    60   ~ 0
 LORP
 Text Label 10100 1350 0    60   ~ 0
 LORN
-Text Notes 750  1950 0    157  ~ 0
+Text Notes 750  1400 0    157  ~ 0
 TODO:\n- verify all pinouts\n- test points
 $Comp
 L CHIP4B2B J8?
