@@ -1,0 +1,748 @@
+EESchema Schematic File Version 2
+LIBS:Fixture-Dev-Kit-rescue
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Fixture-Dev-Kit-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 9 9
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Q_PMOS_GDSD Q?
+U 1 1 59F00EBB
+P 2400 2850
+F 0 "Q?" H 2600 2900 50  0000 L CNN
+F 1 "NTF2955T1G" H 2600 2800 50  0000 L CNN
+F 2 "" H 2600 2950 50  0001 C CNN
+F 3 "" H 2400 2850 50  0001 C CNN
+	1    2400 2850
+	0    -1   1    0   
+$EndComp
+$Comp
+L TEST TP?
+U 1 1 59F010EC
+P 2400 2550
+F 0 "TP?" H 2400 2850 50  0000 C BNN
+F 1 "TEST" H 2400 2800 50  0000 C CNN
+F 2 "" H 2400 2550 50  0001 C CNN
+F 3 "" H 2400 2550 50  0001 C CNN
+	1    2400 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L TEST TP?
+U 1 1 59F01148
+P 2750 2950
+F 0 "TP?" H 2750 3250 50  0000 C BNN
+F 1 "TEST" H 2750 3200 50  0000 C CNN
+F 2 "" H 2750 2950 50  0001 C CNN
+F 3 "" H 2750 2950 50  0001 C CNN
+	1    2750 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST TP?
+U 1 1 59F01182
+P 2050 2950
+F 0 "TP?" H 2050 3250 50  0000 C BNN
+F 1 "TEST" H 2050 3200 50  0000 C CNN
+F 2 "" H 2050 2950 50  0001 C CNN
+F 3 "" H 2050 2950 50  0001 C CNN
+	1    2050 2950
+	-1   0    0    1   
+$EndComp
+Text Label 2450 1850 3    60   ~ 0
+Drain0
+Text Label 1850 2950 2    60   ~ 0
+Drain0
+$Comp
+L Conn_02x03_Counter_Clockwise J?
+U 1 1 59F012B7
+P 2350 1450
+F 0 "J?" H 2400 1650 50  0000 C CNN
+F 1 "Fet0" H 2400 1250 50  0000 C CNN
+F 2 "" H 2350 1450 50  0001 C CNN
+F 3 "" H 2350 1450 50  0001 C CNN
+	1    2350 1450
+	0    1    1    0   
+$EndComp
+Text Label 2400 2450 1    60   ~ 0
+Gate0
+Text Label 2350 1850 3    60   ~ 0
+Gate0
+Text Label 2950 2950 0    60   ~ 0
+Source0
+Text Label 2250 1850 3    60   ~ 0
+Source0
+Wire Wire Line
+	2250 1250 2250 1850
+Wire Wire Line
+	2350 1250 2350 1850
+Wire Wire Line
+	2450 1250 2450 1850
+Wire Wire Line
+	2400 2450 2400 2650
+Connection ~ 2400 2550
+Wire Wire Line
+	2600 2950 2950 2950
+Connection ~ 2750 2950
+Wire Wire Line
+	2200 2950 2200 3050
+Wire Wire Line
+	1850 2950 2200 2950
+Connection ~ 2050 2950
+Connection ~ 2450 1750
+Connection ~ 2350 1750
+Connection ~ 2250 1750
+$Comp
+L Q_PMOS_GDSD Q?
+U 1 1 59F01C9D
+P 4300 2850
+F 0 "Q?" H 4500 2900 50  0000 L CNN
+F 1 "NTF2955T1G" H 4500 2800 50  0000 L CNN
+F 2 "" H 4500 2950 50  0001 C CNN
+F 3 "" H 4300 2850 50  0001 C CNN
+	1    4300 2850
+	0    -1   1    0   
+$EndComp
+$Comp
+L TEST TP?
+U 1 1 59F01CA3
+P 4300 2550
+F 0 "TP?" H 4300 2850 50  0000 C BNN
+F 1 "TEST" H 4300 2800 50  0000 C CNN
+F 2 "" H 4300 2550 50  0001 C CNN
+F 3 "" H 4300 2550 50  0001 C CNN
+	1    4300 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L TEST TP?
+U 1 1 59F01CA9
+P 4650 2950
+F 0 "TP?" H 4650 3250 50  0000 C BNN
+F 1 "TEST" H 4650 3200 50  0000 C CNN
+F 2 "" H 4650 2950 50  0001 C CNN
+F 3 "" H 4650 2950 50  0001 C CNN
+	1    4650 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST TP?
+U 1 1 59F01CAF
+P 3950 2950
+F 0 "TP?" H 3950 3250 50  0000 C BNN
+F 1 "TEST" H 3950 3200 50  0000 C CNN
+F 2 "" H 3950 2950 50  0001 C CNN
+F 3 "" H 3950 2950 50  0001 C CNN
+	1    3950 2950
+	-1   0    0    1   
+$EndComp
+Text Label 4350 1850 3    60   ~ 0
+Drain1
+Text Label 3750 2950 2    60   ~ 0
+Drain1
+$Comp
+L Conn_02x03_Counter_Clockwise J?
+U 1 1 59F01CB7
+P 4250 1450
+F 0 "J?" H 4300 1650 50  0000 C CNN
+F 1 "Fet0" H 4300 1250 50  0000 C CNN
+F 2 "" H 4250 1450 50  0001 C CNN
+F 3 "" H 4250 1450 50  0001 C CNN
+	1    4250 1450
+	0    1    1    0   
+$EndComp
+Text Label 4300 2450 1    60   ~ 0
+Gate1
+Text Label 4250 1850 3    60   ~ 0
+Gate1
+Text Label 4850 2950 0    60   ~ 0
+Source1
+Text Label 4150 1850 3    60   ~ 0
+Source1
+Wire Wire Line
+	4150 1250 4150 1850
+Wire Wire Line
+	4250 1250 4250 1850
+Wire Wire Line
+	4350 1250 4350 1850
+Wire Wire Line
+	4300 2450 4300 2650
+Connection ~ 4300 2550
+Wire Wire Line
+	4500 2950 4850 2950
+Connection ~ 4650 2950
+Wire Wire Line
+	4100 2950 4100 3050
+Wire Wire Line
+	3750 2950 4100 2950
+Connection ~ 3950 2950
+Connection ~ 4350 1750
+Connection ~ 4250 1750
+Connection ~ 4150 1750
+$Comp
+L Q_PMOS_GDSD Q?
+U 1 1 59F02962
+P 6850 2850
+F 0 "Q?" H 7050 2900 50  0000 L CNN
+F 1 "NTF2955T1G" H 7050 2800 50  0000 L CNN
+F 2 "" H 7050 2950 50  0001 C CNN
+F 3 "" H 6850 2850 50  0001 C CNN
+	1    6850 2850
+	0    -1   1    0   
+$EndComp
+$Comp
+L TEST TP?
+U 1 1 59F02968
+P 6850 2550
+F 0 "TP?" H 6850 2850 50  0000 C BNN
+F 1 "TEST" H 6850 2800 50  0000 C CNN
+F 2 "" H 6850 2550 50  0001 C CNN
+F 3 "" H 6850 2550 50  0001 C CNN
+	1    6850 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L TEST TP?
+U 1 1 59F0296E
+P 7200 2950
+F 0 "TP?" H 7200 3250 50  0000 C BNN
+F 1 "TEST" H 7200 3200 50  0000 C CNN
+F 2 "" H 7200 2950 50  0001 C CNN
+F 3 "" H 7200 2950 50  0001 C CNN
+	1    7200 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST TP?
+U 1 1 59F02974
+P 6500 2950
+F 0 "TP?" H 6500 3250 50  0000 C BNN
+F 1 "TEST" H 6500 3200 50  0000 C CNN
+F 2 "" H 6500 2950 50  0001 C CNN
+F 3 "" H 6500 2950 50  0001 C CNN
+	1    6500 2950
+	-1   0    0    1   
+$EndComp
+Text Label 6900 1850 3    60   ~ 0
+Drain2
+Text Label 6300 2950 2    60   ~ 0
+Drain2
+$Comp
+L Conn_02x03_Counter_Clockwise J?
+U 1 1 59F0297C
+P 6800 1450
+F 0 "J?" H 6850 1650 50  0000 C CNN
+F 1 "Fet0" H 6850 1250 50  0000 C CNN
+F 2 "" H 6800 1450 50  0001 C CNN
+F 3 "" H 6800 1450 50  0001 C CNN
+	1    6800 1450
+	0    1    1    0   
+$EndComp
+Text Label 6850 2450 1    60   ~ 0
+Gate2
+Text Label 6800 1850 3    60   ~ 0
+Gate2
+Text Label 7400 2950 0    60   ~ 0
+Source2
+Text Label 6700 1850 3    60   ~ 0
+Source2
+Wire Wire Line
+	6700 1250 6700 1850
+Wire Wire Line
+	6800 1250 6800 1850
+Wire Wire Line
+	6900 1250 6900 1850
+Wire Wire Line
+	6850 2450 6850 2650
+Connection ~ 6850 2550
+Wire Wire Line
+	7050 2950 7400 2950
+Connection ~ 7200 2950
+Wire Wire Line
+	6650 2950 6650 3050
+Wire Wire Line
+	6300 2950 6650 2950
+Connection ~ 6500 2950
+Connection ~ 6900 1750
+Connection ~ 6800 1750
+Connection ~ 6700 1750
+$Comp
+L Q_PMOS_GDSD Q?
+U 1 1 59F02993
+P 8750 2850
+F 0 "Q?" H 8950 2900 50  0000 L CNN
+F 1 "NTF2955T1G" H 8950 2800 50  0000 L CNN
+F 2 "" H 8950 2950 50  0001 C CNN
+F 3 "" H 8750 2850 50  0001 C CNN
+	1    8750 2850
+	0    -1   1    0   
+$EndComp
+$Comp
+L TEST TP?
+U 1 1 59F02999
+P 8750 2550
+F 0 "TP?" H 8750 2850 50  0000 C BNN
+F 1 "TEST" H 8750 2800 50  0000 C CNN
+F 2 "" H 8750 2550 50  0001 C CNN
+F 3 "" H 8750 2550 50  0001 C CNN
+	1    8750 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L TEST TP?
+U 1 1 59F0299F
+P 9100 2950
+F 0 "TP?" H 9100 3250 50  0000 C BNN
+F 1 "TEST" H 9100 3200 50  0000 C CNN
+F 2 "" H 9100 2950 50  0001 C CNN
+F 3 "" H 9100 2950 50  0001 C CNN
+	1    9100 2950
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST TP?
+U 1 1 59F029A5
+P 8400 2950
+F 0 "TP?" H 8400 3250 50  0000 C BNN
+F 1 "TEST" H 8400 3200 50  0000 C CNN
+F 2 "" H 8400 2950 50  0001 C CNN
+F 3 "" H 8400 2950 50  0001 C CNN
+	1    8400 2950
+	-1   0    0    1   
+$EndComp
+Text Label 8800 1850 3    60   ~ 0
+Drain3
+Text Label 8200 2950 2    60   ~ 0
+Drain3
+$Comp
+L Conn_02x03_Counter_Clockwise J?
+U 1 1 59F029AD
+P 8700 1450
+F 0 "J?" H 8750 1650 50  0000 C CNN
+F 1 "Fet0" H 8750 1250 50  0000 C CNN
+F 2 "" H 8700 1450 50  0001 C CNN
+F 3 "" H 8700 1450 50  0001 C CNN
+	1    8700 1450
+	0    1    1    0   
+$EndComp
+Text Label 8750 2450 1    60   ~ 0
+Gate3
+Text Label 8700 1850 3    60   ~ 0
+Gate3
+Text Label 9300 2950 0    60   ~ 0
+Source3
+Text Label 8600 1850 3    60   ~ 0
+Source3
+Wire Wire Line
+	8600 1250 8600 1850
+Wire Wire Line
+	8700 1250 8700 1850
+Wire Wire Line
+	8800 1250 8800 1850
+Wire Wire Line
+	8750 2450 8750 2650
+Connection ~ 8750 2550
+Wire Wire Line
+	8950 2950 9300 2950
+Connection ~ 9100 2950
+Wire Wire Line
+	8550 2950 8550 3050
+Wire Wire Line
+	8200 2950 8550 2950
+Connection ~ 8400 2950
+Connection ~ 8800 1750
+Connection ~ 8700 1750
+Connection ~ 8600 1750
+$Comp
+L Q_PMOS_GDSD Q?
+U 1 1 59F02E9C
+P 2400 5300
+F 0 "Q?" H 2600 5350 50  0000 L CNN
+F 1 "NTF2955T1G" H 2600 5250 50  0000 L CNN
+F 2 "" H 2600 5400 50  0001 C CNN
+F 3 "" H 2400 5300 50  0001 C CNN
+	1    2400 5300
+	0    -1   1    0   
+$EndComp
+$Comp
+L TEST TP?
+U 1 1 59F02EA2
+P 2400 5000
+F 0 "TP?" H 2400 5300 50  0000 C BNN
+F 1 "TEST" H 2400 5250 50  0000 C CNN
+F 2 "" H 2400 5000 50  0001 C CNN
+F 3 "" H 2400 5000 50  0001 C CNN
+	1    2400 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L TEST TP?
+U 1 1 59F02EA8
+P 2750 5400
+F 0 "TP?" H 2750 5700 50  0000 C BNN
+F 1 "TEST" H 2750 5650 50  0000 C CNN
+F 2 "" H 2750 5400 50  0001 C CNN
+F 3 "" H 2750 5400 50  0001 C CNN
+	1    2750 5400
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST TP?
+U 1 1 59F02EAE
+P 2050 5400
+F 0 "TP?" H 2050 5700 50  0000 C BNN
+F 1 "TEST" H 2050 5650 50  0000 C CNN
+F 2 "" H 2050 5400 50  0001 C CNN
+F 3 "" H 2050 5400 50  0001 C CNN
+	1    2050 5400
+	-1   0    0    1   
+$EndComp
+Text Label 2450 4300 3    60   ~ 0
+Drain4
+Text Label 1850 5400 2    60   ~ 0
+Drain4
+$Comp
+L Conn_02x03_Counter_Clockwise J?
+U 1 1 59F02EB6
+P 2350 3900
+F 0 "J?" H 2400 4100 50  0000 C CNN
+F 1 "Fet0" H 2400 3700 50  0000 C CNN
+F 2 "" H 2350 3900 50  0001 C CNN
+F 3 "" H 2350 3900 50  0001 C CNN
+	1    2350 3900
+	0    1    1    0   
+$EndComp
+Text Label 2400 4900 1    60   ~ 0
+Gate4
+Text Label 2350 4300 3    60   ~ 0
+Gate4
+Text Label 2950 5400 0    60   ~ 0
+Source4
+Text Label 2250 4300 3    60   ~ 0
+Source4
+Wire Wire Line
+	2250 3700 2250 4300
+Wire Wire Line
+	2350 3700 2350 4300
+Wire Wire Line
+	2450 3700 2450 4300
+Wire Wire Line
+	2400 4900 2400 5100
+Connection ~ 2400 5000
+Wire Wire Line
+	2600 5400 2950 5400
+Connection ~ 2750 5400
+Wire Wire Line
+	2200 5400 2200 5500
+Wire Wire Line
+	1850 5400 2200 5400
+Connection ~ 2050 5400
+Connection ~ 2450 4200
+Connection ~ 2350 4200
+Connection ~ 2250 4200
+$Comp
+L Q_PMOS_GDSD Q?
+U 1 1 59F02ECD
+P 4300 5300
+F 0 "Q?" H 4500 5350 50  0000 L CNN
+F 1 "NTF2955T1G" H 4500 5250 50  0000 L CNN
+F 2 "" H 4500 5400 50  0001 C CNN
+F 3 "" H 4300 5300 50  0001 C CNN
+	1    4300 5300
+	0    -1   1    0   
+$EndComp
+$Comp
+L TEST TP?
+U 1 1 59F02ED3
+P 4300 5000
+F 0 "TP?" H 4300 5300 50  0000 C BNN
+F 1 "TEST" H 4300 5250 50  0000 C CNN
+F 2 "" H 4300 5000 50  0001 C CNN
+F 3 "" H 4300 5000 50  0001 C CNN
+	1    4300 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L TEST TP?
+U 1 1 59F02ED9
+P 4650 5400
+F 0 "TP?" H 4650 5700 50  0000 C BNN
+F 1 "TEST" H 4650 5650 50  0000 C CNN
+F 2 "" H 4650 5400 50  0001 C CNN
+F 3 "" H 4650 5400 50  0001 C CNN
+	1    4650 5400
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST TP?
+U 1 1 59F02EDF
+P 3950 5400
+F 0 "TP?" H 3950 5700 50  0000 C BNN
+F 1 "TEST" H 3950 5650 50  0000 C CNN
+F 2 "" H 3950 5400 50  0001 C CNN
+F 3 "" H 3950 5400 50  0001 C CNN
+	1    3950 5400
+	-1   0    0    1   
+$EndComp
+Text Label 4350 4300 3    60   ~ 0
+Drain5
+Text Label 3750 5400 2    60   ~ 0
+Drain5
+$Comp
+L Conn_02x03_Counter_Clockwise J?
+U 1 1 59F02EE7
+P 4250 3900
+F 0 "J?" H 4300 4100 50  0000 C CNN
+F 1 "Fet0" H 4300 3700 50  0000 C CNN
+F 2 "" H 4250 3900 50  0001 C CNN
+F 3 "" H 4250 3900 50  0001 C CNN
+	1    4250 3900
+	0    1    1    0   
+$EndComp
+Text Label 4300 4900 1    60   ~ 0
+Gate5
+Text Label 4250 4300 3    60   ~ 0
+Gate5
+Text Label 4850 5400 0    60   ~ 0
+Source5
+Text Label 4150 4300 3    60   ~ 0
+Source5
+Wire Wire Line
+	4150 3700 4150 4300
+Wire Wire Line
+	4250 3700 4250 4300
+Wire Wire Line
+	4350 3700 4350 4300
+Wire Wire Line
+	4300 4900 4300 5100
+Connection ~ 4300 5000
+Wire Wire Line
+	4500 5400 4850 5400
+Connection ~ 4650 5400
+Wire Wire Line
+	4100 5400 4100 5500
+Wire Wire Line
+	3750 5400 4100 5400
+Connection ~ 3950 5400
+Connection ~ 4350 4200
+Connection ~ 4250 4200
+Connection ~ 4150 4200
+$Comp
+L Q_PMOS_GDSD Q?
+U 1 1 59F02EFE
+P 6850 5300
+F 0 "Q?" H 7050 5350 50  0000 L CNN
+F 1 "NTF2955T1G" H 7050 5250 50  0000 L CNN
+F 2 "" H 7050 5400 50  0001 C CNN
+F 3 "" H 6850 5300 50  0001 C CNN
+	1    6850 5300
+	0    -1   1    0   
+$EndComp
+$Comp
+L TEST TP?
+U 1 1 59F02F04
+P 6850 5000
+F 0 "TP?" H 6850 5300 50  0000 C BNN
+F 1 "TEST" H 6850 5250 50  0000 C CNN
+F 2 "" H 6850 5000 50  0001 C CNN
+F 3 "" H 6850 5000 50  0001 C CNN
+	1    6850 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L TEST TP?
+U 1 1 59F02F0A
+P 7200 5400
+F 0 "TP?" H 7200 5700 50  0000 C BNN
+F 1 "TEST" H 7200 5650 50  0000 C CNN
+F 2 "" H 7200 5400 50  0001 C CNN
+F 3 "" H 7200 5400 50  0001 C CNN
+	1    7200 5400
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST TP?
+U 1 1 59F02F10
+P 6500 5400
+F 0 "TP?" H 6500 5700 50  0000 C BNN
+F 1 "TEST" H 6500 5650 50  0000 C CNN
+F 2 "" H 6500 5400 50  0001 C CNN
+F 3 "" H 6500 5400 50  0001 C CNN
+	1    6500 5400
+	-1   0    0    1   
+$EndComp
+Text Label 6900 4300 3    60   ~ 0
+Drain6
+Text Label 6300 5400 2    60   ~ 0
+Drain6
+$Comp
+L Conn_02x03_Counter_Clockwise J?
+U 1 1 59F02F18
+P 6800 3900
+F 0 "J?" H 6850 4100 50  0000 C CNN
+F 1 "Fet0" H 6850 3700 50  0000 C CNN
+F 2 "" H 6800 3900 50  0001 C CNN
+F 3 "" H 6800 3900 50  0001 C CNN
+	1    6800 3900
+	0    1    1    0   
+$EndComp
+Text Label 6850 4900 1    60   ~ 0
+Gate6
+Text Label 6800 4300 3    60   ~ 0
+Gate6
+Text Label 7400 5400 0    60   ~ 0
+Source6
+Text Label 6700 4300 3    60   ~ 0
+Source6
+Wire Wire Line
+	6700 3700 6700 4300
+Wire Wire Line
+	6800 3700 6800 4300
+Wire Wire Line
+	6900 3700 6900 4300
+Wire Wire Line
+	6850 4900 6850 5100
+Connection ~ 6850 5000
+Wire Wire Line
+	7050 5400 7400 5400
+Connection ~ 7200 5400
+Wire Wire Line
+	6650 5400 6650 5500
+Wire Wire Line
+	6300 5400 6650 5400
+Connection ~ 6500 5400
+Connection ~ 6900 4200
+Connection ~ 6800 4200
+Connection ~ 6700 4200
+$Comp
+L Q_PMOS_GDSD Q?
+U 1 1 59F02F2F
+P 8750 5300
+F 0 "Q?" H 8950 5350 50  0000 L CNN
+F 1 "NTF2955T1G" H 8950 5250 50  0000 L CNN
+F 2 "" H 8950 5400 50  0001 C CNN
+F 3 "" H 8750 5300 50  0001 C CNN
+	1    8750 5300
+	0    -1   1    0   
+$EndComp
+$Comp
+L TEST TP?
+U 1 1 59F02F35
+P 8750 5000
+F 0 "TP?" H 8750 5300 50  0000 C BNN
+F 1 "TEST" H 8750 5250 50  0000 C CNN
+F 2 "" H 8750 5000 50  0001 C CNN
+F 3 "" H 8750 5000 50  0001 C CNN
+	1    8750 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L TEST TP?
+U 1 1 59F02F3B
+P 9100 5400
+F 0 "TP?" H 9100 5700 50  0000 C BNN
+F 1 "TEST" H 9100 5650 50  0000 C CNN
+F 2 "" H 9100 5400 50  0001 C CNN
+F 3 "" H 9100 5400 50  0001 C CNN
+	1    9100 5400
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST TP?
+U 1 1 59F02F41
+P 8400 5400
+F 0 "TP?" H 8400 5700 50  0000 C BNN
+F 1 "TEST" H 8400 5650 50  0000 C CNN
+F 2 "" H 8400 5400 50  0001 C CNN
+F 3 "" H 8400 5400 50  0001 C CNN
+	1    8400 5400
+	-1   0    0    1   
+$EndComp
+Text Label 8800 4300 3    60   ~ 0
+Drain7
+Text Label 8200 5400 2    60   ~ 0
+Drain7
+$Comp
+L Conn_02x03_Counter_Clockwise J?
+U 1 1 59F02F49
+P 8700 3900
+F 0 "J?" H 8750 4100 50  0000 C CNN
+F 1 "Fet0" H 8750 3700 50  0000 C CNN
+F 2 "" H 8700 3900 50  0001 C CNN
+F 3 "" H 8700 3900 50  0001 C CNN
+	1    8700 3900
+	0    1    1    0   
+$EndComp
+Text Label 8750 4900 1    60   ~ 0
+Gate7
+Text Label 8700 4300 3    60   ~ 0
+Gate7
+Text Label 9300 5400 0    60   ~ 0
+Source7
+Text Label 8600 4300 3    60   ~ 0
+Source7
+Wire Wire Line
+	8600 3700 8600 4300
+Wire Wire Line
+	8700 3700 8700 4300
+Wire Wire Line
+	8800 3700 8800 4300
+Wire Wire Line
+	8750 4900 8750 5100
+Connection ~ 8750 5000
+Wire Wire Line
+	8950 5400 9300 5400
+Connection ~ 9100 5400
+Wire Wire Line
+	8550 5400 8550 5500
+Wire Wire Line
+	8200 5400 8550 5400
+Connection ~ 8400 5400
+Connection ~ 8800 4200
+Connection ~ 8700 4200
+Connection ~ 8600 4200
+Text Notes 600  800  0    197  ~ 0
+Mosfet Circuits\n
+$EndSCHEMATC

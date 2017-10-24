@@ -37,7 +37,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 9
 Title ""
 Date ""
 Rev ""
@@ -82,5 +82,17 @@ S 9300 900  1800 1150
 U 59EE1B11
 F0 "Fixture Dev Kit - DUT" 60
 F1 "Fixture-Dev-Kit_DUT.sch" 60
+$EndSheet
+$Sheet
+S 6200 3750 1150 850 
+U 59EF8AA8
+F0 "Fixture Dev Kit - IO Expander" 60
+F1 "FixtureDevKit-IOExpander.sch" 60
+$EndSheet
+$Sheet
+S 6300 5050 1150 800 
+U 59EFF8A7
+F0 "Fixture Dev Kit - Mosfets" 61
+F1 "FixtureDevKit-Mosfet.sch" 61
 $EndSheet
 $EndSCHEMATC
