@@ -48,12 +48,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 9300 900  1800 1150
-U 59EE1B11
-F0 "Fixture Dev Kit - DUT" 60
-F1 "Fixture-Dev-Kit_DUT.sch" 60
-$EndSheet
-$Sheet
 S 8100 4550 2400 1200
 U 59EE3928
 F0 "Fixture Dev Kit Switches" 60
@@ -82,5 +76,11 @@ S 850  750  2800 2200
 U 59EE6806
 F0 "Fixture Dev Kit - Functional Computer" 60
 F1 "FixtureDevKit-Functional-Computer.sch" 60
+$EndSheet
+$Sheet
+S 9300 900  1800 1150
+U 59EE1B11
+F0 "Fixture Dev Kit - DUT" 60
+F1 "Fixture-Dev-Kit_DUT.sch" 60
 $EndSheet
 $EndSCHEMATC
