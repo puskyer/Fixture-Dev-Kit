@@ -452,22 +452,22 @@ Connection ~ 1800 3350
 $Comp
 L Conn_01x04 J?
 U 1 1 59EFBDCF
-P 3250 1700
-F 0 "J?" H 3250 1900 50  0000 C CNN
-F 1 "Conn_01x04" H 3250 1400 50  0000 C CNN
-F 2 "" H 3250 1700 50  0001 C CNN
-F 3 "" H 3250 1700 50  0001 C CNN
-	1    3250 1700
+P 3250 2000
+F 0 "J?" H 3250 2200 50  0000 C CNN
+F 1 "IOExp_0" H 3250 1700 50  0000 C CNN
+F 2 "" H 3250 2000 50  0001 C CNN
+F 3 "" H 3250 2000 50  0001 C CNN
+	1    3250 2000
 	0    -1   -1   0   
 $EndComp
-Text Label 3150 2000 3    60   ~ 0
-VCC-3V3
-Text Label 3250 2000 3    60   ~ 0
-SDA
-Text Label 3350 2000 3    60   ~ 0
+Text Label 3150 2300 3    60   ~ 0
 SCL
-Text Label 3450 2000 3    60   ~ 0
+Text Label 3250 2300 3    60   ~ 0
+SDA
+Text Label 3350 2300 3    60   ~ 0
 GND
+Text Label 3450 2300 3    60   ~ 0
+VCC-3V3
 Text Label 2600 3450 2    60   ~ 0
 SDA
 Text Label 2600 3550 2    60   ~ 0
@@ -477,40 +477,13 @@ Wire Wire Line
 Wire Wire Line
 	2600 3550 2700 3550
 Wire Wire Line
-	3450 2000 3450 1900
+	3450 2300 3450 2200
 Wire Wire Line
-	3350 1900 3350 2000
+	3350 2200 3350 2300
 Wire Wire Line
-	3250 2000 3250 1900
+	3250 2300 3250 2200
 Wire Wire Line
-	3150 1900 3150 2000
-$Comp
-L Conn_01x04 J?
-U 1 1 59EFCA72
-P 3200 5700
-F 0 "J?" H 3200 5900 50  0000 C CNN
-F 1 "Conn_01x04" H 3200 5400 50  0000 C CNN
-F 2 "" H 3200 5700 50  0001 C CNN
-F 3 "" H 3200 5700 50  0001 C CNN
-	1    3200 5700
-	0    -1   -1   0   
-$EndComp
-Text Label 3100 6000 3    60   ~ 0
-VCC-3V3
-Text Label 3200 6000 3    60   ~ 0
-SDA
-Text Label 3300 6000 3    60   ~ 0
-SCL
-Text Label 3400 6000 3    60   ~ 0
-GND
-Wire Wire Line
-	3400 6000 3400 5900
-Wire Wire Line
-	3300 5900 3300 6000
-Wire Wire Line
-	3200 6000 3200 5900
-Wire Wire Line
-	3100 5900 3100 6000
+	3150 2200 3150 2300
 $Comp
 L TCA6426A U?
 U 1 1 59EFE932
@@ -908,25 +881,6 @@ Connection ~ 7000 3650
 Wire Wire Line
 	7900 3350 7000 3350
 Connection ~ 7000 3350
-$Comp
-L Conn_01x04 J?
-U 1 1 59EFEA17
-P 8450 1700
-F 0 "J?" H 8450 1900 50  0000 C CNN
-F 1 "Conn_01x04" H 8450 1400 50  0000 C CNN
-F 2 "" H 8450 1700 50  0001 C CNN
-F 3 "" H 8450 1700 50  0001 C CNN
-	1    8450 1700
-	0    -1   -1   0   
-$EndComp
-Text Label 8350 2000 3    60   ~ 0
-VCC-3V3
-Text Label 8450 2000 3    60   ~ 0
-SDA
-Text Label 8550 2000 3    60   ~ 0
-SCL
-Text Label 8650 2000 3    60   ~ 0
-GND
 Text Label 7800 3450 2    60   ~ 0
 SDA
 Text Label 7800 3550 2    60   ~ 0
@@ -935,41 +889,6 @@ Wire Wire Line
 	7800 3450 7900 3450
 Wire Wire Line
 	7800 3550 7900 3550
-Wire Wire Line
-	8650 2000 8650 1900
-Wire Wire Line
-	8550 1900 8550 2000
-Wire Wire Line
-	8450 2000 8450 1900
-Wire Wire Line
-	8350 1900 8350 2000
-$Comp
-L Conn_01x04 J?
-U 1 1 59EFEA29
-P 8400 5700
-F 0 "J?" H 8400 5900 50  0000 C CNN
-F 1 "Conn_01x04" H 8400 5400 50  0000 C CNN
-F 2 "" H 8400 5700 50  0001 C CNN
-F 3 "" H 8400 5700 50  0001 C CNN
-	1    8400 5700
-	0    -1   -1   0   
-$EndComp
-Text Label 8300 6000 3    60   ~ 0
-VCC-3V3
-Text Label 8400 6000 3    60   ~ 0
-SDA
-Text Label 8500 6000 3    60   ~ 0
-SCL
-Text Label 8600 6000 3    60   ~ 0
-GND
-Wire Wire Line
-	8600 6000 8600 5900
-Wire Wire Line
-	8500 5900 8500 6000
-Wire Wire Line
-	8400 6000 8400 5900
-Wire Wire Line
-	8300 5900 8300 6000
 Text Notes 750  850  0    157  ~ 0
 IO Expander
 Wire Wire Line
@@ -981,4 +900,85 @@ Text Notes 3700 5500 0    61   ~ 0
 I2C Addr: 0x22\n
 Text Notes 8900 5500 0    61   ~ 0
 I2C Addr: 0x23\n
+$Comp
+L Conn_01x04 J?
+U 1 1 59EFECEB
+P 3250 6150
+F 0 "J?" H 3250 6350 50  0000 C CNN
+F 1 "IOExp_0" H 3250 5850 50  0000 C CNN
+F 2 "" H 3250 6150 50  0001 C CNN
+F 3 "" H 3250 6150 50  0001 C CNN
+	1    3250 6150
+	0    -1   1    0   
+$EndComp
+Text Label 3150 5850 1    60   ~ 0
+SCL
+Text Label 3250 5850 1    60   ~ 0
+SDA
+Text Label 3350 5850 1    60   ~ 0
+GND
+Text Label 3450 5850 1    60   ~ 0
+VCC-3V3
+Wire Wire Line
+	3450 5850 3450 5950
+Wire Wire Line
+	3350 5950 3350 5850
+Wire Wire Line
+	3250 5850 3250 5950
+Wire Wire Line
+	3150 5950 3150 5850
+$Comp
+L Conn_01x04 J?
+U 1 1 59EFFD29
+P 8450 2000
+F 0 "J?" H 8450 2200 50  0000 C CNN
+F 1 "IOExp_1" H 8450 1700 50  0000 C CNN
+F 2 "" H 8450 2000 50  0001 C CNN
+F 3 "" H 8450 2000 50  0001 C CNN
+	1    8450 2000
+	0    -1   -1   0   
+$EndComp
+Text Label 8350 2300 3    60   ~ 0
+SCL
+Text Label 8450 2300 3    60   ~ 0
+SDA
+Text Label 8550 2300 3    60   ~ 0
+GND
+Text Label 8650 2300 3    60   ~ 0
+VCC-3V3
+Wire Wire Line
+	8650 2300 8650 2200
+Wire Wire Line
+	8550 2200 8550 2300
+Wire Wire Line
+	8450 2300 8450 2200
+Wire Wire Line
+	8350 2200 8350 2300
+$Comp
+L Conn_01x04 J?
+U 1 1 59EFFE87
+P 8450 6100
+F 0 "J?" H 8450 6300 50  0000 C CNN
+F 1 "IOExp_1" H 8450 5800 50  0000 C CNN
+F 2 "" H 8450 6100 50  0001 C CNN
+F 3 "" H 8450 6100 50  0001 C CNN
+	1    8450 6100
+	0    -1   1    0   
+$EndComp
+Text Label 8350 5800 1    60   ~ 0
+SCL
+Text Label 8450 5800 1    60   ~ 0
+SDA
+Text Label 8550 5800 1    60   ~ 0
+GND
+Text Label 8650 5800 1    60   ~ 0
+VCC-3V3
+Wire Wire Line
+	8650 5800 8650 5900
+Wire Wire Line
+	8550 5900 8550 5800
+Wire Wire Line
+	8450 5800 8450 5900
+Wire Wire Line
+	8350 5900 8350 5800
 $EndSCHEMATC
