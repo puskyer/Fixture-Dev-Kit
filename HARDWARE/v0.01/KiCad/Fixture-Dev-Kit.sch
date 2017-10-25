@@ -36,7 +36,7 @@ LIBS:FDN337N
 LIBS:Fixture-Dev-Kit-cache
 EELAYER 25 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 10
 Title "CHIP4 Fixture Dev Kit"
@@ -49,31 +49,22 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 4050 5300 1700 700 
+S 2800 4550 1700 700 
 U 59EE3928
 F0 "Fixture Dev Kit Switches" 60
 F1 "FixtureDevKit_Switches.sch" 60
 $EndSheet
 $Sheet
-S 4054 2346 800  1050
-U 59EE50B5
-F0 "Fixture Dev Kit - INA" 60
-F1 "FixtureDevKit-INA.sch" 60
-F2 "I2C-SDA" B T 4704 2346 60 
-F3 "I2C-SCK" B T 4554 2346 60 
-F4 "C4-VCC-3V3" I T 4254 2346 60 
-$EndSheet
-$Sheet
-S 5116 2334 784  1066
+S 4449 2501 1101 849 
 U 59EEAF92
 F0 "Fixture Dev Kit - ADS" 60
 F1 "FixtureDevKit-ADS.sch" 60
-F2 "I2C-SDA" B T 5766 2334 60 
-F3 "I2C-SCK" B T 5616 2334 60 
-F4 "C4-VCC-3V3" I T 5300 2334 60 
+F2 "I2C-SDA" B R 5550 3151 60 
+F3 "I2C-SCK" B R 5550 3001 60 
+F4 "C4-VCC-3V3" I R 5550 2700 60 
 $EndSheet
 $Sheet
-S 4050 3600 800  600 
+S 2800 3650 800  600 
 U 59EE63FB
 F0 "Fixture Dev Kit Dummy Loads" 60
 F1 "FixtureDevKit-Loads.sch" 60
@@ -85,16 +76,16 @@ F0 "Fixture Dev Kit - DUT" 60
 F1 "Fixture-Dev-Kit_DUT.sch" 60
 $EndSheet
 $Sheet
-S 6205 2345 745  1055
+S 6082 2517 1068 833 
 U 59EF8AA8
 F0 "Fixture Dev Kit - IO Expander" 60
 F1 "FixtureDevKit-IOExpander.sch" 60
-F2 "I2C-SDA" B T 6755 2345 60 
-F3 "I2C-SDK" B T 6605 2345 60 
-F4 "C4-VCC-4V4" I T 6305 2345 60 
+F2 "I2C-SDA" B R 7150 3150 60 
+F3 "I2C-SDK" B R 7150 3000 60 
+F4 "C4-VCC-3V3" I R 7150 2700 60 
 $EndSheet
 $Sheet
-S 5850 3600 800  600 
+S 4550 3650 800  600 
 U 59EFF8A7
 F0 "Fixture Dev Kit - PMosfets" 61
 F1 "FixtureDevKit-PMosfet.sch" 61
@@ -137,7 +128,7 @@ Wire Wire Line
 Wire Wire Line
 	1400 7400 1400 7500
 $Sheet
-S 5850 4500 800  600 
+S 6200 3650 800  600 
 U 59F1138D
 F0 "Fixture Dev Kits - NMosfets" 60
 F1 "FixtureDevKit-NMosfets.sch" 60
@@ -226,6 +217,63 @@ F 3 "" H 3300 1600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3300 1600 3150 1600
-Text Notes 4100 5650 0    60   ~ 0
+Text Notes 2850 4900 0    60   ~ 0
 - Led Part Number (color, size)\n- confirm LED circuit\n- is 1K resistor correct?
+$Sheet
+S 2733 2517 1067 783 
+U 59EE50B5
+F0 "Fixture Dev Kit - INA" 60
+F1 "FixtureDevKit-INA.sch" 60
+F2 "I2C-SDA" B R 3800 3100 60 
+F3 "I2C-SCK" B R 3800 2950 60 
+F4 "C4-VCC-3V3" I R 3800 2600 60 
+$EndSheet
+Wire Wire Line
+	3800 2600 4050 2600
+Wire Wire Line
+	4050 2600 4050 2050
+Wire Wire Line
+	3150 2050 7300 2050
+Wire Wire Line
+	3800 2950 4150 2950
+Wire Wire Line
+	4150 2950 4150 1250
+Wire Wire Line
+	3150 1250 7350 1250
+Wire Wire Line
+	3800 3100 4300 3100
+Wire Wire Line
+	4300 3100 4300 1150
+Wire Wire Line
+	3150 1150 7400 1150
+Wire Wire Line
+	5800 2050 5800 2700
+Wire Wire Line
+	5800 2700 5550 2700
+Connection ~ 4050 2050
+Wire Wire Line
+	5550 3000 5850 3000
+Wire Wire Line
+	5850 3000 5850 1250
+Connection ~ 4150 1250
+Wire Wire Line
+	5550 3150 5950 3150
+Wire Wire Line
+	5950 3150 5950 1150
+Connection ~ 4300 1150
+Wire Wire Line
+	7300 2050 7300 2700
+Wire Wire Line
+	7300 2700 7150 2700
+Connection ~ 5800 2050
+Wire Wire Line
+	7150 3000 7350 3000
+Wire Wire Line
+	7350 3000 7350 1250
+Connection ~ 5850 1250
+Wire Wire Line
+	7150 3150 7400 3150
+Wire Wire Line
+	7400 3150 7400 1150
+Connection ~ 5950 1150
 $EndSCHEMATC

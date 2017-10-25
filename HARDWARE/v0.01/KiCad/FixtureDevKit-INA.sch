@@ -36,9 +36,9 @@ LIBS:FDN337N
 LIBS:Fixture-Dev-Kit-cache
 EELAYER 25 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr USLetter 11000 8500
 encoding utf-8
-Sheet 3 10
+Sheet 10 10
 Title "INA Circuits"
 Date "2017-10-25"
 Rev "v0.01"
