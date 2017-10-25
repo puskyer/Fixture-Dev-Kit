@@ -39,11 +39,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 10 10
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "CHIP4 Functional Computer"
+Date "2017-10-25"
+Rev "v0.01"
+Comp "Next Thing Co"
+Comment1 "Havin' a Blast!"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -1128,4 +1128,14 @@ Text Label 10100 950  0    60   ~ 0
 C4-VCC-5V
 Wire Wire Line
 	9900 950  10100 950 
+Wire Notes Line
+	500  500  2200 500 
+Wire Notes Line
+	2200 500  2200 1950
+Wire Notes Line
+	2200 1950 500  1950
+Wire Notes Line
+	500  1950 500  500 
+Wire Notes Line
+	500  750  2200 750 
 $EndSCHEMATC

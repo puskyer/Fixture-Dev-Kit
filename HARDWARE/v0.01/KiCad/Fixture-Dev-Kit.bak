@@ -39,62 +39,62 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 10
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "CHIP4 Fixture Dev Kit"
+Date "2017-10-25"
+Rev "v0.01"
+Comp "Next Thing Co"
+Comment1 "Havin' a Blast!"
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 3400 5250 1700 700 
+S 4050 5300 1700 700 
 U 59EE3928
 F0 "Fixture Dev Kit Switches" 60
 F1 "FixtureDevKit_Switches.sch" 60
 $EndSheet
 $Sheet
-S 3404 2296 800  1050
+S 4054 2346 800  1050
 U 59EE50B5
 F0 "Fixture Dev Kit - INA" 60
 F1 "FixtureDevKit-INA.sch" 60
-F2 "I2C-SDA" B T 4054 2296 60 
-F3 "I2C-SCK" B T 3904 2296 60 
-F4 "C4-VCC-3V3" I T 3604 2296 60 
+F2 "I2C-SDA" B T 4704 2346 60 
+F3 "I2C-SCK" B T 4554 2346 60 
+F4 "C4-VCC-3V3" I T 4254 2346 60 
 $EndSheet
 $Sheet
-S 4466 2284 784  1066
+S 5116 2334 784  1066
 U 59EEAF92
 F0 "Fixture Dev Kit - ADS" 60
 F1 "FixtureDevKit-ADS.sch" 60
-F2 "I2C-SDA" B T 5116 2284 60 
-F3 "I2C-SCK" B T 4966 2284 60 
-F4 "C4-VCC-3V3" I T 4650 2284 60 
+F2 "I2C-SDA" B T 5766 2334 60 
+F3 "I2C-SCK" B T 5616 2334 60 
+F4 "C4-VCC-3V3" I T 5300 2334 60 
 $EndSheet
 $Sheet
-S 3400 3550 800  600 
+S 4050 3600 800  600 
 U 59EE63FB
 F0 "Fixture Dev Kit Dummy Loads" 60
 F1 "FixtureDevKit-Loads.sch" 60
 $EndSheet
 $Sheet
-S 9300 900  1800 1150
+S 7500 950  1650 1350
 U 59EE1B11
 F0 "Fixture Dev Kit - DUT" 60
 F1 "Fixture-Dev-Kit_DUT.sch" 60
 $EndSheet
 $Sheet
-S 5555 2295 745  1055
+S 6205 2345 745  1055
 U 59EF8AA8
 F0 "Fixture Dev Kit - IO Expander" 60
 F1 "FixtureDevKit-IOExpander.sch" 60
-F2 "I2C-SDA" B T 6105 2295 60 
-F3 "I2C-SDK" B T 5955 2295 60 
-F4 "C4-VCC-4V4" I T 5655 2295 60 
+F2 "I2C-SDA" B T 6755 2345 60 
+F3 "I2C-SDK" B T 6605 2345 60 
+F4 "C4-VCC-4V4" I T 6305 2345 60 
 $EndSheet
 $Sheet
-S 5200 3550 800  600 
+S 5850 3600 800  600 
 U 59EFF8A7
 F0 "Fixture Dev Kit - PMosfets" 61
 F1 "FixtureDevKit-PMosfet.sch" 61
@@ -137,7 +137,7 @@ Wire Wire Line
 Wire Wire Line
 	1400 7400 1400 7500
 $Sheet
-S 5200 4450 800  600 
+S 5850 4500 800  600 
 U 59F1138D
 F0 "Fixture Dev Kits - NMosfets" 60
 F1 "FixtureDevKit-NMosfets.sch" 60
@@ -203,29 +203,29 @@ F 3 "" H 1500 6750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 850  900  1650 1350
+S 1500 950  1650 1350
 U 59EE6806
 F0 "Fixture Dev Kit - Functional Computer" 60
 F1 "FixtureDevKit-Functional-Computer.sch" 60
-F2 "I2C-SDA" B R 2500 1100 60 
-F3 "I2C-SCK" B R 2500 1200 60 
-F4 "+5V" I R 2500 1550 60 
-F5 "C4-VCC-5V" O R 2500 1850 60 
-F6 "C4-VCC-3V3" O R 2500 2000 60 
+F2 "I2C-SDA" B R 3150 1150 60 
+F3 "I2C-SCK" B R 3150 1250 60 
+F4 "+5V" I R 3150 1600 60 
+F5 "C4-VCC-5V" O R 3150 1900 60 
+F6 "C4-VCC-3V3" O R 3150 2050 60 
 $EndSheet
 $Comp
 L +5V #PWR?
 U 1 1 59F2758A
-P 2650 1550
-F 0 "#PWR?" H 2650 1400 50  0001 C CNN
-F 1 "+5V" H 2650 1690 50  0000 C CNN
-F 2 "" H 2650 1550 50  0001 C CNN
-F 3 "" H 2650 1550 50  0001 C CNN
-	1    2650 1550
+P 3300 1600
+F 0 "#PWR?" H 3300 1450 50  0001 C CNN
+F 1 "+5V" H 3300 1740 50  0000 C CNN
+F 2 "" H 3300 1600 50  0001 C CNN
+F 3 "" H 3300 1600 50  0001 C CNN
+	1    3300 1600
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2650 1550 2500 1550
-Text Notes 3450 5600 0    60   ~ 0
+	3300 1600 3150 1600
+Text Notes 4100 5650 0    60   ~ 0
 - Led Part Number (color, size)\n- confirm LED circuit\n- is 1K resistor correct?
 $EndSCHEMATC

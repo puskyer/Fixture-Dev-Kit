@@ -39,11 +39,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 9 10
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "N-Chanel MOSFETS"
+Date "2017-10-25"
+Rev "v0.01"
+Comp "Next Thing Co"
+Comment1 "Havin' a Blast!"
 Comment2 ""
 Comment3 ""
 Comment4 ""

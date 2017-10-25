@@ -39,11 +39,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 10
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "ADS Circuits"
+Date "2017-10-25"
+Rev "v0.01"
+Comp "Next Thing Co"
+Comment1 "Havin' a Blast!"
 Comment2 ""
 Comment3 ""
 Comment4 ""
@@ -1364,22 +1364,34 @@ Wire Wire Line
 	4000 6650 4000 6700
 Wire Wire Line
 	4000 7000 4000 7050
-Text HLabel 1350 1150 0    60   BiDi ~ 0
+Text HLabel 1400 1350 0    60   BiDi ~ 0
 I2C-SDA
-Text HLabel 1350 1300 0    60   BiDi ~ 0
+Text HLabel 1400 1500 0    60   BiDi ~ 0
 I2C-SCK
-Text HLabel 1350 1450 0    60   Input ~ 0
+Text HLabel 1400 1650 0    60   Input ~ 0
 C4-VCC-3V3
-Text Label 1550 1450 0    60   ~ 0
+Text Label 1600 1650 0    60   ~ 0
 VS
-Text Label 1550 1150 0    60   ~ 0
+Text Label 1600 1350 0    60   ~ 0
 SDA
-Text Label 1550 1300 0    60   ~ 0
+Text Label 1600 1500 0    60   ~ 0
 SCL
 Wire Wire Line
-	1350 1150 1550 1150
+	1400 1350 1600 1350
 Wire Wire Line
-	1550 1300 1350 1300
+	1600 1500 1400 1500
 Wire Wire Line
-	1350 1450 1550 1450
+	1400 1650 1600 1650
+Text Notes 700  1200 0    157  ~ 0
+Sheet Connections
+Wire Notes Line
+	650  950  650  1750
+Wire Notes Line
+	650  1750 2950 1750
+Wire Notes Line
+	2950 1750 2950 950 
+Wire Notes Line
+	2950 950  650  950 
+Wire Notes Line
+	650  1250 2950 1250
 $EndSCHEMATC
