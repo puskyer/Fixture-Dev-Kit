@@ -1,4 +1,4 @@
-update=Mon 23 Oct 2017 10:45:00 AM PDT
+update=Wed 25 Oct 2017 10:32:08 AM PDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -62,3 +62,4 @@ LibName30=opto
 LibName31=atmel
 LibName32=contrib
 LibName33=valves
+LibName34=Libraries/FDN337N/FDN337N

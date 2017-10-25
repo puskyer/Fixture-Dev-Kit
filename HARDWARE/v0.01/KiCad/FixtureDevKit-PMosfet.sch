@@ -1,0 +1,981 @@
+EESchema Schematic File Version 2
+LIBS:Fixture-Dev-Kit-rescue
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:FDN337N
+LIBS:Fixture-Dev-Kit-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 9 10
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Q_PMOS_GDSD Q5
+U 1 1 59F00EBB
+P 2250 2900
+F 0 "Q5" H 2450 2950 50  0000 L CNN
+F 1 "NTF2955T1G" H 2450 2850 50  0000 L CNN
+F 2 "" H 2450 3000 50  0001 C CNN
+F 3 "" H 2250 2900 50  0001 C CNN
+	1    2250 2900
+	0    -1   1    0   
+$EndComp
+$Comp
+L TEST TP69
+U 1 1 59F010EC
+P 2250 2550
+F 0 "TP69" H 2250 2850 50  0000 C BNN
+F 1 "G0" H 2250 2800 50  0000 C CNN
+F 2 "" H 2250 2550 50  0001 C CNN
+F 3 "" H 2250 2550 50  0001 C CNN
+	1    2250 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L TEST TP74
+U 1 1 59F01148
+P 2600 3000
+F 0 "TP74" H 2600 3300 50  0000 C BNN
+F 1 "TEST" H 2600 3250 50  0000 C CNN
+F 2 "" H 2600 3000 50  0001 C CNN
+F 3 "" H 2600 3000 50  0001 C CNN
+	1    2600 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST TP73
+U 1 1 59F01182
+P 1900 3000
+F 0 "TP73" H 1900 3300 50  0000 C BNN
+F 1 "TEST" H 1900 3250 50  0000 C CNN
+F 2 "" H 1900 3000 50  0001 C CNN
+F 3 "" H 1900 3000 50  0001 C CNN
+	1    1900 3000
+	-1   0    0    1   
+$EndComp
+Text Label 2300 1850 3    60   ~ 0
+Drain0
+Text Label 1700 3000 2    60   ~ 0
+Drain0
+$Comp
+L Conn_02x03_Counter_Clockwise J89
+U 1 1 59F012B7
+P 2200 1450
+F 0 "J89" H 2250 1650 50  0000 C CNN
+F 1 "FET_0" H 2250 1250 50  0000 C CNN
+F 2 "" H 2200 1450 50  0001 C CNN
+F 3 "" H 2200 1450 50  0001 C CNN
+	1    2200 1450
+	0    1    1    0   
+$EndComp
+Text Label 2250 2450 1    60   ~ 0
+Gate0
+Text Label 2200 1850 3    60   ~ 0
+Gate0
+Text Label 2800 3000 0    60   ~ 0
+Source0
+Text Label 2100 1850 3    60   ~ 0
+Source0
+$Comp
+L Q_PMOS_GDSD Q6
+U 1 1 59F01C9D
+P 4650 2900
+F 0 "Q6" H 4850 2950 50  0000 L CNN
+F 1 "NTF2955T1G" H 4850 2850 50  0000 L CNN
+F 2 "" H 4850 3000 50  0001 C CNN
+F 3 "" H 4650 2900 50  0001 C CNN
+	1    4650 2900
+	0    -1   1    0   
+$EndComp
+$Comp
+L TEST TP70
+U 1 1 59F01CA3
+P 4650 2550
+F 0 "TP70" H 4650 2850 50  0000 C BNN
+F 1 "G1" H 4650 2800 50  0000 C CNN
+F 2 "" H 4650 2550 50  0001 C CNN
+F 3 "" H 4650 2550 50  0001 C CNN
+	1    4650 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L TEST TP76
+U 1 1 59F01CA9
+P 5000 3000
+F 0 "TP76" H 5000 3300 50  0000 C BNN
+F 1 "TEST" H 5000 3250 50  0000 C CNN
+F 2 "" H 5000 3000 50  0001 C CNN
+F 3 "" H 5000 3000 50  0001 C CNN
+	1    5000 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST TP75
+U 1 1 59F01CAF
+P 4300 3000
+F 0 "TP75" H 4300 3300 50  0000 C BNN
+F 1 "TEST" H 4300 3250 50  0000 C CNN
+F 2 "" H 4300 3000 50  0001 C CNN
+F 3 "" H 4300 3000 50  0001 C CNN
+	1    4300 3000
+	-1   0    0    1   
+$EndComp
+Text Label 4700 1850 3    60   ~ 0
+Drain1
+Text Label 4100 3000 2    60   ~ 0
+Drain1
+$Comp
+L Conn_02x03_Counter_Clockwise J90
+U 1 1 59F01CB7
+P 4600 1450
+F 0 "J90" H 4650 1650 50  0000 C CNN
+F 1 "FET_1" H 4650 1250 50  0000 C CNN
+F 2 "" H 4600 1450 50  0001 C CNN
+F 3 "" H 4600 1450 50  0001 C CNN
+	1    4600 1450
+	0    1    1    0   
+$EndComp
+Text Label 4650 2450 1    60   ~ 0
+Gate1
+Text Label 4600 1850 3    60   ~ 0
+Gate1
+Text Label 5200 3000 0    60   ~ 0
+Source1
+Text Label 4500 1850 3    60   ~ 0
+Source1
+$Comp
+L Q_PMOS_GDSD Q7
+U 1 1 59F02962
+P 7150 2900
+F 0 "Q7" H 7350 2950 50  0000 L CNN
+F 1 "NTF2955T1G" H 7350 2850 50  0000 L CNN
+F 2 "" H 7350 3000 50  0001 C CNN
+F 3 "" H 7150 2900 50  0001 C CNN
+	1    7150 2900
+	0    -1   1    0   
+$EndComp
+$Comp
+L TEST TP71
+U 1 1 59F02968
+P 7150 2550
+F 0 "TP71" H 7150 2850 50  0000 C BNN
+F 1 "G2" H 7150 2800 50  0000 C CNN
+F 2 "" H 7150 2550 50  0001 C CNN
+F 3 "" H 7150 2550 50  0001 C CNN
+	1    7150 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L TEST TP78
+U 1 1 59F0296E
+P 7500 3000
+F 0 "TP78" H 7500 3300 50  0000 C BNN
+F 1 "TEST" H 7500 3250 50  0000 C CNN
+F 2 "" H 7500 3000 50  0001 C CNN
+F 3 "" H 7500 3000 50  0001 C CNN
+	1    7500 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST TP77
+U 1 1 59F02974
+P 6800 3000
+F 0 "TP77" H 6800 3300 50  0000 C BNN
+F 1 "TEST" H 6800 3250 50  0000 C CNN
+F 2 "" H 6800 3000 50  0001 C CNN
+F 3 "" H 6800 3000 50  0001 C CNN
+	1    6800 3000
+	-1   0    0    1   
+$EndComp
+Text Label 7200 1850 3    60   ~ 0
+Drain2
+Text Label 6600 3000 2    60   ~ 0
+Drain2
+$Comp
+L Conn_02x03_Counter_Clockwise J91
+U 1 1 59F0297C
+P 7100 1450
+F 0 "J91" H 7150 1650 50  0000 C CNN
+F 1 "FET_2" H 7150 1250 50  0000 C CNN
+F 2 "" H 7100 1450 50  0001 C CNN
+F 3 "" H 7100 1450 50  0001 C CNN
+	1    7100 1450
+	0    1    1    0   
+$EndComp
+Text Label 7150 2450 1    60   ~ 0
+Gate2
+Text Label 7100 1850 3    60   ~ 0
+Gate2
+Text Label 7700 3000 0    60   ~ 0
+Source2
+Text Label 7000 1850 3    60   ~ 0
+Source2
+$Comp
+L Q_PMOS_GDSD Q8
+U 1 1 59F02993
+P 9300 2900
+F 0 "Q8" H 9500 2950 50  0000 L CNN
+F 1 "NTF2955T1G" H 9500 2850 50  0000 L CNN
+F 2 "" H 9500 3000 50  0001 C CNN
+F 3 "" H 9300 2900 50  0001 C CNN
+	1    9300 2900
+	0    -1   1    0   
+$EndComp
+$Comp
+L TEST TP72
+U 1 1 59F02999
+P 9300 2550
+F 0 "TP72" H 9300 2850 50  0000 C BNN
+F 1 "G3" H 9300 2800 50  0000 C CNN
+F 2 "" H 9300 2550 50  0001 C CNN
+F 3 "" H 9300 2550 50  0001 C CNN
+	1    9300 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L TEST TP80
+U 1 1 59F0299F
+P 9650 3000
+F 0 "TP80" H 9650 3300 50  0000 C BNN
+F 1 "TEST" H 9650 3250 50  0000 C CNN
+F 2 "" H 9650 3000 50  0001 C CNN
+F 3 "" H 9650 3000 50  0001 C CNN
+	1    9650 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST TP79
+U 1 1 59F029A5
+P 8950 3000
+F 0 "TP79" H 8950 3300 50  0000 C BNN
+F 1 "TEST" H 8950 3250 50  0000 C CNN
+F 2 "" H 8950 3000 50  0001 C CNN
+F 3 "" H 8950 3000 50  0001 C CNN
+	1    8950 3000
+	-1   0    0    1   
+$EndComp
+Text Label 9350 1850 3    60   ~ 0
+Drain3
+Text Label 8750 3000 2    60   ~ 0
+Drain3
+$Comp
+L Conn_02x03_Counter_Clockwise J92
+U 1 1 59F029AD
+P 9250 1450
+F 0 "J92" H 9300 1650 50  0000 C CNN
+F 1 "FET_3" H 9300 1250 50  0000 C CNN
+F 2 "" H 9250 1450 50  0001 C CNN
+F 3 "" H 9250 1450 50  0001 C CNN
+	1    9250 1450
+	0    1    1    0   
+$EndComp
+Text Label 9300 2450 1    60   ~ 0
+Gate3
+Text Label 9250 1850 3    60   ~ 0
+Gate3
+Text Label 9850 3000 0    60   ~ 0
+Source3
+Text Label 9150 1850 3    60   ~ 0
+Source3
+$Comp
+L Q_PMOS_GDSD Q9
+U 1 1 59F02E9C
+P 2250 5350
+F 0 "Q9" H 2450 5400 50  0000 L CNN
+F 1 "NTF2955T1G" H 2450 5300 50  0000 L CNN
+F 2 "" H 2450 5450 50  0001 C CNN
+F 3 "" H 2250 5350 50  0001 C CNN
+	1    2250 5350
+	0    -1   1    0   
+$EndComp
+$Comp
+L TEST TP81
+U 1 1 59F02EA2
+P 2250 5000
+F 0 "TP81" H 2250 5300 50  0000 C BNN
+F 1 "G3" H 2250 5250 50  0000 C CNN
+F 2 "" H 2250 5000 50  0001 C CNN
+F 3 "" H 2250 5000 50  0001 C CNN
+	1    2250 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L TEST TP86
+U 1 1 59F02EA8
+P 2600 5450
+F 0 "TP86" H 2600 5750 50  0000 C BNN
+F 1 "TEST" H 2600 5700 50  0000 C CNN
+F 2 "" H 2600 5450 50  0001 C CNN
+F 3 "" H 2600 5450 50  0001 C CNN
+	1    2600 5450
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST TP85
+U 1 1 59F02EAE
+P 1900 5450
+F 0 "TP85" H 1900 5750 50  0000 C BNN
+F 1 "TEST" H 1900 5700 50  0000 C CNN
+F 2 "" H 1900 5450 50  0001 C CNN
+F 3 "" H 1900 5450 50  0001 C CNN
+	1    1900 5450
+	-1   0    0    1   
+$EndComp
+Text Label 2300 4300 3    60   ~ 0
+Drain4
+Text Label 1700 5450 2    60   ~ 0
+Drain4
+$Comp
+L Conn_02x03_Counter_Clockwise J93
+U 1 1 59F02EB6
+P 2200 3900
+F 0 "J93" H 2250 4100 50  0000 C CNN
+F 1 "FET_4" H 2250 3700 50  0000 C CNN
+F 2 "" H 2200 3900 50  0001 C CNN
+F 3 "" H 2200 3900 50  0001 C CNN
+	1    2200 3900
+	0    1    1    0   
+$EndComp
+Text Label 2250 4900 1    60   ~ 0
+Gate4
+Text Label 2200 4300 3    60   ~ 0
+Gate4
+Text Label 2800 5450 0    60   ~ 0
+Source4
+Text Label 2100 4300 3    60   ~ 0
+Source4
+$Comp
+L Q_PMOS_GDSD Q10
+U 1 1 59F02ECD
+P 4650 5350
+F 0 "Q10" H 4850 5400 50  0000 L CNN
+F 1 "NTF2955T1G" H 4850 5300 50  0000 L CNN
+F 2 "" H 4850 5450 50  0001 C CNN
+F 3 "" H 4650 5350 50  0001 C CNN
+	1    4650 5350
+	0    -1   1    0   
+$EndComp
+$Comp
+L TEST TP82
+U 1 1 59F02ED3
+P 4650 5000
+F 0 "TP82" H 4650 5300 50  0000 C BNN
+F 1 "G4" H 4650 5250 50  0000 C CNN
+F 2 "" H 4650 5000 50  0001 C CNN
+F 3 "" H 4650 5000 50  0001 C CNN
+	1    4650 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L TEST TP88
+U 1 1 59F02ED9
+P 5000 5450
+F 0 "TP88" H 5000 5750 50  0000 C BNN
+F 1 "TEST" H 5000 5700 50  0000 C CNN
+F 2 "" H 5000 5450 50  0001 C CNN
+F 3 "" H 5000 5450 50  0001 C CNN
+	1    5000 5450
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST TP87
+U 1 1 59F02EDF
+P 4300 5450
+F 0 "TP87" H 4300 5750 50  0000 C BNN
+F 1 "TEST" H 4300 5700 50  0000 C CNN
+F 2 "" H 4300 5450 50  0001 C CNN
+F 3 "" H 4300 5450 50  0001 C CNN
+	1    4300 5450
+	-1   0    0    1   
+$EndComp
+Text Label 4700 4300 3    60   ~ 0
+Drain5
+Text Label 4100 5450 2    60   ~ 0
+Drain5
+$Comp
+L Conn_02x03_Counter_Clockwise J94
+U 1 1 59F02EE7
+P 4600 3900
+F 0 "J94" H 4650 4100 50  0000 C CNN
+F 1 "FET_5" H 4650 3700 50  0000 C CNN
+F 2 "" H 4600 3900 50  0001 C CNN
+F 3 "" H 4600 3900 50  0001 C CNN
+	1    4600 3900
+	0    1    1    0   
+$EndComp
+Text Label 4650 4900 1    60   ~ 0
+Gate5
+Text Label 4600 4300 3    60   ~ 0
+Gate5
+Text Label 5200 5450 0    60   ~ 0
+Source5
+Text Label 4500 4300 3    60   ~ 0
+Source5
+$Comp
+L Q_PMOS_GDSD Q11
+U 1 1 59F02EFE
+P 7150 5350
+F 0 "Q11" H 7350 5400 50  0000 L CNN
+F 1 "NTF2955T1G" H 7350 5300 50  0000 L CNN
+F 2 "" H 7350 5450 50  0001 C CNN
+F 3 "" H 7150 5350 50  0001 C CNN
+	1    7150 5350
+	0    -1   1    0   
+$EndComp
+$Comp
+L TEST TP83
+U 1 1 59F02F04
+P 7150 5000
+F 0 "TP83" H 7150 5300 50  0000 C BNN
+F 1 "G5" H 7150 5250 50  0000 C CNN
+F 2 "" H 7150 5000 50  0001 C CNN
+F 3 "" H 7150 5000 50  0001 C CNN
+	1    7150 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L TEST TP90
+U 1 1 59F02F0A
+P 7500 5450
+F 0 "TP90" H 7500 5750 50  0000 C BNN
+F 1 "TEST" H 7500 5700 50  0000 C CNN
+F 2 "" H 7500 5450 50  0001 C CNN
+F 3 "" H 7500 5450 50  0001 C CNN
+	1    7500 5450
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST TP89
+U 1 1 59F02F10
+P 6800 5450
+F 0 "TP89" H 6800 5750 50  0000 C BNN
+F 1 "TEST" H 6800 5700 50  0000 C CNN
+F 2 "" H 6800 5450 50  0001 C CNN
+F 3 "" H 6800 5450 50  0001 C CNN
+	1    6800 5450
+	-1   0    0    1   
+$EndComp
+Text Label 7200 4300 3    60   ~ 0
+Drain6
+Text Label 6600 5450 2    60   ~ 0
+Drain6
+$Comp
+L Conn_02x03_Counter_Clockwise J95
+U 1 1 59F02F18
+P 7100 3900
+F 0 "J95" H 7150 4100 50  0000 C CNN
+F 1 "FET_6" H 7150 3700 50  0000 C CNN
+F 2 "" H 7100 3900 50  0001 C CNN
+F 3 "" H 7100 3900 50  0001 C CNN
+	1    7100 3900
+	0    1    1    0   
+$EndComp
+Text Label 7150 4900 1    60   ~ 0
+Gate6
+Text Label 7100 4300 3    60   ~ 0
+Gate6
+Text Label 7700 5450 0    60   ~ 0
+Source6
+Text Label 7000 4300 3    60   ~ 0
+Source6
+$Comp
+L Q_PMOS_GDSD Q12
+U 1 1 59F02F2F
+P 9300 5350
+F 0 "Q12" H 9500 5400 50  0000 L CNN
+F 1 "NTF2955T1G" H 9500 5300 50  0000 L CNN
+F 2 "" H 9500 5450 50  0001 C CNN
+F 3 "" H 9300 5350 50  0001 C CNN
+	1    9300 5350
+	0    -1   1    0   
+$EndComp
+$Comp
+L TEST TP84
+U 1 1 59F02F35
+P 9300 5000
+F 0 "TP84" H 9300 5300 50  0000 C BNN
+F 1 "G6" H 9300 5250 50  0000 C CNN
+F 2 "" H 9300 5000 50  0001 C CNN
+F 3 "" H 9300 5000 50  0001 C CNN
+	1    9300 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L TEST TP92
+U 1 1 59F02F3B
+P 9650 5450
+F 0 "TP92" H 9650 5750 50  0000 C BNN
+F 1 "TEST" H 9650 5700 50  0000 C CNN
+F 2 "" H 9650 5450 50  0001 C CNN
+F 3 "" H 9650 5450 50  0001 C CNN
+	1    9650 5450
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST TP91
+U 1 1 59F02F41
+P 8950 5450
+F 0 "TP91" H 8950 5750 50  0000 C BNN
+F 1 "TEST" H 8950 5700 50  0000 C CNN
+F 2 "" H 8950 5450 50  0001 C CNN
+F 3 "" H 8950 5450 50  0001 C CNN
+	1    8950 5450
+	-1   0    0    1   
+$EndComp
+Text Label 9350 4300 3    60   ~ 0
+Drain7
+Text Label 8750 5450 2    60   ~ 0
+Drain7
+$Comp
+L Conn_02x03_Counter_Clockwise J96
+U 1 1 59F02F49
+P 9250 3900
+F 0 "J96" H 9300 4100 50  0000 C CNN
+F 1 "FET_7" H 9300 3700 50  0000 C CNN
+F 2 "" H 9250 3900 50  0001 C CNN
+F 3 "" H 9250 3900 50  0001 C CNN
+	1    9250 3900
+	0    1    1    0   
+$EndComp
+Text Label 9300 4900 1    60   ~ 0
+Gate7
+Text Label 9250 4300 3    60   ~ 0
+Gate7
+Text Label 9850 5450 0    60   ~ 0
+Source7
+Text Label 9150 4300 3    60   ~ 0
+Source7
+Text Notes 600  800  0    197  ~ 0
+P-Channel Mosfet Circuits\n
+$Comp
+L R R?
+U 1 1 59F13EF6
+P 2450 2700
+F 0 "R?" V 2530 2700 50  0000 C CNN
+F 1 "DNP" V 2450 2700 50  0000 C CNN
+F 2 "" V 2380 2700 50  0001 C CNN
+F 3 "" H 2450 2700 50  0001 C CNN
+	1    2450 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 59F140D6
+P 2050 2700
+F 0 "R?" V 2130 2700 50  0000 C CNN
+F 1 "DNP" V 2050 2700 50  0000 C CNN
+F 2 "" V 1980 2700 50  0001 C CNN
+F 3 "" H 2050 2700 50  0001 C CNN
+	1    2050 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2100 1250 2100 1850
+Wire Wire Line
+	2200 1250 2200 1850
+Wire Wire Line
+	2300 1250 2300 1850
+Wire Wire Line
+	2450 3000 2800 3000
+Connection ~ 2600 3000
+Wire Wire Line
+	2050 3000 2050 3100
+Wire Wire Line
+	1700 3000 2050 3000
+Connection ~ 1900 3000
+Connection ~ 2300 1750
+Connection ~ 2200 1750
+Connection ~ 2100 1750
+Wire Wire Line
+	4500 1250 4500 1850
+Wire Wire Line
+	4600 1250 4600 1850
+Wire Wire Line
+	4700 1250 4700 1850
+Wire Wire Line
+	4850 3000 5200 3000
+Connection ~ 5000 3000
+Wire Wire Line
+	4450 3000 4450 3100
+Wire Wire Line
+	4100 3000 4450 3000
+Connection ~ 4300 3000
+Connection ~ 4700 1750
+Connection ~ 4600 1750
+Connection ~ 4500 1750
+Wire Wire Line
+	7000 1250 7000 1850
+Wire Wire Line
+	7100 1250 7100 1850
+Wire Wire Line
+	7200 1250 7200 1850
+Wire Wire Line
+	7150 2450 7150 2700
+Connection ~ 7150 2550
+Wire Wire Line
+	7350 3000 7700 3000
+Connection ~ 7500 3000
+Wire Wire Line
+	6950 3000 6950 3100
+Wire Wire Line
+	6600 3000 6950 3000
+Connection ~ 6800 3000
+Connection ~ 7200 1750
+Connection ~ 7100 1750
+Connection ~ 7000 1750
+Wire Wire Line
+	9150 1250 9150 1850
+Wire Wire Line
+	9250 1250 9250 1850
+Wire Wire Line
+	9350 1250 9350 1850
+Connection ~ 9300 2550
+Wire Wire Line
+	9500 3000 9850 3000
+Connection ~ 9650 3000
+Wire Wire Line
+	9100 3000 9100 3100
+Wire Wire Line
+	8750 3000 9100 3000
+Connection ~ 8950 3000
+Connection ~ 9350 1750
+Connection ~ 9250 1750
+Connection ~ 9150 1750
+Wire Wire Line
+	2100 3700 2100 4300
+Wire Wire Line
+	2200 3700 2200 4300
+Wire Wire Line
+	2300 3700 2300 4300
+Wire Wire Line
+	2250 4900 2250 5150
+Connection ~ 2250 5000
+Wire Wire Line
+	2450 5450 2800 5450
+Connection ~ 2600 5450
+Wire Wire Line
+	2050 5450 2050 5550
+Wire Wire Line
+	1700 5450 2050 5450
+Connection ~ 1900 5450
+Connection ~ 2300 4200
+Connection ~ 2200 4200
+Connection ~ 2100 4200
+Wire Wire Line
+	4500 3700 4500 4300
+Wire Wire Line
+	4600 3700 4600 4300
+Wire Wire Line
+	4700 3700 4700 4300
+Wire Wire Line
+	4650 4900 4650 5150
+Connection ~ 4650 5000
+Wire Wire Line
+	4850 5450 5200 5450
+Connection ~ 5000 5450
+Wire Wire Line
+	4450 5450 4450 5550
+Wire Wire Line
+	4100 5450 4450 5450
+Connection ~ 4300 5450
+Connection ~ 4700 4200
+Connection ~ 4600 4200
+Connection ~ 4500 4200
+Wire Wire Line
+	7000 3700 7000 4300
+Wire Wire Line
+	7100 3700 7100 4300
+Wire Wire Line
+	7200 3700 7200 4300
+Wire Wire Line
+	7150 4900 7150 5150
+Connection ~ 7150 5000
+Wire Wire Line
+	7350 5450 7700 5450
+Connection ~ 7500 5450
+Wire Wire Line
+	6950 5450 6950 5550
+Wire Wire Line
+	6600 5450 6950 5450
+Connection ~ 6800 5450
+Connection ~ 7200 4200
+Connection ~ 7100 4200
+Connection ~ 7000 4200
+Wire Wire Line
+	9150 3700 9150 4300
+Wire Wire Line
+	9250 3700 9250 4300
+Wire Wire Line
+	9350 3700 9350 4300
+Wire Wire Line
+	9300 4900 9300 5150
+Connection ~ 9300 5000
+Wire Wire Line
+	9500 5450 9850 5450
+Connection ~ 9650 5450
+Wire Wire Line
+	9100 5450 9100 5550
+Wire Wire Line
+	8750 5450 9100 5450
+Connection ~ 8950 5450
+Connection ~ 9350 4200
+Connection ~ 9250 4200
+Connection ~ 9150 4200
+Wire Wire Line
+	2600 3000 2600 2700
+Wire Wire Line
+	1900 3000 1900 2700
+Wire Wire Line
+	2200 2700 2300 2700
+Connection ~ 2250 2700
+Wire Wire Line
+	2250 2450 2250 2700
+Connection ~ 2250 2550
+$Comp
+L R R?
+U 1 1 59F159CE
+P 4850 2700
+F 0 "R?" V 4930 2700 50  0000 C CNN
+F 1 "DNP" V 4850 2700 50  0000 C CNN
+F 2 "" V 4780 2700 50  0001 C CNN
+F 3 "" H 4850 2700 50  0001 C CNN
+	1    4850 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 59F15AB1
+P 4450 2700
+F 0 "R?" V 4530 2700 50  0000 C CNN
+F 1 "DNP" V 4450 2700 50  0000 C CNN
+F 2 "" V 4380 2700 50  0001 C CNN
+F 3 "" H 4450 2700 50  0001 C CNN
+	1    4450 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4650 2450 4650 2700
+Connection ~ 4650 2550
+Wire Wire Line
+	4600 2700 4700 2700
+Connection ~ 4650 2700
+Wire Wire Line
+	4300 2700 4300 3000
+Wire Wire Line
+	5000 2950 5000 2700
+$Comp
+L R R?
+U 1 1 59F16524
+P 6950 2700
+F 0 "R?" V 7030 2700 50  0000 C CNN
+F 1 "DNP" V 6950 2700 50  0000 C CNN
+F 2 "" V 6880 2700 50  0001 C CNN
+F 3 "" H 6950 2700 50  0001 C CNN
+	1    6950 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 59F1660F
+P 7350 2700
+F 0 "R?" V 7430 2700 50  0000 C CNN
+F 1 "DNP" V 7350 2700 50  0000 C CNN
+F 2 "" V 7280 2700 50  0001 C CNN
+F 3 "" H 7350 2700 50  0001 C CNN
+	1    7350 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7500 3000 7500 2700
+Wire Wire Line
+	7100 2700 7200 2700
+Connection ~ 7150 2700
+Wire Wire Line
+	6800 2700 6800 3000
+Wire Wire Line
+	9300 2450 9300 2700
+$Comp
+L R R?
+U 1 1 59F16FD5
+P 9100 2700
+F 0 "R?" V 9180 2700 50  0000 C CNN
+F 1 "DNP" V 9100 2700 50  0000 C CNN
+F 2 "" V 9030 2700 50  0001 C CNN
+F 3 "" H 9100 2700 50  0001 C CNN
+	1    9100 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 59F170B4
+P 9500 2700
+F 0 "R?" V 9580 2700 50  0000 C CNN
+F 1 "DNP" V 9500 2700 50  0000 C CNN
+F 2 "" V 9430 2700 50  0001 C CNN
+F 3 "" H 9500 2700 50  0001 C CNN
+	1    9500 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9650 3000 9650 2700
+Wire Wire Line
+	9250 2700 9350 2700
+Connection ~ 9300 2700
+Wire Wire Line
+	8950 2700 8950 3000
+$Comp
+L R R?
+U 1 1 59F17A87
+P 2450 5150
+F 0 "R?" V 2530 5150 50  0000 C CNN
+F 1 "DNP" V 2450 5150 50  0000 C CNN
+F 2 "" V 2380 5150 50  0001 C CNN
+F 3 "" H 2450 5150 50  0001 C CNN
+	1    2450 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 59F17C3E
+P 2050 5150
+F 0 "R?" V 2130 5150 50  0000 C CNN
+F 1 "DNP" V 2050 5150 50  0000 C CNN
+F 2 "" V 1980 5150 50  0001 C CNN
+F 3 "" H 2050 5150 50  0001 C CNN
+	1    2050 5150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2200 5150 2300 5150
+Connection ~ 2250 5150
+Wire Wire Line
+	1900 5150 1900 5450
+Wire Wire Line
+	2600 5150 2600 5450
+$Comp
+L R R?
+U 1 1 59F18699
+P 4450 5150
+F 0 "R?" V 4530 5150 50  0000 C CNN
+F 1 "DNP" V 4450 5150 50  0000 C CNN
+F 2 "" V 4380 5150 50  0001 C CNN
+F 3 "" H 4450 5150 50  0001 C CNN
+	1    4450 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 59F1878E
+P 4850 5150
+F 0 "R?" V 4930 5150 50  0000 C CNN
+F 1 "DNP" V 4850 5150 50  0000 C CNN
+F 2 "" V 4780 5150 50  0001 C CNN
+F 3 "" H 4850 5150 50  0001 C CNN
+	1    4850 5150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4300 5450 4300 5150
+Wire Wire Line
+	4600 5150 4700 5150
+Connection ~ 4650 5150
+Wire Wire Line
+	5000 5450 5000 5150
+$Comp
+L R R?
+U 1 1 59F19154
+P 7350 5150
+F 0 "R?" V 7430 5150 50  0000 C CNN
+F 1 "DNP" V 7350 5150 50  0000 C CNN
+F 2 "" V 7280 5150 50  0001 C CNN
+F 3 "" H 7350 5150 50  0001 C CNN
+	1    7350 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 59F19263
+P 6950 5150
+F 0 "R?" V 7030 5150 50  0000 C CNN
+F 1 "DNP" V 6950 5150 50  0000 C CNN
+F 2 "" V 6880 5150 50  0001 C CNN
+F 3 "" H 6950 5150 50  0001 C CNN
+	1    6950 5150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7500 5450 7500 5150
+Wire Wire Line
+	7100 5150 7200 5150
+Connection ~ 7150 5150
+Wire Wire Line
+	6800 5150 6800 5450
+$Comp
+L R R?
+U 1 1 59F19D36
+P 9100 5150
+F 0 "R?" V 9180 5150 50  0000 C CNN
+F 1 "DNP" V 9100 5150 50  0000 C CNN
+F 2 "" V 9030 5150 50  0001 C CNN
+F 3 "" H 9100 5150 50  0001 C CNN
+	1    9100 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 59F19E2D
+P 9500 5150
+F 0 "R?" V 9580 5150 50  0000 C CNN
+F 1 "DNP" V 9500 5150 50  0000 C CNN
+F 2 "" V 9430 5150 50  0001 C CNN
+F 3 "" H 9500 5150 50  0001 C CNN
+	1    9500 5150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8950 5450 8950 5150
+Wire Wire Line
+	9250 5150 9350 5150
+Connection ~ 9300 5150
+Wire Wire Line
+	9650 5450 9650 5150
+$EndSCHEMATC

@@ -32,12 +32,13 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:FDN337N
 LIBS:Fixture-Dev-Kit-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 9
+Sheet 1 10
 Title ""
 Date ""
 Rev ""
@@ -72,7 +73,7 @@ F0 "Fixture Dev Kit Dummy Loads" 60
 F1 "FixtureDevKit-Loads.sch" 60
 $EndSheet
 $Sheet
-S 850  750  2800 2200
+S 850  900  2800 2200
 U 59EE6806
 F0 "Fixture Dev Kit - Functional Computer" 60
 F1 "FixtureDevKit-Functional-Computer.sch" 60
@@ -90,10 +91,10 @@ F0 "Fixture Dev Kit - IO Expander" 60
 F1 "FixtureDevKit-IOExpander.sch" 60
 $EndSheet
 $Sheet
-S 6300 5050 1150 800 
+S 4350 3850 1150 800 
 U 59EFF8A7
-F0 "Fixture Dev Kit - Mosfets" 61
-F1 "FixtureDevKit-Mosfet.sch" 61
+F0 "Fixture Dev Kit - PMosfets" 61
+F1 "FixtureDevKit-PMosfet.sch" 61
 $EndSheet
 $Comp
 L PWR_FLAG #FLG01
@@ -143,4 +144,12 @@ Wire Wire Line
 	800  7350 800  7450
 Wire Wire Line
 	1300 7350 1300 7450
+Text Notes 8200 4900 0    60   ~ 0
+- Led Part Number (color, size)\n- confirm LED circuit\n- is 1K resistor correct?
+$Sheet
+S 4350 4950 1150 750 
+U 59F1138D
+F0 "Fixture Dev Kits - NMosfets" 60
+F1 "FixtureDevKit-NMosfets.sch" 60
+$EndSheet
 $EndSCHEMATC
