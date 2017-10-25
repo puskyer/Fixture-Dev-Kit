@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/mitch/Documents/C4Boards/Fixture-Dev-Kit/HARDWARE/v0.01/KiCad/Fixture-Dev-Kit.sch)
-    (date "Wed 25 Oct 2017 01:20:09 PM PDT")
+    (date "Wed 25 Oct 2017 02:08:17 PM PDT")
     (tool "Eeschema 4.0.7-e2-6376~58~ubuntu17.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -2092,7 +2092,7 @@
         (pin (num 5) (name AIN1) (type input))
         (pin (num 6) (name AIN2) (type input))
         (pin (num 7) (name AIN3) (type input))
-        (pin (num 8) (name VDD) (type BiDi))
+        (pin (num 8) (name VDD) (type passive))
         (pin (num 9) (name SDA) (type BiDi))
         (pin (num 10) (name SCL) (type BiDi))))
     (libpart (lib conn) (part Audio-Jack-3)

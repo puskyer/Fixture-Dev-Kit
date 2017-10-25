@@ -1259,8 +1259,6 @@ Wire Notes Line
 	5300 5050 3750 5050
 Wire Notes Line
 	3750 5500 5300 5500
-Text Notes -7350 1200 0    157  ~ 0
-TO DO:\n- is it okay to have so many headers on the I2C lines?\n- Do we want the cut trace connector or not connect?\n- where do we want to add test points?\n- power-supply decoupling capacitor to GND. 0.1uF
 $Comp
 L C C1
 U 1 1 59EFF32D
