@@ -104,7 +104,7 @@ F 3 "" H 1050 3250 50  0001 C CNN
 	1    1050 3250
 	0    1    1    0   
 $EndComp
-Text Notes 1650 3750 0    60   ~ 0
+Text Notes 2650 1950 0    60   ~ 0
 I2C addr 0x40
 $Comp
 L Conn_01x02 J20
@@ -148,7 +148,7 @@ L Conn_01x04 J17
 U 1 1 59F04752
 P 2000 2000
 F 0 "J17" H 2000 2200 50  0000 C CNN
-F 1 "INA0" H 2000 1700 50  0000 C CNN
+F 1 "INA_0" H 2000 1700 50  0000 C CNN
 F 2 "" H 2000 2000 50  0001 C CNN
 F 3 "" H 2000 2000 50  0001 C CNN
 	1    2000 2000
@@ -346,7 +346,7 @@ L Conn_01x04 J18
 U 1 1 59F0A8F6
 P 4850 2000
 F 0 "J18" H 4850 2200 50  0000 C CNN
-F 1 "INA1" H 4850 1700 50  0000 C CNN
+F 1 "INA_1" H 4850 1700 50  0000 C CNN
 F 2 "" H 4850 2000 50  0001 C CNN
 F 3 "" H 4850 2000 50  0001 C CNN
 	1    4850 2000
@@ -546,7 +546,7 @@ L Conn_01x04 J25
 U 1 1 59F0C340
 P 2000 5100
 F 0 "J25" H 2000 5300 50  0000 C CNN
-F 1 "INA3" H 2000 4800 50  0000 C CNN
+F 1 "INA_3" H 2000 4800 50  0000 C CNN
 F 2 "" H 2000 5100 50  0001 C CNN
 F 3 "" H 2000 5100 50  0001 C CNN
 	1    2000 5100
@@ -695,7 +695,7 @@ F 3 "" H 3900 6350 50  0001 C CNN
 	1    3900 6350
 	0    1    1    0   
 $EndComp
-Text Notes 4500 6850 0    60   ~ 0
+Text Notes 5500 5050 0    60   ~ 0
 I2C addr 0x43
 $Comp
 L Conn_01x02 J28
@@ -739,7 +739,7 @@ L Conn_01x04 J26
 U 1 1 59F0C3AB
 P 4850 5100
 F 0 "J26" H 4850 5300 50  0000 C CNN
-F 1 "INA3" H 4850 4800 50  0000 C CNN
+F 1 "INA_3" H 4850 4800 50  0000 C CNN
 F 2 "" H 4850 5100 50  0001 C CNN
 F 3 "" H 4850 5100 50  0001 C CNN
 	1    4850 5100
@@ -846,9 +846,9 @@ Wire Wire Line
 Wire Wire Line
 	800  6250 800  6150
 Connection ~ 800  6150
-Text Notes 4500 3750 0    60   ~ 0
+Text Notes 5500 1950 0    60   ~ 0
 I2C addr 0x41\n
-Text Notes 1650 6850 0    60   ~ 0
+Text Notes 2650 5050 0    60   ~ 0
 I2C addr 0x42
 Wire Wire Line
 	3650 6050 3650 6250
@@ -928,5 +928,114 @@ Wire Notes Line
 Wire Notes Line
 	6300 1900 7500 1900
 Text Notes -6800 1400 0    157  ~ 0
-TO DO:\n- is it okay to have so many headers on the I2C lines?\n- Do we want the cut trace connector or not connect?\n- where do we want to add test points?
+TO DO:\n- is it okay to have so many headers on the I2C lines?\n
+$Comp
+L TEST TP?
+U 1 1 59F0E87E
+P 2600 3000
+F 0 "TP?" H 2600 3300 50  0000 C BNN
+F 1 "V+" H 2600 3250 50  0000 C CNN
+F 2 "" H 2600 3000 50  0001 C CNN
+F 3 "" H 2600 3000 50  0001 C CNN
+	1    2600 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST TP?
+U 1 1 59F0E99B
+P 2600 3200
+F 0 "TP?" H 2600 3500 50  0000 C BNN
+F 1 "V-" H 2600 3450 50  0000 C CNN
+F 2 "" H 2600 3200 50  0001 C CNN
+F 3 "" H 2600 3200 50  0001 C CNN
+	1    2600 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2600 3200 2600 3150
+Connection ~ 2600 3150
+Wire Wire Line
+	2600 3000 2600 3050
+Connection ~ 2600 3050
+$Comp
+L TEST TP?
+U 1 1 59F0EB4F
+P 5450 3000
+F 0 "TP?" H 5450 3300 50  0000 C BNN
+F 1 "V+" H 5450 3250 50  0000 C CNN
+F 2 "" H 5450 3000 50  0001 C CNN
+F 3 "" H 5450 3000 50  0001 C CNN
+	1    5450 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST TP?
+U 1 1 59F0EC40
+P 5450 3200
+F 0 "TP?" H 5450 3500 50  0000 C BNN
+F 1 "V-" H 5450 3450 50  0000 C CNN
+F 2 "" H 5450 3200 50  0001 C CNN
+F 3 "" H 5450 3200 50  0001 C CNN
+	1    5450 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5450 3000 5450 3050
+Connection ~ 5450 3050
+Wire Wire Line
+	5450 3200 5450 3150
+Connection ~ 5450 3150
+$Comp
+L TEST TP?
+U 1 1 59F0F32E
+P 5450 6300
+F 0 "TP?" H 5450 6600 50  0000 C BNN
+F 1 "V-" H 5450 6550 50  0000 C CNN
+F 2 "" H 5450 6300 50  0001 C CNN
+F 3 "" H 5450 6300 50  0001 C CNN
+	1    5450 6300
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST TP?
+U 1 1 59F0F4AA
+P 2600 6300
+F 0 "TP?" H 2600 6600 50  0000 C BNN
+F 1 "V-" H 2600 6550 50  0000 C CNN
+F 2 "" H 2600 6300 50  0001 C CNN
+F 3 "" H 2600 6300 50  0001 C CNN
+	1    2600 6300
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST TP?
+U 1 1 59F0F5A4
+P 2600 6100
+F 0 "TP?" H 2600 6400 50  0000 C BNN
+F 1 "V+" H 2600 6350 50  0000 C CNN
+F 2 "" H 2600 6100 50  0001 C CNN
+F 3 "" H 2600 6100 50  0001 C CNN
+	1    2600 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 6100 2600 6150
+Connection ~ 2600 6150
+Wire Wire Line
+	2600 6300 2600 6250
+Connection ~ 2600 6250
+$Comp
+L TEST TP?
+U 1 1 59F0F804
+P 5450 6100
+F 0 "TP?" H 5450 6400 50  0000 C BNN
+F 1 "V+" H 5450 6350 50  0000 C CNN
+F 2 "" H 5450 6100 50  0001 C CNN
+F 3 "" H 5450 6100 50  0001 C CNN
+	1    5450 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 6100 5450 6150
+Connection ~ 5450 6150
 $EndSCHEMATC

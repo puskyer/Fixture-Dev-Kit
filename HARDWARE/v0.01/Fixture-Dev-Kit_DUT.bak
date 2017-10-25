@@ -1026,7 +1026,37 @@ Wire Notes Line
 	5150 7300 3650 7300
 Wire Notes Line
 	3650 7300 3650 6300
-NoConn ~ 4950 5250
 Wire Wire Line
 	3600 1300 3300 1300
+Text Notes 550  800  0    197  ~ 0
+DUT
+$Comp
+L Conn_01x01 J?
+U 1 1 59F0C6A2
+P 3200 6050
+F 0 "J?" H 3200 6150 50  0000 C CNN
+F 1 "VBUS" H 3200 5950 50  0000 C CNN
+F 2 "" H 3200 6050 50  0001 C CNN
+F 3 "" H 3200 6050 50  0001 C CNN
+	1    3200 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 6050 3000 5250
+Connection ~ 3000 5250
+$Comp
+L Conn_01x01 J?
+U 1 1 59F0CD26
+P 5150 4900
+F 0 "J?" H 5150 5000 50  0000 C CNN
+F 1 "VBUS" H 5150 4800 50  0000 C CNN
+F 2 "" H 5150 4900 50  0001 C CNN
+F 3 "" H 5150 4900 50  0001 C CNN
+	1    5150 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 4900 4950 5250
+Text Notes -1900 -1550 0    197  ~ 0
+TO DO:\n- is PWRON and BAT break out necessary if headers \nare already broken out?
 $EndSCHEMATC
