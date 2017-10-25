@@ -32,7 +32,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:FDN337N
+LIBS:TCA6424ARGJR
 LIBS:Fixture-Dev-Kit-cache
 EELAYER 25 0
 EELAYER END
