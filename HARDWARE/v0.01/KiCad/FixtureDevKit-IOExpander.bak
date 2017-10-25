@@ -38,7 +38,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 10
+Sheet 7 10
 Title ""
 Date ""
 Rev ""
@@ -982,4 +982,22 @@ Wire Wire Line
 	8450 5800 8450 5900
 Wire Wire Line
 	8350 5900 8350 5800
+Text HLabel 1300 1250 0    60   BiDi ~ 0
+I2C-SDA
+Text HLabel 1300 1400 0    60   BiDi ~ 0
+I2C-SDK
+Text HLabel 1300 1550 0    60   Input ~ 0
+C4-VCC-4V4
+Text Label 1600 1550 0    60   ~ 0
+VCC-3V3
+Text Label 1600 1250 0    60   ~ 0
+SDA
+Text Label 1600 1400 0    60   ~ 0
+SCL
+Wire Wire Line
+	1300 1250 1600 1250
+Wire Wire Line
+	1300 1400 1600 1400
+Wire Wire Line
+	1300 1550 1600 1550
 $EndSCHEMATC

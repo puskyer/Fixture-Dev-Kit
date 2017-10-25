@@ -928,8 +928,6 @@ Wire Notes Line
 	6300 3650 6300 1550
 Wire Notes Line
 	6300 1900 7500 1900
-Text Notes -6800 1400 0    157  ~ 0
-TO DO:\n- is it okay to have so many headers on the I2C lines?\n
 $Comp
 L TEST TP?
 U 1 1 59F0E87E
@@ -1039,4 +1037,22 @@ $EndComp
 Wire Wire Line
 	5450 6100 5450 6150
 Connection ~ 5450 6150
+Text HLabel 1300 950  0    60   BiDi ~ 0
+I2C-SDA
+Text HLabel 1300 1100 0    60   BiDi ~ 0
+I2C-SCK
+Text HLabel 1300 1250 0    60   Input ~ 0
+C4-VCC-3V3
+Text Label 1450 950  0    60   ~ 0
+SDA
+Text Label 1450 1100 0    60   ~ 0
+SCL
+Wire Wire Line
+	1300 950  1450 950 
+Wire Wire Line
+	1300 1100 1450 1100
+Wire Wire Line
+	1450 1250 1300 1250
+Text Label 1450 1250 0    60   ~ 0
+VCC
 $EndSCHEMATC
