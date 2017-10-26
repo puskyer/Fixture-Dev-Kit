@@ -51,33 +51,33 @@ $EndDescr
 Text Notes 600  800  0    197  ~ 0
 P-Channel Mosfet Circuits\n
 Wire Wire Line
-	9400 5450 9400 5150
-Connection ~ 9050 5150
+	9400 6000 9400 5700
+Connection ~ 9050 5700
 Wire Wire Line
-	9000 5150 9100 5150
+	9000 5700 9100 5700
 Wire Wire Line
-	8700 5450 8700 5150
+	8700 6000 8700 5700
 Wire Wire Line
-	6550 5150 6550 5450
-Connection ~ 6900 5150
+	6550 5700 6550 6000
+Connection ~ 6900 5700
 Wire Wire Line
-	6850 5150 6950 5150
+	6850 5700 6950 5700
 Wire Wire Line
-	7250 5450 7250 5150
+	7250 6000 7250 5700
 Wire Wire Line
-	4750 5450 4750 5150
-Connection ~ 4400 5150
+	4750 6000 4750 5700
+Connection ~ 4400 5700
 Wire Wire Line
-	4350 5150 4450 5150
+	4350 5700 4450 5700
 Wire Wire Line
-	4050 5450 4050 5150
+	4050 6000 4050 5700
 Wire Wire Line
-	2350 5150 2350 5450
+	2350 5700 2350 6000
 Wire Wire Line
-	1650 5150 1650 5450
-Connection ~ 2000 5150
+	1650 5700 1650 6000
+Connection ~ 2000 5700
 Wire Wire Line
-	1950 5150 2050 5150
+	1950 5700 2050 5700
 Wire Wire Line
 	8700 2700 8700 3000
 Connection ~ 9050 2700
@@ -114,89 +114,50 @@ Wire Wire Line
 	1650 3000 1650 2700
 Wire Wire Line
 	2350 3000 2350 2700
-Connection ~ 8900 4200
-Connection ~ 9000 4200
-Connection ~ 9100 4200
-Connection ~ 8700 5450
+Connection ~ 8700 6000
 Wire Wire Line
-	8500 5450 8850 5450
+	8500 6000 8850 6000
 Wire Wire Line
-	8850 5450 8850 5550
-Connection ~ 9400 5450
+	8850 6000 8850 6100
+Connection ~ 9400 6000
 Wire Wire Line
-	9250 5450 9600 5450
-Connection ~ 9050 5000
+	9250 6000 9600 6000
+Connection ~ 9050 5550
 Wire Wire Line
-	9050 4900 9050 5150
+	9050 5450 9050 5700
+Connection ~ 6550 6000
 Wire Wire Line
-	9100 3700 9100 4300
+	6350 6000 6700 6000
 Wire Wire Line
-	9000 3700 9000 4300
+	6700 6000 6700 6100
+Connection ~ 7250 6000
 Wire Wire Line
-	8900 3700 8900 4300
-Connection ~ 6750 4200
-Connection ~ 6850 4200
-Connection ~ 6950 4200
-Connection ~ 6550 5450
+	7100 6000 7450 6000
+Connection ~ 6900 5550
 Wire Wire Line
-	6350 5450 6700 5450
+	6900 5450 6900 5700
+Connection ~ 4050 6000
 Wire Wire Line
-	6700 5450 6700 5550
-Connection ~ 7250 5450
+	3850 6000 4200 6000
 Wire Wire Line
-	7100 5450 7450 5450
-Connection ~ 6900 5000
+	4200 6000 4200 6100
+Connection ~ 4750 6000
 Wire Wire Line
-	6900 4900 6900 5150
+	4600 6000 4950 6000
+Connection ~ 4400 5550
 Wire Wire Line
-	6950 3700 6950 4300
+	4400 5450 4400 5700
+Connection ~ 1650 6000
 Wire Wire Line
-	6850 3700 6850 4300
+	1450 6000 1800 6000
 Wire Wire Line
-	6750 3700 6750 4300
-Connection ~ 4250 4200
-Connection ~ 4350 4200
-Connection ~ 4450 4200
-Connection ~ 4050 5450
+	1800 6000 1800 6100
+Connection ~ 2350 6000
 Wire Wire Line
-	3850 5450 4200 5450
+	2200 6000 2550 6000
+Connection ~ 2000 5550
 Wire Wire Line
-	4200 5450 4200 5550
-Connection ~ 4750 5450
-Wire Wire Line
-	4600 5450 4950 5450
-Connection ~ 4400 5000
-Wire Wire Line
-	4400 4900 4400 5150
-Wire Wire Line
-	4450 3700 4450 4300
-Wire Wire Line
-	4350 3700 4350 4300
-Wire Wire Line
-	4250 3700 4250 4300
-Connection ~ 1850 4200
-Connection ~ 1950 4200
-Connection ~ 2050 4200
-Connection ~ 1650 5450
-Wire Wire Line
-	1450 5450 1800 5450
-Wire Wire Line
-	1800 5450 1800 5550
-Connection ~ 2350 5450
-Wire Wire Line
-	2200 5450 2550 5450
-Connection ~ 2000 5000
-Wire Wire Line
-	2000 4900 2000 5150
-Wire Wire Line
-	2050 3700 2050 4300
-Wire Wire Line
-	1950 3700 1950 4300
-Wire Wire Line
-	1850 3700 1850 4300
-Connection ~ 8900 1750
-Connection ~ 9000 1750
-Connection ~ 9100 1750
+	2000 5450 2000 5700
 Connection ~ 8700 3000
 Wire Wire Line
 	8500 3000 8850 3000
@@ -206,15 +167,6 @@ Connection ~ 9400 3000
 Wire Wire Line
 	9250 3000 9600 3000
 Connection ~ 9050 2550
-Wire Wire Line
-	9100 1250 9100 1850
-Wire Wire Line
-	9000 1250 9000 1850
-Wire Wire Line
-	8900 1250 8900 1850
-Connection ~ 6750 1750
-Connection ~ 6850 1750
-Connection ~ 6950 1750
 Connection ~ 6550 3000
 Wire Wire Line
 	6350 3000 6700 3000
@@ -226,15 +178,6 @@ Wire Wire Line
 Connection ~ 6900 2550
 Wire Wire Line
 	6900 2450 6900 2700
-Wire Wire Line
-	6950 1250 6950 1850
-Wire Wire Line
-	6850 1250 6850 1850
-Wire Wire Line
-	6750 1250 6750 1850
-Connection ~ 4250 1750
-Connection ~ 4350 1750
-Connection ~ 4450 1750
 Connection ~ 4050 3000
 Wire Wire Line
 	3850 3000 4200 3000
@@ -243,15 +186,6 @@ Wire Wire Line
 Connection ~ 4750 3000
 Wire Wire Line
 	4600 3000 4950 3000
-Wire Wire Line
-	4450 1250 4450 1850
-Wire Wire Line
-	4350 1250 4350 1850
-Wire Wire Line
-	4250 1250 4250 1850
-Connection ~ 1850 1750
-Connection ~ 1950 1750
-Connection ~ 2050 1750
 Connection ~ 1650 3000
 Wire Wire Line
 	1450 3000 1800 3000
@@ -260,98 +194,92 @@ Wire Wire Line
 Connection ~ 2350 3000
 Wire Wire Line
 	2200 3000 2550 3000
-Wire Wire Line
-	2050 1250 2050 1850
-Wire Wire Line
-	1950 1250 1950 1850
-Wire Wire Line
-	1850 1250 1850 1850
 $Comp
 L R R67
 U 1 1 59F19E2D
-P 9250 5150
-F 0 "R67" V 9330 5150 50  0000 C CNN
-F 1 "DNP" V 9250 5150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 9180 5150 50  0001 C CNN
-F 3 "" H 9250 5150 50  0001 C CNN
-	1    9250 5150
+P 9250 5700
+F 0 "R67" V 9330 5700 50  0000 C CNN
+F 1 "DNP" V 9250 5700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 9180 5700 50  0001 C CNN
+F 3 "" H 9250 5700 50  0001 C CNN
+	1    9250 5700
 	0    1    1    0   
 $EndComp
 $Comp
 L R R65
 U 1 1 59F19D36
-P 8850 5150
-F 0 "R65" V 8930 5150 50  0000 C CNN
-F 1 "DNP" V 8850 5150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 8780 5150 50  0001 C CNN
-F 3 "" H 8850 5150 50  0001 C CNN
-	1    8850 5150
+P 8850 5700
+F 0 "R65" V 8930 5700 50  0000 C CNN
+F 1 "DNP" V 8850 5700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 8780 5700 50  0001 C CNN
+F 3 "" H 8850 5700 50  0001 C CNN
+	1    8850 5700
 	0    1    1    0   
 $EndComp
 $Comp
 L R R61
 U 1 1 59F19263
-P 6700 5150
-F 0 "R61" V 6780 5150 50  0000 C CNN
-F 1 "DNP" V 6700 5150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 6630 5150 50  0001 C CNN
-F 3 "" H 6700 5150 50  0001 C CNN
-	1    6700 5150
+P 6700 5700
+F 0 "R61" V 6780 5700 50  0000 C CNN
+F 1 "DNP" V 6700 5700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6630 5700 50  0001 C CNN
+F 3 "" H 6700 5700 50  0001 C CNN
+	1    6700 5700
 	0    1    1    0   
 $EndComp
 $Comp
 L R R63
 U 1 1 59F19154
-P 7100 5150
-F 0 "R63" V 7180 5150 50  0000 C CNN
-F 1 "DNP" V 7100 5150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 7030 5150 50  0001 C CNN
-F 3 "" H 7100 5150 50  0001 C CNN
-	1    7100 5150
+P 7100 5700
+F 0 "R63" V 7180 5700 50  0000 C CNN
+F 1 "DNP" V 7100 5700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 7030 5700 50  0001 C CNN
+F 3 "" H 7100 5700 50  0001 C CNN
+	1    7100 5700
 	0    1    1    0   
 $EndComp
 $Comp
 L R R59
 U 1 1 59F1878E
-P 4600 5150
-F 0 "R59" V 4680 5150 50  0000 C CNN
-F 1 "DNP" V 4600 5150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 4530 5150 50  0001 C CNN
-F 3 "" H 4600 5150 50  0001 C CNN
-	1    4600 5150
+P 4600 5700
+F 0 "R59" V 4680 5700 50  0000 C CNN
+F 1 "DNP" V 4600 5700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4530 5700 50  0001 C CNN
+F 3 "" H 4600 5700 50  0001 C CNN
+	1    4600 5700
 	0    1    1    0   
 $EndComp
 $Comp
 L R R57
 U 1 1 59F18699
-P 4200 5150
-F 0 "R57" V 4280 5150 50  0000 C CNN
-F 1 "DNP" V 4200 5150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 4130 5150 50  0001 C CNN
-F 3 "" H 4200 5150 50  0001 C CNN
-	1    4200 5150
+P 4200 5700
+F 0 "R57" V 4280 5700 50  0000 C CNN
+F 1 "DNP" V 4200 5700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4130 5700 50  0001 C CNN
+F 3 "" H 4200 5700 50  0001 C CNN
+	1    4200 5700
 	0    1    1    0   
 $EndComp
 $Comp
 L R R53
 U 1 1 59F17C3E
-P 1800 5150
-F 0 "R53" V 1880 5150 50  0000 C CNN
-F 1 "DNP" V 1800 5150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 1730 5150 50  0001 C CNN
-F 3 "" H 1800 5150 50  0001 C CNN
-	1    1800 5150
+P 1800 5700
+F 0 "R53" V 1880 5700 50  0000 C CNN
+F 1 "DNP" V 1800 5700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 1730 5700 50  0001 C CNN
+F 3 "" H 1800 5700 50  0001 C CNN
+	1    1800 5700
 	0    1    1    0   
 $EndComp
 $Comp
 L R R55
 U 1 1 59F17A87
-P 2200 5150
-F 0 "R55" V 2280 5150 50  0000 C CNN
-F 1 "DNP" V 2200 5150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 2130 5150 50  0001 C CNN
-F 3 "" H 2200 5150 50  0001 C CNN
-	1    2200 5150
+P 2200 5700
+F 0 "R55" V 2280 5700 50  0000 C CNN
+F 1 "DNP" V 2200 5700 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2130 5700 50  0001 C CNN
+F 3 "" H 2200 5700 50  0001 C CNN
+	1    2200 5700
 	0    1    1    0   
 $EndComp
 $Comp
@@ -442,296 +370,211 @@ F 3 "" H 2200 2700 50  0001 C CNN
 	1    2200 2700
 	0    1    1    0   
 $EndComp
-Text Label 8900 4300 3    60   ~ 0
+Text Label 9600 6000 0    60   ~ 0
 Source7
-Text Label 9600 5450 0    60   ~ 0
-Source7
-Text Label 9000 4300 3    60   ~ 0
+Text Label 9050 5450 1    60   ~ 0
 Gate7
-Text Label 9050 4900 1    60   ~ 0
-Gate7
-$Comp
-L Conn_02x03_Counter_Clockwise J70
-U 1 1 59F02F49
-P 9000 3900
-F 0 "J70" H 9050 4100 50  0000 C CNN
-F 1 "FET_7" H 9050 3700 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 9000 3900 50  0001 C CNN
-F 3 "" H 9000 3900 50  0001 C CNN
-	1    9000 3900
-	0    1    1    0   
-$EndComp
-Text Label 8500 5450 2    60   ~ 0
-Drain7
-Text Label 9100 4300 3    60   ~ 0
+Text Label 8500 6000 2    60   ~ 0
 Drain7
 $Comp
 L TEST TP98
 U 1 1 59F02F41
-P 8700 5450
-F 0 "TP98" H 8700 5750 50  0000 C BNN
-F 1 "TEST" H 8700 5700 50  0000 C CNN
-F 2 "TestPoint:TestPoint" H 8700 5450 50  0001 C CNN
-F 3 "" H 8700 5450 50  0001 C CNN
-	1    8700 5450
+P 8700 6000
+F 0 "TP98" H 8700 6300 50  0000 C BNN
+F 1 "TEST" H 8700 6250 50  0000 C CNN
+F 2 "TestPoint:TestPoint" H 8700 6000 50  0001 C CNN
+F 3 "" H 8700 6000 50  0001 C CNN
+	1    8700 6000
 	-1   0    0    1   
 $EndComp
 $Comp
 L TEST TP102
 U 1 1 59F02F3B
-P 9400 5450
-F 0 "TP102" H 9400 5750 50  0000 C BNN
-F 1 "TEST" H 9400 5700 50  0000 C CNN
-F 2 "TestPoint:TestPoint" H 9400 5450 50  0001 C CNN
-F 3 "" H 9400 5450 50  0001 C CNN
-	1    9400 5450
+P 9400 6000
+F 0 "TP102" H 9400 6300 50  0000 C BNN
+F 1 "TEST" H 9400 6250 50  0000 C CNN
+F 2 "TestPoint:TestPoint" H 9400 6000 50  0001 C CNN
+F 3 "" H 9400 6000 50  0001 C CNN
+	1    9400 6000
 	-1   0    0    1   
 $EndComp
 $Comp
 L TEST TP100
 U 1 1 59F02F35
-P 9050 5000
-F 0 "TP100" H 9050 5300 50  0000 C BNN
-F 1 "G6" H 9050 5250 50  0000 C CNN
-F 2 "TestPoint:TestPoint" H 9050 5000 50  0001 C CNN
-F 3 "" H 9050 5000 50  0001 C CNN
-	1    9050 5000
+P 9050 5550
+F 0 "TP100" H 9050 5850 50  0000 C BNN
+F 1 "G6" H 9050 5800 50  0000 C CNN
+F 2 "TestPoint:TestPoint" H 9050 5550 50  0001 C CNN
+F 3 "" H 9050 5550 50  0001 C CNN
+	1    9050 5550
 	0    1    1    0   
 $EndComp
 $Comp
 L Q_PMOS_GDSD Q12
 U 1 1 59F02F2F
-P 9050 5350
-F 0 "Q12" H 9250 5400 50  0000 L CNN
-F 1 "NTF2955T1G" H 9250 5300 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-223" H 9250 5450 50  0001 C CNN
-F 3 "" H 9050 5350 50  0001 C CNN
-	1    9050 5350
+P 9050 5900
+F 0 "Q12" H 9250 5950 50  0000 L CNN
+F 1 "NTF2955T1G" H 9250 5850 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-223" H 9250 6000 50  0001 C CNN
+F 3 "" H 9050 5900 50  0001 C CNN
+	1    9050 5900
 	0    -1   1    0   
 $EndComp
-Text Label 6750 4300 3    60   ~ 0
+Text Label 7450 6000 0    60   ~ 0
 Source6
-Text Label 7450 5450 0    60   ~ 0
-Source6
-Text Label 6850 4300 3    60   ~ 0
+Text Label 6900 5450 1    60   ~ 0
 Gate6
-Text Label 6900 4900 1    60   ~ 0
-Gate6
-$Comp
-L Conn_02x03_Counter_Clockwise J68
-U 1 1 59F02F18
-P 6850 3900
-F 0 "J68" H 6900 4100 50  0000 C CNN
-F 1 "FET_6" H 6900 3700 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 6850 3900 50  0001 C CNN
-F 3 "" H 6850 3900 50  0001 C CNN
-	1    6850 3900
-	0    1    1    0   
-$EndComp
-Text Label 6350 5450 2    60   ~ 0
-Drain6
-Text Label 6950 4300 3    60   ~ 0
+Text Label 6350 6000 2    60   ~ 0
 Drain6
 $Comp
 L TEST TP92
 U 1 1 59F02F10
-P 6550 5450
-F 0 "TP92" H 6550 5750 50  0000 C BNN
-F 1 "TEST" H 6550 5700 50  0000 C CNN
-F 2 "TestPoint:TestPoint" H 6550 5450 50  0001 C CNN
-F 3 "" H 6550 5450 50  0001 C CNN
-	1    6550 5450
+P 6550 6000
+F 0 "TP92" H 6550 6300 50  0000 C BNN
+F 1 "TEST" H 6550 6250 50  0000 C CNN
+F 2 "TestPoint:TestPoint" H 6550 6000 50  0001 C CNN
+F 3 "" H 6550 6000 50  0001 C CNN
+	1    6550 6000
 	-1   0    0    1   
 $EndComp
 $Comp
 L TEST TP96
 U 1 1 59F02F0A
-P 7250 5450
-F 0 "TP96" H 7250 5750 50  0000 C BNN
-F 1 "TEST" H 7250 5700 50  0000 C CNN
-F 2 "TestPoint:TestPoint" H 7250 5450 50  0001 C CNN
-F 3 "" H 7250 5450 50  0001 C CNN
-	1    7250 5450
+P 7250 6000
+F 0 "TP96" H 7250 6300 50  0000 C BNN
+F 1 "TEST" H 7250 6250 50  0000 C CNN
+F 2 "TestPoint:TestPoint" H 7250 6000 50  0001 C CNN
+F 3 "" H 7250 6000 50  0001 C CNN
+	1    7250 6000
 	-1   0    0    1   
 $EndComp
 $Comp
 L TEST TP94
 U 1 1 59F02F04
-P 6900 5000
-F 0 "TP94" H 6900 5300 50  0000 C BNN
-F 1 "G5" H 6900 5250 50  0000 C CNN
-F 2 "TestPoint:TestPoint" H 6900 5000 50  0001 C CNN
-F 3 "" H 6900 5000 50  0001 C CNN
-	1    6900 5000
+P 6900 5550
+F 0 "TP94" H 6900 5850 50  0000 C BNN
+F 1 "G5" H 6900 5800 50  0000 C CNN
+F 2 "TestPoint:TestPoint" H 6900 5550 50  0001 C CNN
+F 3 "" H 6900 5550 50  0001 C CNN
+	1    6900 5550
 	0    1    1    0   
 $EndComp
 $Comp
 L Q_PMOS_GDSD Q10
 U 1 1 59F02EFE
-P 6900 5350
-F 0 "Q10" H 7100 5400 50  0000 L CNN
-F 1 "NTF2955T1G" H 7100 5300 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-223" H 7100 5450 50  0001 C CNN
-F 3 "" H 6900 5350 50  0001 C CNN
-	1    6900 5350
+P 6900 5900
+F 0 "Q10" H 7100 5950 50  0000 L CNN
+F 1 "NTF2955T1G" H 7100 5850 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-223" H 7100 6000 50  0001 C CNN
+F 3 "" H 6900 5900 50  0001 C CNN
+	1    6900 5900
 	0    -1   1    0   
 $EndComp
-Text Label 4250 4300 3    60   ~ 0
+Text Label 4950 6000 0    60   ~ 0
 Source5
-Text Label 4950 5450 0    60   ~ 0
-Source5
-Text Label 4350 4300 3    60   ~ 0
+Text Label 4400 5450 1    60   ~ 0
 Gate5
-Text Label 4400 4900 1    60   ~ 0
-Gate5
-$Comp
-L Conn_02x03_Counter_Clockwise J66
-U 1 1 59F02EE7
-P 4350 3900
-F 0 "J66" H 4400 4100 50  0000 C CNN
-F 1 "FET_5" H 4400 3700 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 4350 3900 50  0001 C CNN
-F 3 "" H 4350 3900 50  0001 C CNN
-	1    4350 3900
-	0    1    1    0   
-$EndComp
-Text Label 3850 5450 2    60   ~ 0
-Drain5
-Text Label 4450 4300 3    60   ~ 0
+Text Label 3850 6000 2    60   ~ 0
 Drain5
 $Comp
 L TEST TP86
 U 1 1 59F02EDF
-P 4050 5450
-F 0 "TP86" H 4050 5750 50  0000 C BNN
-F 1 "TEST" H 4050 5700 50  0000 C CNN
-F 2 "TestPoint:TestPoint" H 4050 5450 50  0001 C CNN
-F 3 "" H 4050 5450 50  0001 C CNN
-	1    4050 5450
+P 4050 6000
+F 0 "TP86" H 4050 6300 50  0000 C BNN
+F 1 "TEST" H 4050 6250 50  0000 C CNN
+F 2 "TestPoint:TestPoint" H 4050 6000 50  0001 C CNN
+F 3 "" H 4050 6000 50  0001 C CNN
+	1    4050 6000
 	-1   0    0    1   
 $EndComp
 $Comp
 L TEST TP90
 U 1 1 59F02ED9
-P 4750 5450
-F 0 "TP90" H 4750 5750 50  0000 C BNN
-F 1 "TEST" H 4750 5700 50  0000 C CNN
-F 2 "TestPoint:TestPoint" H 4750 5450 50  0001 C CNN
-F 3 "" H 4750 5450 50  0001 C CNN
-	1    4750 5450
+P 4750 6000
+F 0 "TP90" H 4750 6300 50  0000 C BNN
+F 1 "TEST" H 4750 6250 50  0000 C CNN
+F 2 "TestPoint:TestPoint" H 4750 6000 50  0001 C CNN
+F 3 "" H 4750 6000 50  0001 C CNN
+	1    4750 6000
 	-1   0    0    1   
 $EndComp
 $Comp
 L TEST TP88
 U 1 1 59F02ED3
-P 4400 5000
-F 0 "TP88" H 4400 5300 50  0000 C BNN
-F 1 "G4" H 4400 5250 50  0000 C CNN
-F 2 "TestPoint:TestPoint" H 4400 5000 50  0001 C CNN
-F 3 "" H 4400 5000 50  0001 C CNN
-	1    4400 5000
+P 4400 5550
+F 0 "TP88" H 4400 5850 50  0000 C BNN
+F 1 "G4" H 4400 5800 50  0000 C CNN
+F 2 "TestPoint:TestPoint" H 4400 5550 50  0001 C CNN
+F 3 "" H 4400 5550 50  0001 C CNN
+	1    4400 5550
 	0    1    1    0   
 $EndComp
 $Comp
 L Q_PMOS_GDSD Q8
 U 1 1 59F02ECD
-P 4400 5350
-F 0 "Q8" H 4600 5400 50  0000 L CNN
-F 1 "NTF2955T1G" H 4600 5300 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-223" H 4600 5450 50  0001 C CNN
-F 3 "" H 4400 5350 50  0001 C CNN
-	1    4400 5350
+P 4400 5900
+F 0 "Q8" H 4600 5950 50  0000 L CNN
+F 1 "NTF2955T1G" H 4600 5850 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-223" H 4600 6000 50  0001 C CNN
+F 3 "" H 4400 5900 50  0001 C CNN
+	1    4400 5900
 	0    -1   1    0   
 $EndComp
-Text Label 1850 4300 3    60   ~ 0
+Text Label 2550 6000 0    60   ~ 0
 Source4
-Text Label 2550 5450 0    60   ~ 0
-Source4
-Text Label 1950 4300 3    60   ~ 0
+Text Label 2000 5450 1    60   ~ 0
 Gate4
-Text Label 2000 4900 1    60   ~ 0
-Gate4
-$Comp
-L Conn_02x03_Counter_Clockwise J64
-U 1 1 59F02EB6
-P 1950 3900
-F 0 "J64" H 2000 4100 50  0000 C CNN
-F 1 "FET_4" H 2000 3700 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 1950 3900 50  0001 C CNN
-F 3 "" H 1950 3900 50  0001 C CNN
-	1    1950 3900
-	0    1    1    0   
-$EndComp
-Text Label 1450 5450 2    60   ~ 0
-Drain4
-Text Label 2050 4300 3    60   ~ 0
+Text Label 1450 6000 2    60   ~ 0
 Drain4
 $Comp
 L TEST TP80
 U 1 1 59F02EAE
-P 1650 5450
-F 0 "TP80" H 1650 5750 50  0000 C BNN
-F 1 "TEST" H 1650 5700 50  0000 C CNN
-F 2 "TestPoint:TestPoint" H 1650 5450 50  0001 C CNN
-F 3 "" H 1650 5450 50  0001 C CNN
-	1    1650 5450
+P 1650 6000
+F 0 "TP80" H 1650 6300 50  0000 C BNN
+F 1 "TEST" H 1650 6250 50  0000 C CNN
+F 2 "TestPoint:TestPoint" H 1650 6000 50  0001 C CNN
+F 3 "" H 1650 6000 50  0001 C CNN
+	1    1650 6000
 	-1   0    0    1   
 $EndComp
 $Comp
 L TEST TP84
 U 1 1 59F02EA8
-P 2350 5450
-F 0 "TP84" H 2350 5750 50  0000 C BNN
-F 1 "TEST" H 2350 5700 50  0000 C CNN
-F 2 "TestPoint:TestPoint" H 2350 5450 50  0001 C CNN
-F 3 "" H 2350 5450 50  0001 C CNN
-	1    2350 5450
+P 2350 6000
+F 0 "TP84" H 2350 6300 50  0000 C BNN
+F 1 "TEST" H 2350 6250 50  0000 C CNN
+F 2 "TestPoint:TestPoint" H 2350 6000 50  0001 C CNN
+F 3 "" H 2350 6000 50  0001 C CNN
+	1    2350 6000
 	-1   0    0    1   
 $EndComp
 $Comp
 L TEST TP82
 U 1 1 59F02EA2
-P 2000 5000
-F 0 "TP82" H 2000 5300 50  0000 C BNN
-F 1 "G3" H 2000 5250 50  0000 C CNN
-F 2 "TestPoint:TestPoint" H 2000 5000 50  0001 C CNN
-F 3 "" H 2000 5000 50  0001 C CNN
-	1    2000 5000
+P 2000 5550
+F 0 "TP82" H 2000 5850 50  0000 C BNN
+F 1 "G3" H 2000 5800 50  0000 C CNN
+F 2 "TestPoint:TestPoint" H 2000 5550 50  0001 C CNN
+F 3 "" H 2000 5550 50  0001 C CNN
+	1    2000 5550
 	0    1    1    0   
 $EndComp
 $Comp
 L Q_PMOS_GDSD Q6
 U 1 1 59F02E9C
-P 2000 5350
-F 0 "Q6" H 2200 5400 50  0000 L CNN
-F 1 "NTF2955T1G" H 2200 5300 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-223" H 2200 5450 50  0001 C CNN
-F 3 "" H 2000 5350 50  0001 C CNN
-	1    2000 5350
+P 2000 5900
+F 0 "Q6" H 2200 5950 50  0000 L CNN
+F 1 "NTF2955T1G" H 2200 5850 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-223" H 2200 6000 50  0001 C CNN
+F 3 "" H 2000 5900 50  0001 C CNN
+	1    2000 5900
 	0    -1   1    0   
 $EndComp
-Text Label 8900 1850 3    60   ~ 0
-Source3
 Text Label 9600 3000 0    60   ~ 0
 Source3
-Text Label 9000 1850 3    60   ~ 0
-Gate3
 Text Label 9050 2450 1    60   ~ 0
 Gate3
-$Comp
-L Conn_02x03_Counter_Clockwise J69
-U 1 1 59F029AD
-P 9000 1450
-F 0 "J69" H 9050 1650 50  0000 C CNN
-F 1 "FET_3" H 9050 1250 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 9000 1450 50  0001 C CNN
-F 3 "" H 9000 1450 50  0001 C CNN
-	1    9000 1450
-	0    1    1    0   
-$EndComp
 Text Label 8500 3000 2    60   ~ 0
-Drain3
-Text Label 9100 1850 3    60   ~ 0
 Drain3
 $Comp
 L TEST TP97
@@ -777,28 +620,11 @@ F 3 "" H 9050 2900 50  0001 C CNN
 	1    9050 2900
 	0    -1   1    0   
 $EndComp
-Text Label 6750 1850 3    60   ~ 0
-Source2
 Text Label 7450 3000 0    60   ~ 0
 Source2
-Text Label 6850 1850 3    60   ~ 0
-Gate2
 Text Label 6900 2450 1    60   ~ 0
 Gate2
-$Comp
-L Conn_02x03_Counter_Clockwise J67
-U 1 1 59F0297C
-P 6850 1450
-F 0 "J67" H 6900 1650 50  0000 C CNN
-F 1 "FET_2" H 6900 1250 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 6850 1450 50  0001 C CNN
-F 3 "" H 6850 1450 50  0001 C CNN
-	1    6850 1450
-	0    1    1    0   
-$EndComp
 Text Label 6350 3000 2    60   ~ 0
-Drain2
-Text Label 6950 1850 3    60   ~ 0
 Drain2
 $Comp
 L TEST TP91
@@ -844,28 +670,11 @@ F 3 "" H 6900 2900 50  0001 C CNN
 	1    6900 2900
 	0    -1   1    0   
 $EndComp
-Text Label 4250 1850 3    60   ~ 0
-Source1
 Text Label 4950 3000 0    60   ~ 0
 Source1
-Text Label 4350 1850 3    60   ~ 0
-Gate1
 Text Label 4400 2450 1    60   ~ 0
 Gate1
-$Comp
-L Conn_02x03_Counter_Clockwise J65
-U 1 1 59F01CB7
-P 4350 1450
-F 0 "J65" H 4400 1650 50  0000 C CNN
-F 1 "FET_1" H 4400 1250 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 4350 1450 50  0001 C CNN
-F 3 "" H 4350 1450 50  0001 C CNN
-	1    4350 1450
-	0    1    1    0   
-$EndComp
 Text Label 3850 3000 2    60   ~ 0
-Drain1
-Text Label 4450 1850 3    60   ~ 0
 Drain1
 $Comp
 L TEST TP85
@@ -911,11 +720,9 @@ F 3 "" H 4400 2900 50  0001 C CNN
 	1    4400 2900
 	0    -1   1    0   
 $EndComp
-Text Label 1850 1850 3    60   ~ 0
-Source0
 Text Label 2550 3000 0    60   ~ 0
 Source0
-Text Label 1950 1850 3    60   ~ 0
+Text Label 1850 1200 1    60   ~ 0
 Gate0
 Text Label 2000 2450 1    60   ~ 0
 Gate0
@@ -978,4 +785,237 @@ F 3 "" H 2000 2900 50  0001 C CNN
 	1    2000 2900
 	0    -1   1    0   
 $EndComp
+Text Label 2050 1200 1    60   ~ 0
+Source0
+Wire Wire Line
+	2050 1200 2050 1250
+Wire Wire Line
+	2050 1250 1950 1250
+Wire Wire Line
+	1850 1200 1850 1250
+Wire Wire Line
+	1850 1250 1700 1250
+Wire Wire Line
+	1700 1250 1700 1750
+Wire Wire Line
+	1700 1750 1850 1750
+Wire Wire Line
+	2050 1850 2050 1750
+Text Label 4200 1200 1    60   ~ 0
+Gate1
+$Comp
+L Conn_02x03_Counter_Clockwise J65
+U 1 1 59F3F5C3
+P 4300 1450
+F 0 "J65" H 4350 1650 50  0000 C CNN
+F 1 "FET_0" H 4350 1250 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 4300 1450 50  0001 C CNN
+F 3 "" H 4300 1450 50  0001 C CNN
+	1    4300 1450
+	0    1    1    0   
+$EndComp
+Text Label 4400 1850 3    60   ~ 0
+Drain1
+Text Label 4400 1200 1    60   ~ 0
+Source1
+Wire Wire Line
+	4400 1200 4400 1250
+Wire Wire Line
+	4400 1250 4300 1250
+Wire Wire Line
+	4200 1200 4200 1250
+Wire Wire Line
+	4200 1250 4050 1250
+Wire Wire Line
+	4050 1250 4050 1750
+Wire Wire Line
+	4050 1750 4200 1750
+Wire Wire Line
+	4400 1850 4400 1750
+Text Label 6850 1250 1    60   ~ 0
+Gate2
+$Comp
+L Conn_02x03_Counter_Clockwise J67
+U 1 1 59F3F93B
+P 6950 1500
+F 0 "J67" H 7000 1700 50  0000 C CNN
+F 1 "FET_0" H 7000 1300 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 6950 1500 50  0001 C CNN
+F 3 "" H 6950 1500 50  0001 C CNN
+	1    6950 1500
+	0    1    1    0   
+$EndComp
+Text Label 7050 1900 3    60   ~ 0
+Drain2
+Text Label 7050 1250 1    60   ~ 0
+Source2
+Wire Wire Line
+	7050 1250 7050 1300
+Wire Wire Line
+	7050 1300 6950 1300
+Wire Wire Line
+	6850 1250 6850 1300
+Wire Wire Line
+	6850 1300 6700 1300
+Wire Wire Line
+	6700 1300 6700 1800
+Wire Wire Line
+	6700 1800 6850 1800
+Wire Wire Line
+	7050 1900 7050 1800
+Text Label 9200 1250 1    60   ~ 0
+Gate3
+$Comp
+L Conn_02x03_Counter_Clockwise J69
+U 1 1 59F3F94B
+P 9300 1500
+F 0 "J69" H 9350 1700 50  0000 C CNN
+F 1 "FET_0" H 9350 1300 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 9300 1500 50  0001 C CNN
+F 3 "" H 9300 1500 50  0001 C CNN
+	1    9300 1500
+	0    1    1    0   
+$EndComp
+Text Label 9400 1900 3    60   ~ 0
+Drain3
+Text Label 9400 1250 1    60   ~ 0
+Source3
+Wire Wire Line
+	9400 1250 9400 1300
+Wire Wire Line
+	9400 1300 9300 1300
+Wire Wire Line
+	9200 1250 9200 1300
+Wire Wire Line
+	9200 1300 9050 1300
+Wire Wire Line
+	9050 1300 9050 1800
+Wire Wire Line
+	9050 1800 9200 1800
+Wire Wire Line
+	9400 1900 9400 1800
+Text Label 1950 4350 1    60   ~ 0
+Gate4
+$Comp
+L Conn_02x03_Counter_Clockwise J64
+U 1 1 59F3FE8B
+P 2050 4600
+F 0 "J64" H 2100 4800 50  0000 C CNN
+F 1 "FET_0" H 2100 4400 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 2050 4600 50  0001 C CNN
+F 3 "" H 2050 4600 50  0001 C CNN
+	1    2050 4600
+	0    1    1    0   
+$EndComp
+Text Label 2150 5000 3    60   ~ 0
+Drain4
+Text Label 2150 4350 1    60   ~ 0
+Source4
+Wire Wire Line
+	2150 4350 2150 4400
+Wire Wire Line
+	2150 4400 2050 4400
+Wire Wire Line
+	1950 4350 1950 4400
+Wire Wire Line
+	1950 4400 1800 4400
+Wire Wire Line
+	1800 4400 1800 4900
+Wire Wire Line
+	1800 4900 1950 4900
+Wire Wire Line
+	2150 5000 2150 4900
+Text Label 4300 4350 1    60   ~ 0
+Gate5
+$Comp
+L Conn_02x03_Counter_Clockwise J66
+U 1 1 59F3FE9B
+P 4400 4600
+F 0 "J66" H 4450 4800 50  0000 C CNN
+F 1 "FET_0" H 4450 4400 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 4400 4600 50  0001 C CNN
+F 3 "" H 4400 4600 50  0001 C CNN
+	1    4400 4600
+	0    1    1    0   
+$EndComp
+Text Label 4500 5000 3    60   ~ 0
+Drain5
+Text Label 4500 4350 1    60   ~ 0
+Source5
+Wire Wire Line
+	4500 4350 4500 4400
+Wire Wire Line
+	4500 4400 4400 4400
+Wire Wire Line
+	4300 4350 4300 4400
+Wire Wire Line
+	4300 4400 4150 4400
+Wire Wire Line
+	4150 4400 4150 4900
+Wire Wire Line
+	4150 4900 4300 4900
+Wire Wire Line
+	4500 5000 4500 4900
+Text Label 6950 4400 1    60   ~ 0
+Gate6
+$Comp
+L Conn_02x03_Counter_Clockwise J68
+U 1 1 59F3FEAB
+P 7050 4650
+F 0 "J68" H 7100 4850 50  0000 C CNN
+F 1 "FET_0" H 7100 4450 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 7050 4650 50  0001 C CNN
+F 3 "" H 7050 4650 50  0001 C CNN
+	1    7050 4650
+	0    1    1    0   
+$EndComp
+Text Label 7150 5050 3    60   ~ 0
+Drain6
+Text Label 7150 4400 1    60   ~ 0
+Source6
+Wire Wire Line
+	7150 4400 7150 4450
+Wire Wire Line
+	7150 4450 7050 4450
+Wire Wire Line
+	6950 4400 6950 4450
+Wire Wire Line
+	6950 4450 6800 4450
+Wire Wire Line
+	6800 4450 6800 4950
+Wire Wire Line
+	6800 4950 6950 4950
+Wire Wire Line
+	7150 5050 7150 4950
+Text Label 9300 4400 1    60   ~ 0
+Gate7
+$Comp
+L Conn_02x03_Counter_Clockwise J70
+U 1 1 59F3FEBB
+P 9400 4650
+F 0 "J70" H 9450 4850 50  0000 C CNN
+F 1 "FET_0" H 9450 4450 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 9400 4650 50  0001 C CNN
+F 3 "" H 9400 4650 50  0001 C CNN
+	1    9400 4650
+	0    1    1    0   
+$EndComp
+Text Label 9500 5050 3    60   ~ 0
+Drain7
+Text Label 9500 4400 1    60   ~ 0
+Source7
+Wire Wire Line
+	9500 4400 9500 4450
+Wire Wire Line
+	9500 4450 9400 4450
+Wire Wire Line
+	9300 4400 9300 4450
+Wire Wire Line
+	9300 4450 9150 4450
+Wire Wire Line
+	9150 4450 9150 4950
+Wire Wire Line
+	9150 4950 9300 4950
+Wire Wire Line
+	9500 5050 9500 4950
 $EndSCHEMATC
