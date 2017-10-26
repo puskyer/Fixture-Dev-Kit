@@ -200,15 +200,9 @@ Wire Wire Line
 	6600 5600 6850 5600
 Wire Wire Line
 	4700 5600 4950 5600
-Connection ~ 8300 4400
-Connection ~ 8200 4400
 Connection ~ 8100 4400
 Wire Wire Line
-	8100 3900 8100 4450
-Wire Wire Line
-	8200 3900 8200 4450
-Wire Wire Line
-	8300 3900 8300 4450
+	8100 3850 8100 4450
 Wire Wire Line
 	7900 5600 8100 5600
 Wire Wire Line
@@ -246,9 +240,9 @@ Text Label 7900 5600 2    60   ~ 0
 Source_7
 Text Label 8200 5250 1    60   ~ 0
 Gate_7
-Text Label 8300 4450 3    60   ~ 0
+Text Label 8100 3850 1    60   ~ 0
 Drain_7
-Text Label 8200 4450 3    60   ~ 0
+Text Label 8300 4450 3    60   ~ 0
 Gate_7
 Text Label 8100 4450 3    60   ~ 0
 Source_7
@@ -690,4 +684,12 @@ Connection ~ 6400 4400
 Wire Wire Line
 	6300 3900 6200 3900
 Connection ~ 6200 3900
+Wire Wire Line
+	8100 4400 8200 4400
+Wire Wire Line
+	8300 3900 8300 4450
+Connection ~ 8300 4400
+Wire Wire Line
+	8200 3900 8100 3900
+Connection ~ 8100 3900
 $EndSCHEMATC
