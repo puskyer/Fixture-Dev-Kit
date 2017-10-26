@@ -63,9 +63,9 @@ F 3 "" H 2500 1550 50  0001 C CNN
 $EndComp
 Text Label 2400 1800 3    60   ~ 0
 Source_0
-Text Label 2500 1800 3    60   ~ 0
-Gate_0
 Text Label 2600 1800 3    60   ~ 0
+Gate_0
+Text Label 2400 1200 1    60   ~ 0
 Drain_0
 Text Label 2500 2600 1    60   ~ 0
 Gate_0
@@ -88,12 +88,6 @@ F 5 "Good" H 2600 2950 50  0001 L BNN "Availability"
 $EndComp
 Wire Wire Line
 	2200 2950 2400 2950
-Wire Wire Line
-	2600 1250 2600 1800
-Wire Wire Line
-	2500 1250 2500 1800
-Wire Wire Line
-	2400 1250 2400 1800
 Connection ~ 2400 1750
 Connection ~ 2500 1750
 Connection ~ 2600 1750
@@ -130,15 +124,9 @@ F 3 "" H 2650 2700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2800 5600 3050 5600
-Connection ~ 2600 4400
-Connection ~ 2500 4400
 Connection ~ 2400 4400
 Wire Wire Line
-	2400 3900 2400 4450
-Wire Wire Line
-	2500 3900 2500 4450
-Wire Wire Line
-	2600 3900 2600 4450
+	2400 3850 2400 4450
 Wire Wire Line
 	2200 5600 2400 5600
 Wire Wire Line
@@ -176,9 +164,9 @@ Text Label 2200 5600 2    60   ~ 0
 Source_4
 Text Label 2500 5250 1    60   ~ 0
 Gate_4
-Text Label 2600 4450 3    60   ~ 0
+Text Label 2400 3850 1    60   ~ 0
 Drain_4
-Text Label 2500 4450 3    60   ~ 0
+Text Label 2600 4450 3    60   ~ 0
 Gate_4
 Text Label 2400 4450 3    60   ~ 0
 Source_4
@@ -212,15 +200,9 @@ Wire Wire Line
 	6600 5600 6850 5600
 Wire Wire Line
 	4700 5600 4950 5600
-Connection ~ 8300 4400
-Connection ~ 8200 4400
 Connection ~ 8100 4400
 Wire Wire Line
-	8100 3900 8100 4450
-Wire Wire Line
-	8200 3900 8200 4450
-Wire Wire Line
-	8300 3900 8300 4450
+	8100 3850 8100 4450
 Wire Wire Line
 	7900 5600 8100 5600
 Wire Wire Line
@@ -258,9 +240,9 @@ Text Label 7900 5600 2    60   ~ 0
 Source_7
 Text Label 8200 5250 1    60   ~ 0
 Gate_7
-Text Label 8300 4450 3    60   ~ 0
+Text Label 8100 3850 1    60   ~ 0
 Drain_7
-Text Label 8200 4450 3    60   ~ 0
+Text Label 8300 4450 3    60   ~ 0
 Gate_7
 Text Label 8100 4450 3    60   ~ 0
 Source_7
@@ -288,15 +270,9 @@ F 5 "Good" H 8300 5600 50  0001 L BNN "Availability"
 	1    8300 5600
 	0    1    1    0   
 $EndComp
-Connection ~ 6400 4400
-Connection ~ 6300 4400
 Connection ~ 6200 4400
 Wire Wire Line
-	6200 3900 6200 4450
-Wire Wire Line
-	6300 3900 6300 4450
-Wire Wire Line
-	6400 3900 6400 4450
+	6200 3850 6200 4450
 Wire Wire Line
 	6000 5600 6200 5600
 Wire Wire Line
@@ -334,9 +310,9 @@ Text Label 6000 5600 2    60   ~ 0
 Source_6
 Text Label 6300 5250 1    60   ~ 0
 Gate_6
-Text Label 6400 4450 3    60   ~ 0
+Text Label 6200 3850 1    60   ~ 0
 Drain_6
-Text Label 6300 4450 3    60   ~ 0
+Text Label 6400 4450 3    60   ~ 0
 Gate_6
 Text Label 6200 4450 3    60   ~ 0
 Source_6
@@ -364,15 +340,9 @@ F 5 "Good" H 6400 5600 50  0001 L BNN "Availability"
 	1    6400 5600
 	0    1    1    0   
 $EndComp
-Connection ~ 4500 4400
-Connection ~ 4400 4400
 Connection ~ 4300 4400
 Wire Wire Line
-	4300 3900 4300 4450
-Wire Wire Line
-	4400 3900 4400 4450
-Wire Wire Line
-	4500 3900 4500 4450
+	4300 3850 4300 4450
 Wire Wire Line
 	4100 5600 4300 5600
 Wire Wire Line
@@ -410,9 +380,9 @@ Text Label 4100 5600 2    60   ~ 0
 Source_5
 Text Label 4400 5250 1    60   ~ 0
 Gate_5
-Text Label 4500 4450 3    60   ~ 0
+Text Label 4300 3850 1    60   ~ 0
 Drain_5
-Text Label 4400 4450 3    60   ~ 0
+Text Label 4500 4450 3    60   ~ 0
 Gate_5
 Text Label 4300 4450 3    60   ~ 0
 Source_5
@@ -446,15 +416,9 @@ Wire Wire Line
 	6600 2950 6850 2950
 Wire Wire Line
 	4700 2950 4950 2950
-Connection ~ 8300 1750
-Connection ~ 8200 1750
 Connection ~ 8100 1750
 Wire Wire Line
-	8100 1250 8100 1800
-Wire Wire Line
-	8200 1250 8200 1800
-Wire Wire Line
-	8300 1250 8300 1800
+	8100 1200 8100 1800
 Wire Wire Line
 	7900 2950 8100 2950
 Wire Wire Line
@@ -492,9 +456,9 @@ Text Label 7900 2950 2    60   ~ 0
 Source_3
 Text Label 8200 2600 1    60   ~ 0
 Gate_3
-Text Label 8300 1800 3    60   ~ 0
+Text Label 8100 1200 1    60   ~ 0
 Drain_3
-Text Label 8200 1800 3    60   ~ 0
+Text Label 8300 1800 3    60   ~ 0
 Gate_3
 Text Label 8100 1800 3    60   ~ 0
 Source_3
@@ -522,15 +486,9 @@ F 5 "Good" H 8300 2950 50  0001 L BNN "Availability"
 	1    8300 2950
 	0    1    1    0   
 $EndComp
-Connection ~ 6400 1750
-Connection ~ 6300 1750
 Connection ~ 6200 1750
 Wire Wire Line
-	6200 1250 6200 1800
-Wire Wire Line
-	6300 1250 6300 1800
-Wire Wire Line
-	6400 1250 6400 1800
+	6200 1200 6200 1800
 Wire Wire Line
 	6000 2950 6200 2950
 Wire Wire Line
@@ -568,9 +526,9 @@ Text Label 6000 2950 2    60   ~ 0
 Source_2
 Text Label 6300 2600 1    60   ~ 0
 Gate_2
-Text Label 6400 1800 3    60   ~ 0
+Text Label 6200 1200 1    60   ~ 0
 Drain_2
-Text Label 6300 1800 3    60   ~ 0
+Text Label 6400 1800 3    60   ~ 0
 Gate_2
 Text Label 6200 1800 3    60   ~ 0
 Source_2
@@ -598,15 +556,6 @@ F 5 "Good" H 6400 2950 50  0001 L BNN "Availability"
 	1    6400 2950
 	0    1    1    0   
 $EndComp
-Connection ~ 4500 1750
-Connection ~ 4400 1750
-Connection ~ 4300 1750
-Wire Wire Line
-	4300 1250 4300 1800
-Wire Wire Line
-	4400 1250 4400 1800
-Wire Wire Line
-	4500 1250 4500 1800
 Wire Wire Line
 	4100 2950 4300 2950
 Wire Wire Line
@@ -644,9 +593,9 @@ Text Label 4100 2950 2    60   ~ 0
 Source_1
 Text Label 4400 2600 1    60   ~ 0
 Gate_1
-Text Label 4500 1800 3    60   ~ 0
+Text Label 4300 1200 1    60   ~ 0
 Drain_1
-Text Label 4400 1800 3    60   ~ 0
+Text Label 4500 1800 3    60   ~ 0
 Gate_1
 Text Label 4300 1800 3    60   ~ 0
 Source_1
@@ -674,4 +623,73 @@ F 5 "Good" H 4500 2950 50  0001 L BNN "Availability"
 	1    4500 2950
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	2500 1750 2400 1750
+Wire Wire Line
+	2400 1750 2400 1800
+Wire Wire Line
+	2600 1250 2600 1800
+Wire Wire Line
+	2500 1250 2400 1250
+Wire Wire Line
+	2400 1250 2400 1200
+Wire Wire Line
+	4300 1800 4300 1750
+Wire Wire Line
+	4300 1750 4400 1750
+Wire Wire Line
+	4500 1250 4500 1800
+Connection ~ 4500 1750
+Wire Wire Line
+	4400 1250 4300 1250
+Wire Wire Line
+	4300 1250 4300 1200
+Wire Wire Line
+	6200 1750 6300 1750
+Wire Wire Line
+	6400 1250 6400 1800
+Connection ~ 6400 1750
+Wire Wire Line
+	6300 1250 6200 1250
+Connection ~ 6200 1250
+Wire Wire Line
+	8100 1750 8200 1750
+Wire Wire Line
+	8300 1250 8300 1800
+Connection ~ 8300 1750
+Wire Wire Line
+	8200 1250 8100 1250
+Connection ~ 8100 1250
+Wire Wire Line
+	2400 4400 2500 4400
+Wire Wire Line
+	2600 3900 2600 4450
+Connection ~ 2600 4400
+Wire Wire Line
+	2500 3900 2400 3900
+Connection ~ 2400 3900
+Wire Wire Line
+	4300 4400 4400 4400
+Wire Wire Line
+	4500 3900 4500 4450
+Connection ~ 4500 4400
+Wire Wire Line
+	4400 3900 4300 3900
+Connection ~ 4300 3900
+Wire Wire Line
+	6200 4400 6300 4400
+Wire Wire Line
+	6400 3900 6400 4450
+Connection ~ 6400 4400
+Wire Wire Line
+	6300 3900 6200 3900
+Connection ~ 6200 3900
+Wire Wire Line
+	8100 4400 8200 4400
+Wire Wire Line
+	8300 3900 8300 4450
+Connection ~ 8300 4400
+Wire Wire Line
+	8200 3900 8100 3900
+Connection ~ 8100 3900
 $EndSCHEMATC

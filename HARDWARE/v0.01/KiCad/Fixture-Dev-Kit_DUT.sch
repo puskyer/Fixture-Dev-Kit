@@ -76,7 +76,7 @@ U 1 1 59EE2815
 P 2600 2900
 F 0 "J38" H 2600 3900 50  0000 C CNN
 F 1 "Conn_01x20" H 2600 1800 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x20_Pitch2.54mm" H 2600 2900 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x20_Pitch2.54mm" H 2600 2900 50  0001 C CNN
 F 3 "" H 2600 2900 50  0001 C CNN
 	1    2600 2900
 	-1   0    0    -1  
@@ -557,7 +557,7 @@ F 3 "" H 5150 4900 50  0001 C CNN
 	1    5150 4900
 	1    0    0    -1  
 $EndComp
-Text Notes -1900 -1550 0    197  ~ 0
+Text Notes 13150 2550 0    197  ~ 0
 TO DO:\n- is PWRON and BAT break out necessary if headers \nare already broken out?
 Text Notes 6950 1700 0    98   ~ 0
 DUT - B2B Conn
