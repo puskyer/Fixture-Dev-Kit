@@ -65,7 +65,7 @@ U 1 1 59EE6892
 P 8650 2900
 F 0 "J89" H 8150 4950 60  0000 C CNN
 F 1 "CHIP4RH" H 8400 2800 60  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x19_Pitch2.54mm" H 8700 2900 60  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x20_Pitch2.54mm" H 8700 2900 60  0001 C CNN
 F 3 "" H 8700 2900 60  0001 C CNN
 	1    8650 2900
 	1    0    0    -1  
