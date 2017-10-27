@@ -3039,7 +3039,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm (layer F.Cu) (tedit 59650532) (tstamp 59F1BA23)
-    (at 293.028095 192.775)
+    (at 189.492 32.62)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x04 2.54mm single row")
     (path /59EEAF92/59F13B18)
@@ -12533,7 +12533,7 @@
   )
 
   (module ADS1015IDGST:SOP50P490X110-10N (layer F.Cu) (tedit 59F21A1F) (tstamp 59F1D134)
-    (at 186.3551 38.94968 90)
+    (at 186.444 38.716 90)
     (path /59EEAF92/59F13B12)
     (attr smd)
     (fp_text reference U1 (at 0.711301 -3.58191 90) (layer F.SilkS)
