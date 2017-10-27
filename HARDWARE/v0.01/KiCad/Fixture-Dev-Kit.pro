@@ -1,4 +1,4 @@
-update=Wed 25 Oct 2017 04:21:34 PM PDT
+update=Fri 27 Oct 2017 02:20:11 PM PDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -64,3 +64,4 @@ LibName32=contrib
 LibName33=valves
 LibName34=Libraries/FDN337N/FDN337N
 LibName35=Libraries/TCA6424ARGJR.petty/TCA6424ARGJR
+LibName36=Libraries/USB-A1HSW6.petty/USB-A1HSW6
