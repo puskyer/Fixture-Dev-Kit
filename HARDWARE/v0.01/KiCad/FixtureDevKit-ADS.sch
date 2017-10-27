@@ -251,13 +251,13 @@ VS
 $Comp
 L Conn_01x04 J16
 U 1 1 59F16A10
-P 1350 2800
-F 0 "J16" H 1350 3000 50  0000 C CNN
-F 1 "ADS_48" H 1350 2500 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 1350 2800 50  0001 C CNN
-F 3 "" H 1350 2800 50  0001 C CNN
-	1    1350 2800
-	0    1    -1   0   
+P 1250 2800
+F 0 "J16" H 1250 3000 50  0000 C CNN
+F 1 "ADS_48" H 1250 2500 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 1250 2800 50  0001 C CNN
+F 3 "" H 1250 2800 50  0001 C CNN
+	1    1250 2800
+	0    -1   -1   0   
 $EndComp
 Text Label 1150 3050 3    60   ~ 0
 VS
@@ -287,13 +287,13 @@ Wire Wire Line
 $Comp
 L Conn_01x04 J17
 U 1 1 59F183CB
-P 1350 4850
-F 0 "J17" H 1350 5050 50  0000 C CNN
-F 1 "ADS_48" H 1350 4550 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 1350 4850 50  0001 C CNN
-F 3 "" H 1350 4850 50  0001 C CNN
-	1    1350 4850
-	0    1    1    0   
+P 1250 4850
+F 0 "J17" H 1250 5050 50  0000 C CNN
+F 1 "ADS_48" H 1250 4550 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 1250 4850 50  0001 C CNN
+F 3 "" H 1250 4850 50  0001 C CNN
+	1    1250 4850
+	0    -1   1    0   
 $EndComp
 Text Label 1150 4600 1    60   ~ 0
 VS
