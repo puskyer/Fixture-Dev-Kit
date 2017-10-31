@@ -3,7 +3,7 @@
   (general
     (links 359)
     (no_connects 359)
-    (area 0 0 0 0)
+    (area 25.959599 35.408399 171.754001 149.300401)
     (thickness 1.6)
     (drawings 56)
     (tracks 0)
@@ -427,7 +427,7 @@
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 58AA84A8) (tstamp 59F8017C)
-    (at 97.536 97.536)
+    (at 94.996 82.804)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /59EE50B5/59F03638)
@@ -463,7 +463,7 @@
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 58AA84A8) (tstamp 59F8018D)
-    (at 98.552 66.802)
+    (at 96.012 52.07)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /59EE50B5/59FAD479)
@@ -499,7 +499,7 @@
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 58AA84A8) (tstamp 59F8019E)
-    (at 98.552 64.77)
+    (at 96.012 50.038)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /59EE50B5/59FAE048)
@@ -535,7 +535,7 @@
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 58AA84A8) (tstamp 59F801AF)
-    (at 98.552 55.626)
+    (at 96.012 40.894)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /59EE50B5/59FAE0E3)
@@ -571,7 +571,7 @@
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 58AA84A8) (tstamp 59F801C0)
-    (at 108.5088 107.8484 270)
+    (at 105.9688 94.8944 270)
     (descr "Capacitor SMD 0805, hand soldering")
     (tags "capacitor 0805")
     (path /59EEAF92/59EFF32D)
@@ -607,7 +607,7 @@
   )
 
   (module LEDs:LED_0805_HandSoldering (layer F.Cu) (tedit 595FCA25) (tstamp 59F801D5)
-    (at 162.941 48.387 180)
+    (at 160.401 33.655 180)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EE3928/59EFC041)
@@ -645,7 +645,7 @@
   )
 
   (module LEDs:LED_0805_HandSoldering (layer F.Cu) (tedit 595FCA25) (tstamp 59F801EA)
-    (at 162.433 60.198)
+    (at 159.893 45.466)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EE3928/59F311F9)
@@ -683,7 +683,7 @@
   )
 
   (module LEDs:LED_0805_HandSoldering (layer F.Cu) (tedit 595FCA25) (tstamp 59F801FF)
-    (at 162.179 76.708)
+    (at 159.639 61.976)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EE3928/59F3152A)
@@ -721,7 +721,7 @@
   )
 
   (module LEDs:LED_0805_HandSoldering (layer F.Cu) (tedit 595FCA25) (tstamp 59F80214)
-    (at 162.306 91.948 180)
+    (at 159.766 77.216 180)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EE3928/59F31563)
@@ -759,7 +759,7 @@
   )
 
   (module LEDs:LED_0805_HandSoldering (layer F.Cu) (tedit 595FCA25) (tstamp 59F80229)
-    (at 162.941 53.721)
+    (at 160.401 38.989)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EE3928/59EFBE3C)
@@ -797,7 +797,7 @@
   )
 
   (module LEDs:LED_0805_HandSoldering (layer F.Cu) (tedit 595FCA25) (tstamp 59F8023E)
-    (at 162.433 65.659)
+    (at 159.893 50.927)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EE3928/59F311F3)
@@ -835,7 +835,7 @@
   )
 
   (module LEDs:LED_0805_HandSoldering (layer F.Cu) (tedit 595FCA25) (tstamp 59F80253)
-    (at 162.179 82.042)
+    (at 159.639 67.31)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EE3928/59F31524)
@@ -873,7 +873,7 @@
   )
 
   (module LEDs:LED_0805_HandSoldering (layer F.Cu) (tedit 595FCA25) (tstamp 59F80268)
-    (at 162.56 97.2312)
+    (at 160.02 82.4992)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EE3928/59F3155D)
@@ -911,7 +911,7 @@
   )
 
   (module LEDs:LED_0805_HandSoldering (layer F.Cu) (tedit 595FCA25) (tstamp 59F8027D)
-    (at 57.7596 46.482)
+    (at 55.2196 33.528)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EE6806/59EE94F2)
@@ -949,7 +949,7 @@
   )
 
   (module 1206:1206 (layer F.Cu) (tedit 0) (tstamp 59F80289)
-    (at 92.456 93.472)
+    (at 89.916 78.74)
     (descr "Multilayer SMD")
     (path /59EE50B5/59F7E979)
     (attr smd)
@@ -972,7 +972,7 @@
   )
 
   (module 1206:1206 (layer F.Cu) (tedit 0) (tstamp 59F80295)
-    (at 92.456 77.724)
+    (at 89.916 62.992)
     (descr "Multilayer SMD")
     (path /59EE50B5/59FAD4D8)
     (attr smd)
@@ -995,7 +995,7 @@
   )
 
   (module 1206:1206 (layer F.Cu) (tedit 0) (tstamp 59F802A1)
-    (at 93.472 62.484)
+    (at 90.932 47.752)
     (descr "Multilayer SMD")
     (path /59EE50B5/59FAE0A7)
     (attr smd)
@@ -1018,7 +1018,7 @@
   )
 
   (module 1206:1206 (layer F.Cu) (tedit 0) (tstamp 59F802AD)
-    (at 93.726 48.514)
+    (at 91.186 33.782)
     (descr "Multilayer SMD")
     (path /59EE50B5/59FAE142)
     (attr smd)
@@ -1041,7 +1041,7 @@
   )
 
   (module 1206:1206 (layer F.Cu) (tedit 0) (tstamp 59F802B9)
-    (at 89.9668 118.5164 270)
+    (at 87.4268 105.5624 270)
     (descr "Multilayer SMD")
     (path /59EEAF92/59F8BE24)
     (attr smd)
@@ -1064,7 +1064,7 @@
   )
 
   (module 1206:1206 (layer F.Cu) (tedit 0) (tstamp 59F802C5)
-    (at 106.4768 118.0084 270)
+    (at 103.9368 105.0544 270)
     (descr "Multilayer SMD")
     (path /59EEAF92/59F8F607)
     (attr smd)
@@ -1087,7 +1087,7 @@
   )
 
   (module 1206:1206 (layer F.Cu) (tedit 0) (tstamp 59F802D1)
-    (at 121.2088 118.0084 270)
+    (at 118.6688 105.0544 270)
     (descr "Multilayer SMD")
     (path /59EEAF92/59F905D3)
     (attr smd)
@@ -1110,7 +1110,7 @@
   )
 
   (module 1206:1206 (layer F.Cu) (tedit 0) (tstamp 59F802DD)
-    (at 136.4488 118.0084 270)
+    (at 133.9088 105.0544 270)
     (descr "Multilayer SMD")
     (path /59EEAF92/59F905FA)
     (attr smd)
@@ -1133,7 +1133,7 @@
   )
 
   (module 1206:1206 (layer F.Cu) (tedit 0) (tstamp 59F802E9)
-    (at 45.212 46.8884)
+    (at 42.672 33.9344)
     (descr "Multilayer SMD")
     (path /59EE6806/59F1EC7A)
     (attr smd)
@@ -1155,7 +1155,7 @@
   )
 
   (module 1206:1206 (layer F.Cu) (tedit 0) (tstamp 59F802F5)
-    (at 97.536 99.822 180)
+    (at 94.996 85.09 180)
     (descr "Multilayer SMD")
     (path /59EE50B5/59F7DD54)
     (attr smd)
@@ -1178,7 +1178,7 @@
   )
 
   (module 1206:1206 (layer F.Cu) (tedit 0) (tstamp 59F80301)
-    (at 97.282 84.074)
+    (at 94.742 69.342)
     (descr "Multilayer SMD")
     (path /59EE50B5/59FAD4C6)
     (attr smd)
@@ -1201,7 +1201,7 @@
   )
 
   (module 1206:1206 (layer F.Cu) (tedit 0) (tstamp 59F8030D)
-    (at 98.298 70.104)
+    (at 95.758 55.372)
     (descr "Multilayer SMD")
     (path /59EE50B5/59FAE095)
     (attr smd)
@@ -1224,7 +1224,7 @@
   )
 
   (module 1206:1206 (layer F.Cu) (tedit 0) (tstamp 59F80319)
-    (at 98.552 53.086 180)
+    (at 96.012 38.354 180)
     (descr "Multilayer SMD")
     (path /59EE50B5/59FAE130)
     (attr smd)
@@ -1247,7 +1247,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_2x10_Pitch2.54mm (layer F.Cu) (tedit 59650532) (tstamp 59F80343)
-    (at 55.88 121.92 90)
+    (at 53.34 108.966 90)
     (descr "Through hole straight pin header, 2x10, 2.54mm pitch, double rows")
     (tags "Through hole pin header THT 2x10 2.54mm double row")
     (path /59F9BE05)
@@ -1325,7 +1325,7 @@
   )
 
   (module TerminalBlocks_Phoenix:TerminalBlock_Phoenix_MPT-2.54mm_2pol (layer F.Cu) (tedit 59C8F4B3) (tstamp 59F80358)
-    (at 64.008 44.8564)
+    (at 61.468 31.9024)
     (descr "2-way 2.54mm pitch terminal block, Phoenix MPT series")
     (path /59F1B009)
     (fp_text reference J2 (at 1.27 -4.50088) (layer F.SilkS)
@@ -1361,7 +1361,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm (layer F.Cu) (tedit 59650532) (tstamp 59F8036F)
-    (at 153.289 48.387)
+    (at 150.749 33.655)
     (descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x03 2.54mm single row")
     (path /59EE3928/59EF71A1)
@@ -1403,7 +1403,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm (layer F.Cu) (tedit 59650532) (tstamp 59F80386)
-    (at 153.162 60.452)
+    (at 150.622 45.72)
     (descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x03 2.54mm single row")
     (path /59EE3928/59F311DE)
@@ -1445,7 +1445,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm (layer F.Cu) (tedit 59650532) (tstamp 59F8039D)
-    (at 153.035 76.835)
+    (at 150.495 62.103)
     (descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x03 2.54mm single row")
     (path /59EE3928/59F3150F)
@@ -1487,7 +1487,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm (layer F.Cu) (tedit 59650532) (tstamp 59F803B4)
-    (at 153.1874 92.075)
+    (at 150.6474 77.343)
     (descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x03 2.54mm single row")
     (path /59EE3928/59F31548)
@@ -1529,7 +1529,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm (layer F.Cu) (tedit 59650532) (tstamp 59F803CC)
-    (at 89.1032 132.0292 90)
+    (at 86.5632 119.0752 90)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x04 2.54mm single row")
     (path /59EE3928/59EFFB2E)
@@ -1569,7 +1569,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm (layer F.Cu) (tedit 59650532) (tstamp 59F803E4)
-    (at 101.2952 131.7752 90)
+    (at 98.7552 118.8212 90)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x04 2.54mm single row")
     (path /59EE3928/59F0098A)
@@ -1609,7 +1609,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm (layer F.Cu) (tedit 59650532) (tstamp 59F803FC)
-    (at 113.8428 131.6736 90)
+    (at 111.3028 118.7196 90)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x04 2.54mm single row")
     (path /59EE3928/59F00B8C)
@@ -1649,7 +1649,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm (layer F.Cu) (tedit 59650532) (tstamp 59F80414)
-    (at 126.6952 132.0292 90)
+    (at 124.1552 119.0752 90)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x04 2.54mm single row")
     (path /59EE3928/59F00BA6)
@@ -1689,7 +1689,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm (layer F.Cu) (tedit 59650532) (tstamp 59F80430)
-    (at 124.3076 47.8536)
+    (at 121.7676 33.1216)
     (descr "Through hole straight pin header, 2x03, 2.54mm pitch, double rows")
     (tags "Through hole pin header THT 2x03 2.54mm double row")
     (path /59EFF8A7/59F012B7)
@@ -1739,7 +1739,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm (layer F.Cu) (tedit 59650532) (tstamp 59F8044C)
-    (at 124.5616 60.1472)
+    (at 122.0216 45.4152)
     (descr "Through hole straight pin header, 2x03, 2.54mm pitch, double rows")
     (tags "Through hole pin header THT 2x03 2.54mm double row")
     (path /59EFF8A7/59F3F5C3)
@@ -1789,7 +1789,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm (layer F.Cu) (tedit 59650532) (tstamp 59F80468)
-    (at 125.222 76.9112)
+    (at 122.682 62.1792)
     (descr "Through hole straight pin header, 2x03, 2.54mm pitch, double rows")
     (tags "Through hole pin header THT 2x03 2.54mm double row")
     (path /59F1138D/59F0D8BC)
@@ -1839,7 +1839,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm (layer F.Cu) (tedit 59650532) (tstamp 59F80484)
-    (at 124.5108 91.5416)
+    (at 121.9708 76.8096)
     (descr "Through hole straight pin header, 2x03, 2.54mm pitch, double rows")
     (tags "Through hole pin header THT 2x03 2.54mm double row")
     (path /59F1138D/59F0E0F8)
@@ -1889,7 +1889,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x20_Pitch2.54mm (layer F.Cu) (tedit 59650532) (tstamp 59F804AC)
-    (at 78.74 53.34 270)
+    (at 76.2 40.386 270)
     (descr "Through hole straight pin header, 1x20, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x20 2.54mm single row")
     (path /59EE6806/59EE6A17)
@@ -1965,7 +1965,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x20_Pitch2.54mm (layer F.Cu) (tedit 59650532) (tstamp 59F804D4)
-    (at 78.74 55.88 270)
+    (at 76.2 42.926 270)
     (descr "Through hole straight pin header, 1x20, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x20 2.54mm single row")
     (path /59EE6806/59EE69C7)
@@ -2040,7 +2040,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_2x20_Pitch2.54mm (layer F.Cu) (tedit 59650533) (tstamp 59F80512)
-    (at 78.74 63.5 270)
+    (at 76.2 50.546 270)
     (descr "Through hole straight pin header, 2x20, 2.54mm pitch, double rows")
     (tags "Through hole pin header THT 2x20 2.54mm double row")
     (path /59EE6806/59EE6892)
@@ -2156,7 +2156,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x20_Pitch2.54mm (layer F.Cu) (tedit 59650532) (tstamp 59F805A8)
-    (at 78.74 109.22 270)
+    (at 76.2 96.266 270)
     (descr "Through hole straight pin header, 1x20, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x20 2.54mm single row")
     (path /59EE6806/59EE6A7B)
@@ -2232,7 +2232,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x20_Pitch2.54mm (layer F.Cu) (tedit 59650532) (tstamp 59F805D0)
-    (at 78.74 111.76 270)
+    (at 76.2 98.806 270)
     (descr "Through hole straight pin header, 1x20, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x20 2.54mm single row")
     (path /59EE6806/59EE6B51)
@@ -2308,7 +2308,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_2x20_Pitch2.54mm (layer F.Cu) (tedit 59650533) (tstamp 59F8060E)
-    (at 78.74 99.06 270)
+    (at 76.2 86.106 270)
     (descr "Through hole straight pin header, 2x20, 2.54mm pitch, double rows")
     (tags "Through hole pin header THT 2x20 2.54mm double row")
     (path /59EE6806/59EE680F)
@@ -2426,7 +2426,7 @@
   )
 
   (module Connectors_JST:JST_PH_S2B-PH-K_02x2.00mm_Angled (layer F.Cu) (tedit 58D3FE32) (tstamp 59F80653)
-    (at 73.7616 46.5836 180)
+    (at 71.2216 33.6296 180)
     (descr "JST PH series connector, S2B-PH-K, side entry type, through hole, Datasheet: http://www.jst-mfg.com/product/pdf/eng/ePH.pdf")
     (tags "connector jst ph")
     (path /59EE6806/59EEB707)
@@ -2491,7 +2491,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm (layer F.Cu) (tedit 59650532) (tstamp 59F80669)
-    (at 87.884 90.932)
+    (at 85.344 76.2)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /59EE50B5/59F84C56)
@@ -2531,7 +2531,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm (layer F.Cu) (tedit 59650532) (tstamp 59F8067F)
-    (at 87.884 75.184)
+    (at 85.344 60.452)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /59EE50B5/59FAD506)
@@ -2571,7 +2571,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm (layer F.Cu) (tedit 59650532) (tstamp 59F80695)
-    (at 88.646 59.944)
+    (at 86.106 45.212)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /59EE50B5/59FAE0D5)
@@ -2611,7 +2611,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm (layer F.Cu) (tedit 59650532) (tstamp 59F806AB)
-    (at 88.9 45.974)
+    (at 86.36 31.242)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /59EE50B5/59FAE170)
@@ -2651,7 +2651,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm (layer F.Cu) (tedit 59650532) (tstamp 59F806C3)
-    (at 90.2208 108.6104 90)
+    (at 87.6808 95.6564 90)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x04 2.54mm single row")
     (path /59EEAF92/59F96B41)
@@ -2695,7 +2695,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm (layer F.Cu) (tedit 59650532) (tstamp 59F806EF)
-    (at 87.884 97.282)
+    (at 85.344 82.55)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /59EE50B5/59F03657)
@@ -2735,7 +2735,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm (layer F.Cu) (tedit 59650532) (tstamp 59F80705)
-    (at 88.646 66.548)
+    (at 86.106 51.816)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /59EE50B5/59FAD491)
@@ -2775,7 +2775,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm (layer F.Cu) (tedit 59650532) (tstamp 59F8071B)
-    (at 88.9 52.324)
+    (at 86.36 37.592)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /59EE50B5/59FAE060)
@@ -2815,7 +2815,7 @@
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm (layer F.Cu) (tedit 59650532) (tstamp 59F80731)
-    (at 87.884 81.534)
+    (at 85.344 66.802)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /59EE50B5/59FAE0FB)
@@ -2855,7 +2855,7 @@
   )
 
   (module TO_SOT_Packages_SMD:SOT-223 (layer F.Cu) (tedit 58CE4E7E) (tstamp 59F80763)
-    (at 133.858 50.1396 180)
+    (at 131.318 35.4076 180)
     (descr "module CMS SOT223 4 pins")
     (tags "CMS SOT")
     (path /59EFF8A7/59F00EBB)
@@ -2898,7 +2898,7 @@
   )
 
   (module TO_SOT_Packages_SMD:SOT-223 (layer F.Cu) (tedit 58CE4E7E) (tstamp 59F80779)
-    (at 134.2136 62.8396 180)
+    (at 131.6736 48.1076 180)
     (descr "module CMS SOT223 4 pins")
     (tags "CMS SOT")
     (path /59EFF8A7/59F01C9D)
@@ -2941,7 +2941,7 @@
   )
 
   (module FDN337N:SSOT-3 (layer F.Cu) (tedit 0) (tstamp 59F8078B)
-    (at 132.334 81.4324 90)
+    (at 129.794 66.7004 90)
     (descr SuperSOT-3)
     (path /59F1138D/59F0D7B8)
     (attr smd)
@@ -2971,7 +2971,7 @@
   )
 
   (module FDN337N:SSOT-3 (layer F.Cu) (tedit 0) (tstamp 59F8079D)
-    (at 131.6736 95.8596 90)
+    (at 129.1336 81.1276 90)
     (descr SuperSOT-3)
     (path /59F1138D/59F0E0F2)
     (attr smd)
@@ -3001,7 +3001,7 @@
   )
 
   (module NTF2955T1G:SOT230P700X180-4N (layer F.Cu) (tedit 0) (tstamp 59F807BD)
-    (at 105.41 98.298)
+    (at 102.87 83.566)
     (path /59EE50B5/59F80453)
     (attr smd)
     (fp_text reference Q5 (at -0.636932 -4.61147) (layer F.SilkS)
@@ -3045,7 +3045,7 @@
   )
 
   (module NTF2955T1G:SOT230P700X180-4N (layer F.Cu) (tedit 0) (tstamp 59F807DD)
-    (at 105.664 76.708)
+    (at 103.124 61.976)
     (path /59EE50B5/59FAD4E0)
     (attr smd)
     (fp_text reference Q6 (at -0.636932 -4.61147) (layer F.SilkS)
@@ -3089,7 +3089,7 @@
   )
 
   (module NTF2955T1G:SOT230P700X180-4N (layer F.Cu) (tedit 0) (tstamp 59F807FD)
-    (at 105.41 91.44)
+    (at 102.87 76.708)
     (path /59EE50B5/59F7D59C)
     (attr smd)
     (fp_text reference Q7 (at -0.636932 -4.61147) (layer F.SilkS)
@@ -3133,7 +3133,7 @@
   )
 
   (module NTF2955T1G:SOT230P700X180-4N (layer F.Cu) (tedit 0) (tstamp 59F8081D)
-    (at 105.918 83.566)
+    (at 103.124 69.088)
     (path /59EE50B5/59FAD4B5)
     (attr smd)
     (fp_text reference Q8 (at -0.636932 -4.61147) (layer F.SilkS)
@@ -3177,7 +3177,7 @@
   )
 
   (module NTF2955T1G:SOT230P700X180-4N (layer F.Cu) (tedit 0) (tstamp 59F8083D)
-    (at 105.664 60.706)
+    (at 103.124 45.974)
     (path /59EE50B5/59FAE0AF)
     (attr smd)
     (fp_text reference Q9 (at -0.636932 -4.61147) (layer F.SilkS)
@@ -3221,7 +3221,7 @@
   )
 
   (module NTF2955T1G:SOT230P700X180-4N (layer F.Cu) (tedit 0) (tstamp 59F8085D)
-    (at 105.918 45.974)
+    (at 103.378 31.242)
     (path /59EE50B5/59FAE14A)
     (attr smd)
     (fp_text reference Q10 (at -0.636932 -4.61147) (layer F.SilkS)
@@ -3265,7 +3265,7 @@
   )
 
   (module NTF2955T1G:SOT230P700X180-4N (layer F.Cu) (tedit 0) (tstamp 59F8087D)
-    (at 105.664 67.818)
+    (at 103.124 53.086)
     (path /59EE50B5/59FAE084)
     (attr smd)
     (fp_text reference Q11 (at -0.636932 -4.61147) (layer F.SilkS)
@@ -3309,7 +3309,7 @@
   )
 
   (module NTF2955T1G:SOT230P700X180-4N (layer F.Cu) (tedit 0) (tstamp 59F8089D)
-    (at 105.918 53.086)
+    (at 103.378 38.354)
     (path /59EE50B5/59FAE11F)
     (attr smd)
     (fp_text reference Q12 (at -0.636932 -4.61147) (layer F.SilkS)
@@ -3353,7 +3353,7 @@
   )
 
   (module FDN337N:SSOT-3 (layer F.Cu) (tedit 0) (tstamp 59F808AF)
-    (at 88.6968 123.0884 90)
+    (at 86.1568 110.1344 90)
     (descr SuperSOT-3)
     (path /59EEAF92/59F8DFCB)
     (attr smd)
@@ -3383,7 +3383,7 @@
   )
 
   (module FDN337N:SSOT-3 (layer F.Cu) (tedit 0) (tstamp 59F808C1)
-    (at 105.4608 122.5804 90)
+    (at 102.9208 109.6264 90)
     (descr SuperSOT-3)
     (path /59EEAF92/59F8F61E)
     (attr smd)
@@ -3413,7 +3413,7 @@
   )
 
   (module FDN337N:SSOT-3 (layer F.Cu) (tedit 0) (tstamp 59F808D3)
-    (at 119.9388 122.5804 90)
+    (at 117.3988 109.6264 90)
     (descr SuperSOT-3)
     (path /59EEAF92/59F905EA)
     (attr smd)
@@ -3443,7 +3443,7 @@
   )
 
   (module FDN337N:SSOT-3 (layer F.Cu) (tedit 0) (tstamp 59F808E5)
-    (at 135.4328 122.5804 90)
+    (at 132.8928 109.6264 90)
     (descr SuperSOT-3)
     (path /59EEAF92/59F90611)
     (attr smd)
@@ -3473,7 +3473,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59F808F6)
-    (at 157.861 48.387)
+    (at 155.321 33.655)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EE3928/59EF799A)
@@ -3509,7 +3509,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59F80907)
-    (at 157.48 60.198 180)
+    (at 154.94 45.466 180)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EE3928/59F311ED)
@@ -3545,7 +3545,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59F80918)
-    (at 157.353 76.708)
+    (at 154.813 61.976)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EE3928/59F3151E)
@@ -3581,7 +3581,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59F80929)
-    (at 157.48 91.948 180)
+    (at 154.94 77.216 180)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EE3928/59F31557)
@@ -3617,7 +3617,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59F8093A)
-    (at 157.861 53.721)
+    (at 155.321 38.989)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EE3928/59EF753E)
@@ -3653,7 +3653,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59F8094B)
-    (at 157.48 65.659)
+    (at 154.94 50.927)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EE3928/59F311E7)
@@ -3689,7 +3689,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59F8095C)
-    (at 157.353 82.042)
+    (at 154.813 67.31)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EE3928/59F31518)
@@ -3725,7 +3725,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59F8096D)
-    (at 157.5816 97.282)
+    (at 155.0416 82.55)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EE3928/59F31551)
@@ -3761,7 +3761,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59F8097E)
-    (at 142.5956 49.4792 270)
+    (at 140.0556 34.7472 270)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EFF8A7/59F140D6)
@@ -3797,7 +3797,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59F8098F)
-    (at 140.0556 49.5808 270)
+    (at 137.5156 34.8488 270)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EFF8A7/59F13EF6)
@@ -3833,7 +3833,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59F809A0)
-    (at 142.748 61.722 90)
+    (at 140.208 46.99 90)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EFF8A7/59F15AB1)
@@ -3869,7 +3869,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59F809B1)
-    (at 140.1572 61.8744 90)
+    (at 137.6172 47.1424 90)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EFF8A7/59F159CE)
@@ -3905,7 +3905,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59F809C2)
-    (at 132.842 76.6064 180)
+    (at 130.302 61.8744 180)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59F1138D/59F0DB1F)
@@ -3941,7 +3941,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59F809D3)
-    (at 132.842 78.5876)
+    (at 130.302 63.8556)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59F1138D/59F0DAD5)
@@ -3977,7 +3977,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59F809E4)
-    (at 132.1816 92.9132)
+    (at 129.6416 78.1812)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59F1138D/59F0E10A)
@@ -4013,7 +4013,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59F809F5)
-    (at 132.2832 90.6272)
+    (at 129.7432 75.8952)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59F1138D/59F0E104)
@@ -4049,7 +4049,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59F80A28)
-    (at 50.9016 46.482)
+    (at 48.3616 33.528)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EE6806/59EEAD6D)
@@ -4085,7 +4085,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59F80A39)
-    (at 97.536 93.472)
+    (at 94.996 78.74)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EE50B5/59F7E8D2)
@@ -4121,7 +4121,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59F80A4A)
-    (at 97.536 77.724)
+    (at 94.996 62.992)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EE50B5/59FAD4D2)
@@ -4157,7 +4157,7 @@
   )
 
   (module RES_TWM3J560E:RES_TWM3J560E (layer F.Cu) (tedit 0) (tstamp 59F80A58)
-    (at 114.808 94.742 90)
+    (at 112.268 80.01 90)
     (path /59EE50B5/59F80535)
     (fp_text reference R22 (at -3.61502 -5.29234 90) (layer F.SilkS)
       (effects (font (size 1.00139 1.00139) (thickness 0.05)))
@@ -4180,7 +4180,7 @@
   )
 
   (module RES_TWM3J560E:RES_TWM3J560E (layer F.Cu) (tedit 0) (tstamp 59F80A66)
-    (at 114.554 79.756 270)
+    (at 112.014 65.024 270)
     (path /59EE50B5/59FAD4E6)
     (fp_text reference R23 (at -3.61502 -5.29234 270) (layer F.SilkS)
       (effects (font (size 1.00139 1.00139) (thickness 0.05)))
@@ -4203,7 +4203,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59F80A77)
-    (at 92.202 97.536 180)
+    (at 89.662 82.804 180)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EE50B5/59F7D7FD)
@@ -4239,7 +4239,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59F80A88)
-    (at 92.202 79.756)
+    (at 89.662 65.024)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EE50B5/59FAD4BB)
@@ -4275,7 +4275,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59F80A99)
-    (at 97.536 95.504 180)
+    (at 94.996 80.772 180)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EE50B5/59F03644)
@@ -4311,7 +4311,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59F80AAA)
-    (at 92.202 81.788)
+    (at 89.662 67.056)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EE50B5/59FAD485)
@@ -4347,7 +4347,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59F80ABB)
-    (at 92.202 95.504 180)
+    (at 89.662 80.772 180)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EE50B5/59F0364A)
@@ -4383,7 +4383,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59F80ACC)
-    (at 97.536 79.756)
+    (at 94.996 65.024)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EE50B5/59FAD48B)
@@ -4419,7 +4419,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59F80ADD)
-    (at 98.806 62.484)
+    (at 96.266 47.752)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EE50B5/59FAE0A1)
@@ -4455,7 +4455,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59F80AEE)
-    (at 98.806 48.514)
+    (at 96.266 33.782)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EE50B5/59FAE13C)
@@ -4491,7 +4491,7 @@
   )
 
   (module RES_TWM3J560E:RES_TWM3J560E (layer F.Cu) (tedit 0) (tstamp 59F80AFC)
-    (at 114.808 63.754 270)
+    (at 112.268 49.022 270)
     (path /59EE50B5/59FAE0B5)
     (fp_text reference R32 (at -3.61502 -5.29234 270) (layer F.SilkS)
       (effects (font (size 1.00139 1.00139) (thickness 0.05)))
@@ -4514,7 +4514,7 @@
   )
 
   (module RES_TWM3J560E:RES_TWM3J560E (layer F.Cu) (tedit 0) (tstamp 59F80B0A)
-    (at 114.808 49.784 270)
+    (at 112.268 35.052 270)
     (path /59EE50B5/59FAE150)
     (fp_text reference R33 (at -3.61502 -5.29234 270) (layer F.SilkS)
       (effects (font (size 1.00139 1.00139) (thickness 0.05)))
@@ -4537,7 +4537,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59F80B1B)
-    (at 153.416 70.358)
+    (at 150.876 55.626)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EE50B5/59FAE08A)
@@ -4573,7 +4573,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59F80B2C)
-    (at 98.806 50.8)
+    (at 96.266 36.068)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EE50B5/59FAE125)
@@ -4609,7 +4609,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59F80B3D)
-    (at 93.472 64.516)
+    (at 90.932 49.784)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EE50B5/59FAE054)
@@ -4645,7 +4645,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59F80B4E)
-    (at 93.472 52.578)
+    (at 90.932 37.846)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EE50B5/59FAE0EF)
@@ -4681,7 +4681,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59F80B5F)
-    (at 93.472 66.548)
+    (at 90.932 51.816)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EE50B5/59FAE05A)
@@ -4717,7 +4717,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59F80B70)
-    (at 93.472 50.546)
+    (at 90.932 35.814)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EE50B5/59FAE0F5)
@@ -4753,7 +4753,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59F80B81)
-    (at 87.9348 118.5164 90)
+    (at 85.3948 105.5624 90)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EEAF92/59F8C1AA)
@@ -4789,7 +4789,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59F80B92)
-    (at 104.4448 118.0084 90)
+    (at 101.9048 105.0544 90)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EEAF92/59F8F60E)
@@ -4825,7 +4825,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59F80BA3)
-    (at 119.4308 118.0084 270)
+    (at 116.8908 105.0544 270)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EEAF92/59F905DA)
@@ -4861,7 +4861,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59F80BB4)
-    (at 134.6708 118.0084 270)
+    (at 132.1308 105.0544 270)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EEAF92/59F90601)
@@ -4897,7 +4897,7 @@
   )
 
   (module RES_TWM3J560E:RES_TWM3J560E (layer F.Cu) (tedit 0) (tstamp 59F80BC2)
-    (at 98.3488 118.0084 270)
+    (at 95.8088 105.0544 270)
     (path /59EEAF92/59F8B497)
     (fp_text reference R44 (at -3.61502 -5.29234 270) (layer F.SilkS)
       (effects (font (size 1.00139 1.00139) (thickness 0.05)))
@@ -4920,7 +4920,7 @@
   )
 
   (module RES_TWM3J560E:RES_TWM3J560E (layer F.Cu) (tedit 0) (tstamp 59F80BD0)
-    (at 112.5728 118.0084 270)
+    (at 110.0328 105.0544 270)
     (path /59EEAF92/59F8F5FF)
     (fp_text reference R45 (at -3.61502 -5.29234 270) (layer F.SilkS)
       (effects (font (size 1.00139 1.00139) (thickness 0.05)))
@@ -4943,7 +4943,7 @@
   )
 
   (module RES_TWM3J560E:RES_TWM3J560E (layer F.Cu) (tedit 0) (tstamp 59F80BDE)
-    (at 127.0508 118.0084 270)
+    (at 124.5108 105.0544 270)
     (path /59EEAF92/59F905CB)
     (fp_text reference R46 (at -3.61502 -5.29234 270) (layer F.SilkS)
       (effects (font (size 1.00139 1.00139) (thickness 0.05)))
@@ -4966,7 +4966,7 @@
   )
 
   (module RES_TWM3J560E:RES_TWM3J560E (layer F.Cu) (tedit 0) (tstamp 59F80BEC)
-    (at 142.0368 118.0084 270)
+    (at 139.4968 105.0544 270)
     (path /59EEAF92/59F905F2)
     (fp_text reference R47 (at -3.61502 -5.29234 270) (layer F.SilkS)
       (effects (font (size 1.00139 1.00139) (thickness 0.05)))
@@ -4989,7 +4989,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59F80BFD)
-    (at 119.9388 107.8484 270)
+    (at 117.3988 94.8944 270)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EEAF92/59F13B52)
@@ -5025,7 +5025,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59F80C0E)
-    (at 124.0028 107.8484 270)
+    (at 121.4628 94.8944 270)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EEAF92/59F13B22)
@@ -5061,7 +5061,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59F80C1F)
-    (at 128.0668 107.8484 90)
+    (at 125.5268 94.8944 90)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EEAF92/59F13B28)
@@ -5097,7 +5097,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59F80C30)
-    (at 132.1308 107.8484 270)
+    (at 129.5908 94.8944 270)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EEAF92/59F13B2E)
@@ -5133,7 +5133,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59F80C41)
-    (at 117.9068 107.8484 90)
+    (at 115.3668 94.8944 90)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EEAF92/59F13B34)
@@ -5169,7 +5169,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59F80C52)
-    (at 121.9708 107.8484 90)
+    (at 119.4308 94.8944 90)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EEAF92/59F13B3A)
@@ -5205,7 +5205,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59F80C63)
-    (at 126.0348 107.8484 90)
+    (at 123.4948 94.8944 90)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EEAF92/59F13B40)
@@ -5241,7 +5241,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59F80C74)
-    (at 130.0988 107.8484 90)
+    (at 127.5588 94.8944 90)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EEAF92/59F13B46)
@@ -5277,7 +5277,7 @@
   )
 
   (module TestPoint:TestPoint (layer F.Cu) (tedit 59F120C2) (tstamp 59F80C79)
-    (at 162.9156 51.054)
+    (at 160.3756 36.322)
     (path /59EE3928/59EFEE69)
     (fp_text reference TP1 (at -1.27 -1.27) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5290,7 +5290,7 @@
   )
 
   (module TestPoint:TestPoint (layer F.Cu) (tedit 59F120C2) (tstamp 59F80C7E)
-    (at 162.6108 62.6872)
+    (at 160.0708 47.9552)
     (path /59EE3928/59F3120B)
     (fp_text reference TP2 (at -1.27 -1.27) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5303,7 +5303,7 @@
   )
 
   (module TestPoint:TestPoint (layer F.Cu) (tedit 59F120C2) (tstamp 59F80C83)
-    (at 162.6108 79.502)
+    (at 160.0708 64.77)
     (path /59EE3928/59F3153C)
     (fp_text reference TP3 (at -1.27 -1.27) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5316,7 +5316,7 @@
   )
 
   (module TestPoint:TestPoint (layer F.Cu) (tedit 59F120C2) (tstamp 59F80C88)
-    (at 162.4584 94.4372)
+    (at 159.9184 79.7052)
     (path /59EE3928/59F31575)
     (fp_text reference TP4 (at -1.27 -1.27) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5329,7 +5329,7 @@
   )
 
   (module TestPoint:TestPoint (layer F.Cu) (tedit 59F120C2) (tstamp 59F80C8D)
-    (at 145.034 53.4416)
+    (at 142.494 38.7096)
     (path /59EFF8A7/59F010EC)
     (fp_text reference TP5 (at -1.27 -1.27) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5342,7 +5342,7 @@
   )
 
   (module TestPoint:TestPoint (layer F.Cu) (tedit 59F120C2) (tstamp 59F80C92)
-    (at 145.034 65.4304)
+    (at 142.494 50.6984)
     (path /59EFF8A7/59F01CA3)
     (fp_text reference TP6 (at -1.27 -1.27) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5355,7 +5355,7 @@
   )
 
   (module TestPoint:TestPoint (layer F.Cu) (tedit 59F120C2) (tstamp 59F80C97)
-    (at 142.5956 53.3908)
+    (at 140.0556 38.6588)
     (path /59EFF8A7/59F01182)
     (fp_text reference TP7 (at -1.27 -1.27) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5368,7 +5368,7 @@
   )
 
   (module TestPoint:TestPoint (layer F.Cu) (tedit 59F120C2) (tstamp 59F80C9C)
-    (at 139.8524 53.2384)
+    (at 137.3124 38.5064)
     (path /59EFF8A7/59F01148)
     (fp_text reference TP8 (at -1.27 -1.27) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5381,7 +5381,7 @@
   )
 
   (module TestPoint:TestPoint (layer F.Cu) (tedit 59F120C2) (tstamp 59F80CA1)
-    (at 142.748 65.3288)
+    (at 140.208 50.5968)
     (path /59EFF8A7/59F01CAF)
     (fp_text reference TP9 (at -1.27 -1.27) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5394,7 +5394,7 @@
   )
 
   (module TestPoint:TestPoint (layer F.Cu) (tedit 59F120C2) (tstamp 59F80CA6)
-    (at 140.0048 65.532)
+    (at 137.4648 50.8)
     (path /59EFF8A7/59F01CA9)
     (fp_text reference TP10 (at -1.27 -1.27) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -5407,7 +5407,7 @@
   )
 
   (module INA219BIDCNR:SOT65P280X145-8N (layer F.Cu) (tedit 0) (tstamp 59F80CE6)
-    (at 91.948 100.076)
+    (at 89.408 85.344)
     (path /59EE50B5/59F03632)
     (attr smd)
     (fp_text reference U1 (at 0.712769 -4.22571) (layer F.SilkS)
@@ -5487,7 +5487,7 @@
   )
 
   (module INA219BIDCNR:SOT65P280X145-8N (layer F.Cu) (tedit 0) (tstamp 59F80D26)
-    (at 92.202 84.074)
+    (at 89.662 69.342)
     (path /59EE50B5/59FAD4AD)
     (attr smd)
     (fp_text reference U2 (at 0.712769 -4.22571) (layer F.SilkS)
@@ -5567,7 +5567,7 @@
   )
 
   (module INA219BIDCNR:SOT65P280X145-8N (layer F.Cu) (tedit 0) (tstamp 59F80D66)
-    (at 92.964 69.088)
+    (at 90.424 54.356)
     (path /59EE50B5/59FAE07C)
     (attr smd)
     (fp_text reference U3 (at 0.712769 -4.22571) (layer F.SilkS)
@@ -5647,7 +5647,7 @@
   )
 
   (module INA219BIDCNR:SOT65P280X145-8N (layer F.Cu) (tedit 0) (tstamp 59F80DA6)
-    (at 93.218 55.118)
+    (at 90.678 40.386)
     (path /59EE50B5/59FAE117)
     (attr smd)
     (fp_text reference U4 (at 0.712769 -4.22571) (layer F.SilkS)
@@ -5727,7 +5727,7 @@
   )
 
   (module ADS1015IDGST:SOP50P490X110-10N (layer F.Cu) (tedit 0) (tstamp 59F80DE9)
-    (at 112.3188 107.8484 90)
+    (at 109.7788 94.8944 90)
     (path /59EEAF92/59F13B12)
     (attr smd)
     (fp_text reference U5 (at 0.711301 -3.58191 90) (layer F.SilkS)
@@ -5811,7 +5811,7 @@
   )
 
   (module 1206:1206 (layer F.Cu) (tedit 0) (tstamp 59F8ABBD)
-    (at 92.456 90.932)
+    (at 89.916 76.2)
     (descr "Multilayer SMD")
     (path /59EE50B5/59F8B565)
     (attr smd)
@@ -5834,7 +5834,7 @@
   )
 
   (module 1206:1206 (layer F.Cu) (tedit 0) (tstamp 59F8ABC3)
-    (at 92.456 75.184)
+    (at 89.916 60.452)
     (descr "Multilayer SMD")
     (path /59EE50B5/59F8C237)
     (attr smd)
@@ -5857,7 +5857,7 @@
   )
 
   (module 1206:1206 (layer F.Cu) (tedit 0) (tstamp 59F8ABC9)
-    (at 93.472 59.944)
+    (at 90.932 45.212)
     (descr "Multilayer SMD")
     (path /59EE50B5/59F8CBDA)
     (attr smd)
@@ -5880,7 +5880,7 @@
   )
 
   (module 1206:1206 (layer F.Cu) (tedit 0) (tstamp 59F8ABCF)
-    (at 93.726 45.72)
+    (at 91.186 30.988)
     (descr "Multilayer SMD")
     (path /59EE50B5/59F8C78D)
     (attr smd)
@@ -5903,7 +5903,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59F8ABD5)
-    (at 97.536 90.932)
+    (at 94.996 76.2)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EE50B5/59F8B6D7)
@@ -5939,7 +5939,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59F8ABDB)
-    (at 97.536 75.184)
+    (at 94.996 60.452)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EE50B5/59F8C23D)
@@ -5975,7 +5975,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59F8ABE1)
-    (at 98.806 59.944)
+    (at 96.266 45.212)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EE50B5/59F8CBE0)
@@ -6011,7 +6011,7 @@
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 58E0A804) (tstamp 59F8ABE7)
-    (at 98.806 45.72)
+    (at 96.266 30.988)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
     (path /59EE50B5/59F8C793)
@@ -6046,79 +6046,79 @@
     )
   )
 
-  (gr_line (start 26.0096 35.4584) (end 26.8224 35.4584) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 26.0096 149.2504) (end 26.0096 35.4584) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 171.704 149.2504) (end 26.0096 149.2504) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 171.704 35.4584) (end 171.704 149.2504) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 26.6192 35.4584) (end 171.704 35.4584) (angle 90) (layer Edge.Cuts) (width 0.1))
-  (gr_text POWER (at 37.0332 39.4208) (layer F.SilkS)
+  (gr_line (start 23.4696 22.5044) (end 24.2824 22.5044) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 23.4696 136.2964) (end 23.4696 22.5044) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 169.164 136.2964) (end 23.4696 136.2964) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 169.164 22.5044) (end 169.164 136.2964) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 24.0792 22.5044) (end 169.164 22.5044) (angle 90) (layer Edge.Cuts) (width 0.1))
+  (gr_text POWER (at 34.4932 26.4668) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_line (start 78.994 50.4444) (end 78.994 49.9872) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_line (start 29.464 50.4444) (end 78.994 50.4444) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_line (start 29.464 37.084) (end 29.464 50.4444) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_line (start 79.0956 37.084) (end 29.464 37.084) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_line (start 79.0956 50.3428) (end 79.0956 37.084) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_line (start 28.9052 69.088) (end 28.9052 70.5104) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_line (start 78.9432 69.088) (end 28.9052 69.088) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_line (start 78.9432 95.4024) (end 78.9432 69.088) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_line (start 28.6512 95.4024) (end 78.9432 95.4024) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_line (start 28.6512 69.4944) (end 28.6512 95.4024) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_text "PROTO Area" (at 36.1696 72.0344) (layer F.SilkS)
+  (gr_line (start 76.454 37.4904) (end 76.454 37.0332) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 26.924 37.4904) (end 76.454 37.4904) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 26.924 24.13) (end 26.924 37.4904) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 76.5556 24.13) (end 26.924 24.13) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 76.5556 37.3888) (end 76.5556 24.13) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 26.3652 56.134) (end 26.3652 57.5564) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 76.4032 56.134) (end 26.3652 56.134) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 76.4032 82.4484) (end 76.4032 56.134) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 26.1112 82.4484) (end 76.4032 82.4484) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 26.1112 56.5404) (end 26.1112 82.4484) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_text "PROTO Area" (at 33.6296 59.0804) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "PROTO Area" (at 37.5412 128.4732) (layer F.SilkS)
+  (gr_text "PROTO Area" (at 35.0012 115.5192) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_line (start 30.6832 126.238) (end 30.6832 126.4412) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_line (start 29.2608 126.238) (end 30.6832 126.238) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_line (start 29.2608 147.1168) (end 29.2608 126.238) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_line (start 79.2988 147.1168) (end 29.2608 147.1168) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_line (start 79.2988 126.1364) (end 79.2988 147.1168) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_line (start 29.7688 126.1364) (end 79.2988 126.1364) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_line (start 148.2852 126.5936) (end 85.1916 126.5936) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_line (start 148.2852 147.574) (end 148.2852 126.5936) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_line (start 85.1916 147.574) (end 148.2852 147.574) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_line (start 85.1916 126.5936) (end 85.1916 147.574) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_text "BUTTONS\n" (at 90.17 128.1176) (layer F.SilkS)
+  (gr_line (start 28.1432 113.284) (end 28.1432 113.4872) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 26.7208 113.284) (end 28.1432 113.284) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 26.7208 134.1628) (end 26.7208 113.284) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 76.7588 134.1628) (end 26.7208 134.1628) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 76.7588 113.1824) (end 76.7588 134.1628) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 27.2288 113.1824) (end 76.7588 113.1824) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 145.7452 113.6396) (end 82.6516 113.6396) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 145.7452 134.62) (end 145.7452 113.6396) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 82.6516 134.62) (end 145.7452 134.62) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 82.6516 113.6396) (end 82.6516 134.62) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_text "BUTTONS\n" (at 87.63 115.1636) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_line (start 122.2756 70.7644) (end 122.2756 71.4248) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_line (start 138.8872 70.7644) (end 122.2756 70.7644) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_line (start 138.8872 102.7176) (end 138.8872 70.7644) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_line (start 122.174 102.7176) (end 138.8872 102.7176) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_line (start 122.174 71.4756) (end 122.174 102.7176) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_text N-CHANNEL (at 130.7084 72.5424) (layer F.SilkS)
+  (gr_line (start 119.7356 56.0324) (end 119.7356 56.6928) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 136.3472 56.0324) (end 119.7356 56.0324) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 136.3472 87.9856) (end 136.3472 56.0324) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 119.634 87.9856) (end 136.3472 87.9856) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 119.634 56.7436) (end 119.634 87.9856) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_text N-CHANNEL (at 128.1684 57.8104) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text P-CHANNEL (at 130.048 41.3004) (layer F.SilkS)
+  (gr_text P-CHANNEL (at 127.508 26.5684) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_line (start 149.098 39.9288) (end 122.5296 39.9288) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_line (start 149.098 70.1548) (end 149.098 39.9288) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_line (start 122.3264 70.1548) (end 149.098 70.1548) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_line (start 122.3264 39.5224) (end 122.3264 70.1548) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_line (start 167.132 39.624) (end 150.622 39.624) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_line (start 167.132 103.0224) (end 167.132 39.624) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_line (start 150.622 103.0224) (end 167.132 103.0224) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_line (start 150.622 39.8272) (end 150.622 103.0224) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_text LED (at 153.2128 41.8592) (layer F.SilkS)
+  (gr_line (start 146.558 25.1968) (end 119.9896 25.1968) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 146.558 55.4228) (end 146.558 25.1968) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 119.7864 55.4228) (end 146.558 55.4228) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 119.7864 24.7904) (end 119.7864 55.4228) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 164.592 24.892) (end 148.082 24.892) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 164.592 88.2904) (end 164.592 24.892) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 148.082 88.2904) (end 164.592 88.2904) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 148.082 25.0952) (end 148.082 88.2904) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_text LED (at 150.6728 27.1272) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_line (start 121.2596 39.5732) (end 84.9884 39.5732) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_line (start 121.2596 103.124) (end 121.2596 39.5732) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_line (start 84.836 103.124) (end 121.2596 103.124) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_line (start 84.836 39.116) (end 84.836 103.124) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_text INA (at 88.0364 41.0972) (layer F.SilkS)
+  (gr_line (start 118.7196 24.8412) (end 82.4484 24.8412) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 118.7196 88.392) (end 118.7196 24.8412) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 82.296 88.392) (end 118.7196 88.392) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 82.296 24.384) (end 82.296 88.392) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_text INA (at 85.4964 26.3652) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text ADS (at 87.7824 105.7656) (layer F.SilkS)
+  (gr_text ADS (at 85.2424 92.8116) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_line (start 85.1408 104.2924) (end 88.9508 104.2924) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_line (start 85.1408 125.6284) (end 85.1408 104.2924) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_line (start 147.3708 125.6284) (end 85.1408 125.6284) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_line (start 147.3708 104.2924) (end 147.3708 125.6284) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_line (start 84.8868 104.2924) (end 147.3708 104.2924) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 82.6008 91.3384) (end 86.4108 91.3384) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 82.6008 112.6744) (end 82.6008 91.3384) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 144.8308 112.6744) (end 82.6008 112.6744) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 144.8308 91.3384) (end 144.8308 112.6744) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 82.3468 91.3384) (end 144.8308 91.3384) (angle 90) (layer F.SilkS) (width 0.2))
 
 )
