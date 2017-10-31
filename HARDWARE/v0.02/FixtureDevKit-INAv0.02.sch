@@ -1,0 +1,1002 @@
+EESchema Schematic File Version 2
+LIBS:Fixture-Dev-Kit-rescue
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:TCA6424ARGJR
+LIBS:USB-A1HSW6
+LIBS:Fixture-Dev-Kit-cache
+EELAYER 25 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 10 10
+Title "INA Circuits"
+Date "2017-10-25"
+Rev "v0.01"
+Comp "Next Thing Co"
+Comment1 "Havin' a Blast!"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 550  750  0    157  ~ 0
+INA Volt+Current Read Circuit\n
+$Comp
+L INA219BIDCNT U7
+U 1 1 59F03632
+P 2000 3600
+F 0 "U7" H 1700 4650 60  0000 C CNN
+F 1 "INA219BIDCNT" H 2000 3600 60  0000 C CNN
+F 2 "INA219BIDCNR:SOT65P280X145-8N" H 2000 3600 60  0001 C CNN
+F 3 "" H 2000 3600 60  0001 C CNN
+	1    2000 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C9
+U 1 1 59F03638
+P 1300 2650
+F 0 "C9" H 1325 2750 50  0000 L CNN
+F 1 "0.1uF" H 1325 2550 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1338 2500 50  0001 C CNN
+F 3 "" H 1300 2650 50  0001 C CNN
+	1    1300 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR076
+U 1 1 59F0363E
+P 1300 2400
+F 0 "#PWR076" H 1300 2150 50  0001 C CNN
+F 1 "GND" H 1300 2250 50  0000 C CNN
+F 2 "" H 1300 2400 50  0001 C CNN
+F 3 "" H 1300 2400 50  0001 C CNN
+	1    1300 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R88
+U 1 1 59F03644
+P 1300 3150
+F 0 "R88" V 1380 3150 50  0000 C CNN
+F 1 "1K" V 1300 3150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 1230 3150 50  0001 C CNN
+F 3 "" H 1300 3150 50  0001 C CNN
+	1    1300 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L R R86
+U 1 1 59F0364A
+P 1050 3250
+F 0 "R86" V 1130 3250 50  0000 C CNN
+F 1 "1K" V 1050 3250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 980 3250 50  0001 C CNN
+F 3 "" H 1050 3250 50  0001 C CNN
+	1    1050 3250
+	0    1    1    0   
+$EndComp
+Text Notes 2650 1950 0    60   ~ 0
+I2C addr 0x40
+$Comp
+L Conn_01x02 J96
+U 1 1 59F03651
+P 2900 3050
+F 0 "J96" H 2900 3150 50  0000 C CNN
+F 1 "INA_40" H 2900 2850 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 2900 3050 50  0001 C CNN
+F 3 "" H 2900 3050 50  0001 C CNN
+	1    2900 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper_NO_Small JP2
+U 1 1 59F03657
+P 1050 2850
+F 0 "JP2" H 1050 2930 50  0000 C CNN
+F 1 "Jumper_NO" H 1060 2790 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 1050 2850 50  0001 C CNN
+F 3 "" H 1050 2850 50  0001 C CNN
+	1    1050 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 2400 1300 2500
+Wire Wire Line
+	1300 2800 1300 2850
+Connection ~ 1300 2850
+Wire Wire Line
+	2500 2850 2500 3050
+Wire Wire Line
+	2500 3050 2700 3050
+Wire Wire Line
+	2700 3150 2500 3150
+Wire Wire Line
+	2500 3150 2500 3350
+Wire Wire Line
+	1450 3250 1200 3250
+$Comp
+L Conn_01x04 J92
+U 1 1 59F04752
+P 1900 2000
+F 0 "J92" H 1900 2200 50  0000 C CNN
+F 1 "INA_40" H 1900 1700 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 1900 2000 50  0001 C CNN
+F 3 "" H 1900 2000 50  0001 C CNN
+	1    1900 2000
+	0    -1   -1   0   
+$EndComp
+Text Label 1800 2200 3    60   ~ 0
+VCC
+Text Label 2000 2200 3    60   ~ 0
+SDA
+Text Label 2100 2200 3    60   ~ 0
+SCL
+$Comp
+L Conn_01x04 J93
+U 1 1 59F04EEE
+P 1900 4350
+F 0 "J93" H 1900 4550 50  0000 C CNN
+F 1 "INA_40" H 1900 4050 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 1900 4350 50  0001 C CNN
+F 3 "" H 1900 4350 50  0001 C CNN
+	1    1900 4350
+	0    -1   1    0   
+$EndComp
+Text Label 1800 4150 1    60   ~ 0
+VCC
+Text Label 2000 4150 1    60   ~ 0
+SDA
+Text Label 2100 4150 1    60   ~ 0
+SCL
+Text Label 750  2850 2    60   ~ 0
+VCC
+Text Label 750  2950 2    60   ~ 0
+SCL
+Wire Wire Line
+	1150 2850 1450 2850
+Text Label 750  3050 2    60   ~ 0
+SDA
+$Comp
+L GND #PWR077
+U 1 1 59F0639E
+P 1900 2350
+F 0 "#PWR077" H 1900 2100 50  0001 C CNN
+F 1 "GND" H 1900 2200 50  0000 C CNN
+F 2 "" H 1900 2350 50  0001 C CNN
+F 3 "" H 1900 2350 50  0001 C CNN
+	1    1900 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 2200 1900 2350
+Wire Wire Line
+	750  2850 950  2850
+Wire Wire Line
+	750  2950 1450 2950
+Wire Wire Line
+	750  3050 1450 3050
+$Comp
+L GND #PWR078
+U 1 1 59F06DD3
+P 750 3350
+F 0 "#PWR078" H 750 3100 50  0001 C CNN
+F 1 "GND" H 750 3200 50  0000 C CNN
+F 2 "" H 750 3350 50  0001 C CNN
+F 3 "" H 750 3350 50  0001 C CNN
+	1    750  3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	750  3350 1450 3350
+Wire Wire Line
+	750  3150 750  3350
+Wire Wire Line
+	750  3250 900  3250
+Wire Wire Line
+	750  3150 1150 3150
+Connection ~ 750  3250
+$Comp
+L GND #PWR079
+U 1 1 59F07497
+P 1900 3950
+F 0 "#PWR079" H 1900 3700 50  0001 C CNN
+F 1 "GND" H 1900 3800 50  0000 C CNN
+F 2 "" H 1900 3950 50  0001 C CNN
+F 3 "" H 1900 3950 50  0001 C CNN
+	1    1900 3950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1900 3950 1900 4150
+Text Notes 650  1800 0    118  ~ 0
+INA_40\n
+Wire Notes Line
+	550  1550 550  4600
+Wire Notes Line
+	550  4600 3350 4600
+Wire Notes Line
+	3350 4600 3350 1550
+Wire Notes Line
+	3350 1550 550  1550
+Wire Notes Line
+	550  1850 3350 1850
+$Comp
+L INA219BIDCNT U9
+U 1 1 59F0A8C3
+P 4850 3600
+F 0 "U9" H 4550 4650 60  0000 C CNN
+F 1 "INA219BIDCNT" H 4850 3600 60  0000 C CNN
+F 2 "INA219BIDCNR:SOT65P280X145-8N" H 4850 3600 60  0001 C CNN
+F 3 "" H 4850 3600 60  0001 C CNN
+	1    4850 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C11
+U 1 1 59F0A8C9
+P 4150 2650
+F 0 "C11" H 4175 2750 50  0000 L CNN
+F 1 "0.1uF" H 4175 2550 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4188 2500 50  0001 C CNN
+F 3 "" H 4150 2650 50  0001 C CNN
+	1    4150 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR080
+U 1 1 59F0A8CF
+P 4150 2400
+F 0 "#PWR080" H 4150 2150 50  0001 C CNN
+F 1 "GND" H 4150 2250 50  0000 C CNN
+F 2 "" H 4150 2400 50  0001 C CNN
+F 3 "" H 4150 2400 50  0001 C CNN
+	1    4150 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R92
+U 1 1 59F0A8D5
+P 4150 3150
+F 0 "R92" V 4230 3150 50  0000 C CNN
+F 1 "1K" V 4150 3150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4080 3150 50  0001 C CNN
+F 3 "" H 4150 3150 50  0001 C CNN
+	1    4150 3150
+	0    1    1    0   
+$EndComp
+$Comp
+L R R90
+U 1 1 59F0A8DB
+P 3900 3250
+F 0 "R90" V 3980 3250 50  0000 C CNN
+F 1 "1K" V 3900 3250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 3830 3250 50  0001 C CNN
+F 3 "" H 3900 3250 50  0001 C CNN
+	1    3900 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L Conn_01x02 J102
+U 1 1 59F0A8E2
+P 5750 3050
+F 0 "J102" H 5750 3150 50  0000 C CNN
+F 1 "INA_41" H 5750 2850 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 5750 3050 50  0001 C CNN
+F 3 "" H 5750 3050 50  0001 C CNN
+	1    5750 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper_NO_Small JP4
+U 1 1 59F0A8E8
+P 3900 2850
+F 0 "JP4" H 3900 2930 50  0000 C CNN
+F 1 "Jumper_NO" H 3910 2790 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 3900 2850 50  0001 C CNN
+F 3 "" H 3900 2850 50  0001 C CNN
+	1    3900 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 2400 4150 2500
+Wire Wire Line
+	4150 2800 4150 2850
+Connection ~ 4150 2850
+Wire Wire Line
+	5350 2850 5350 3050
+Wire Wire Line
+	5350 3050 5550 3050
+Wire Wire Line
+	5550 3150 5350 3150
+Wire Wire Line
+	5350 3150 5350 3350
+Wire Wire Line
+	4300 3250 4050 3250
+$Comp
+L Conn_01x04 J98
+U 1 1 59F0A8F6
+P 4750 2000
+F 0 "J98" H 4750 2200 50  0000 C CNN
+F 1 "INA_41" H 4750 1700 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 4750 2000 50  0001 C CNN
+F 3 "" H 4750 2000 50  0001 C CNN
+	1    4750 2000
+	0    -1   -1   0   
+$EndComp
+Text Label 4650 2200 3    60   ~ 0
+VCC
+Text Label 4850 2200 3    60   ~ 0
+SDA
+Text Label 4950 2200 3    60   ~ 0
+SCL
+$Comp
+L Conn_01x04 J99
+U 1 1 59F0A8FF
+P 4750 4350
+F 0 "J99" H 4750 4550 50  0000 C CNN
+F 1 "INA_41" H 4750 4050 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 4750 4350 50  0001 C CNN
+F 3 "" H 4750 4350 50  0001 C CNN
+	1    4750 4350
+	0    -1   1    0   
+$EndComp
+Text Label 4650 4150 1    60   ~ 0
+VCC
+Text Label 4850 4150 1    60   ~ 0
+SDA
+Text Label 4950 4150 1    60   ~ 0
+SCL
+Text Label 3600 2850 2    60   ~ 0
+VCC
+Text Label 3600 2950 2    60   ~ 0
+SCL
+Wire Wire Line
+	4000 2850 4300 2850
+Text Label 3600 3050 2    60   ~ 0
+SDA
+$Comp
+L GND #PWR081
+U 1 1 59F0A90C
+P 4750 2350
+F 0 "#PWR081" H 4750 2100 50  0001 C CNN
+F 1 "GND" H 4750 2200 50  0000 C CNN
+F 2 "" H 4750 2350 50  0001 C CNN
+F 3 "" H 4750 2350 50  0001 C CNN
+	1    4750 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 2200 4750 2350
+Wire Wire Line
+	3600 2850 3800 2850
+Wire Wire Line
+	3600 2950 4300 2950
+Wire Wire Line
+	3600 3050 4300 3050
+$Comp
+L GND #PWR082
+U 1 1 59F0A916
+P 3600 3350
+F 0 "#PWR082" H 3600 3100 50  0001 C CNN
+F 1 "GND" H 3600 3200 50  0000 C CNN
+F 2 "" H 3600 3350 50  0001 C CNN
+F 3 "" H 3600 3350 50  0001 C CNN
+	1    3600 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 3350 4300 3350
+$Comp
+L GND #PWR083
+U 1 1 59F0A921
+P 4750 3950
+F 0 "#PWR083" H 4750 3700 50  0001 C CNN
+F 1 "GND" H 4750 3800 50  0000 C CNN
+F 2 "" H 4750 3950 50  0001 C CNN
+F 3 "" H 4750 3950 50  0001 C CNN
+	1    4750 3950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4750 3950 4750 4150
+Text Notes 3500 1800 0    118  ~ 0
+INA_41\n
+Wire Notes Line
+	3400 1550 3400 4600
+Wire Notes Line
+	3400 4600 6200 4600
+Wire Notes Line
+	6200 4600 6200 1550
+Wire Notes Line
+	6200 1550 3400 1550
+Wire Notes Line
+	3400 1850 6200 1850
+Wire Wire Line
+	3750 3250 3600 3250
+Wire Wire Line
+	3600 3250 3600 3350
+Wire Wire Line
+	4000 3150 3650 3150
+Wire Wire Line
+	3650 3150 3650 2850
+Connection ~ 3650 2850
+$Comp
+L INA219BIDCNT U8
+U 1 1 59F0C30D
+P 2000 6700
+F 0 "U8" H 1700 7750 60  0000 C CNN
+F 1 "INA219BIDCNT" H 2000 6700 60  0000 C CNN
+F 2 "INA219BIDCNR:SOT65P280X145-8N" H 2000 6700 60  0001 C CNN
+F 3 "" H 2000 6700 60  0001 C CNN
+	1    2000 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C10
+U 1 1 59F0C313
+P 1300 5750
+F 0 "C10" H 1325 5850 50  0000 L CNN
+F 1 "0.1uF" H 1325 5650 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1338 5600 50  0001 C CNN
+F 3 "" H 1300 5750 50  0001 C CNN
+	1    1300 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR084
+U 1 1 59F0C319
+P 1300 5500
+F 0 "#PWR084" H 1300 5250 50  0001 C CNN
+F 1 "GND" H 1300 5350 50  0000 C CNN
+F 2 "" H 1300 5500 50  0001 C CNN
+F 3 "" H 1300 5500 50  0001 C CNN
+	1    1300 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R89
+U 1 1 59F0C31F
+P 1300 6250
+F 0 "R89" V 1380 6250 50  0000 C CNN
+F 1 "1K" V 1300 6250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 1230 6250 50  0001 C CNN
+F 3 "" H 1300 6250 50  0001 C CNN
+	1    1300 6250
+	0    1    1    0   
+$EndComp
+$Comp
+L R R87
+U 1 1 59F0C325
+P 1050 6350
+F 0 "R87" V 1130 6350 50  0000 C CNN
+F 1 "1K" V 1050 6350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 980 6350 50  0001 C CNN
+F 3 "" H 1050 6350 50  0001 C CNN
+	1    1050 6350
+	0    1    1    0   
+$EndComp
+$Comp
+L Conn_01x02 J97
+U 1 1 59F0C32C
+P 2900 6150
+F 0 "J97" H 2900 6250 50  0000 C CNN
+F 1 "INA_42" H 2900 5950 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 2900 6150 50  0001 C CNN
+F 3 "" H 2900 6150 50  0001 C CNN
+	1    2900 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper_NO_Small JP3
+U 1 1 59F0C332
+P 1050 5950
+F 0 "JP3" H 1050 6030 50  0000 C CNN
+F 1 "Jumper_NO" H 1060 5890 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 1050 5950 50  0001 C CNN
+F 3 "" H 1050 5950 50  0001 C CNN
+	1    1050 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 5500 1300 5600
+Wire Wire Line
+	1300 5900 1300 5950
+Connection ~ 1300 5950
+Wire Wire Line
+	2500 5950 2500 6150
+Wire Wire Line
+	2500 6150 2700 6150
+Wire Wire Line
+	2700 6250 2500 6250
+Wire Wire Line
+	2500 6250 2500 6450
+Wire Wire Line
+	1450 6350 1200 6350
+$Comp
+L Conn_01x04 J94
+U 1 1 59F0C340
+P 1900 5100
+F 0 "J94" H 1900 5300 50  0000 C CNN
+F 1 "INA_42" H 1900 4800 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 1900 5100 50  0001 C CNN
+F 3 "" H 1900 5100 50  0001 C CNN
+	1    1900 5100
+	0    -1   -1   0   
+$EndComp
+Text Label 1800 5300 3    60   ~ 0
+VCC
+Text Label 2000 5300 3    60   ~ 0
+SDA
+Text Label 2100 5300 3    60   ~ 0
+SCL
+$Comp
+L Conn_01x04 J95
+U 1 1 59F0C349
+P 1900 7450
+F 0 "J95" H 1900 7650 50  0000 C CNN
+F 1 "INA_42" H 1900 7150 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 1900 7450 50  0001 C CNN
+F 3 "" H 1900 7450 50  0001 C CNN
+	1    1900 7450
+	0    -1   1    0   
+$EndComp
+Text Label 1800 7250 1    60   ~ 0
+VCC
+Text Label 2000 7250 1    60   ~ 0
+SDA
+Text Label 2100 7250 1    60   ~ 0
+SCL
+Text Label 750  5950 2    60   ~ 0
+VCC
+Text Label 750  6050 2    60   ~ 0
+SCL
+Wire Wire Line
+	1150 5950 1450 5950
+Text Label 750  6150 2    60   ~ 0
+SDA
+$Comp
+L GND #PWR085
+U 1 1 59F0C356
+P 1900 5450
+F 0 "#PWR085" H 1900 5200 50  0001 C CNN
+F 1 "GND" H 1900 5300 50  0000 C CNN
+F 2 "" H 1900 5450 50  0001 C CNN
+F 3 "" H 1900 5450 50  0001 C CNN
+	1    1900 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 5300 1900 5450
+Wire Wire Line
+	750  5950 950  5950
+Wire Wire Line
+	750  6050 1450 6050
+Wire Wire Line
+	750  6150 1450 6150
+$Comp
+L GND #PWR086
+U 1 1 59F0C360
+P 750 6450
+F 0 "#PWR086" H 750 6200 50  0001 C CNN
+F 1 "GND" H 750 6300 50  0000 C CNN
+F 2 "" H 750 6450 50  0001 C CNN
+F 3 "" H 750 6450 50  0001 C CNN
+	1    750  6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	750  6450 1450 6450
+$Comp
+L GND #PWR087
+U 1 1 59F0C36B
+P 1900 7050
+F 0 "#PWR087" H 1900 6800 50  0001 C CNN
+F 1 "GND" H 1900 6900 50  0000 C CNN
+F 2 "" H 1900 7050 50  0001 C CNN
+F 3 "" H 1900 7050 50  0001 C CNN
+	1    1900 7050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1900 7050 1900 7250
+Text Notes 650  4900 0    118  ~ 0
+INA_42
+Wire Notes Line
+	550  4650 550  7700
+Wire Notes Line
+	550  7700 3350 7700
+Wire Notes Line
+	3350 7700 3350 4650
+Wire Notes Line
+	3350 4650 550  4650
+Wire Notes Line
+	550  4950 3350 4950
+$Comp
+L INA219BIDCNT U10
+U 1 1 59F0C378
+P 4850 6700
+F 0 "U10" H 4550 7750 60  0000 C CNN
+F 1 "INA219BIDCNT" H 4850 6700 60  0000 C CNN
+F 2 "INA219BIDCNR:SOT65P280X145-8N" H 4850 6700 60  0001 C CNN
+F 3 "" H 4850 6700 60  0001 C CNN
+	1    4850 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C12
+U 1 1 59F0C37E
+P 4150 5750
+F 0 "C12" H 4175 5850 50  0000 L CNN
+F 1 "0.1uF" H 4175 5650 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4188 5600 50  0001 C CNN
+F 3 "" H 4150 5750 50  0001 C CNN
+	1    4150 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR088
+U 1 1 59F0C384
+P 4150 5500
+F 0 "#PWR088" H 4150 5250 50  0001 C CNN
+F 1 "GND" H 4150 5350 50  0000 C CNN
+F 2 "" H 4150 5500 50  0001 C CNN
+F 3 "" H 4150 5500 50  0001 C CNN
+	1    4150 5500
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R93
+U 1 1 59F0C38A
+P 4150 6250
+F 0 "R93" V 4230 6250 50  0000 C CNN
+F 1 "1K" V 4150 6250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4080 6250 50  0001 C CNN
+F 3 "" H 4150 6250 50  0001 C CNN
+	1    4150 6250
+	0    1    1    0   
+$EndComp
+$Comp
+L R R91
+U 1 1 59F0C390
+P 3900 6350
+F 0 "R91" V 3980 6350 50  0000 C CNN
+F 1 "1K" V 3900 6350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 3830 6350 50  0001 C CNN
+F 3 "" H 3900 6350 50  0001 C CNN
+	1    3900 6350
+	0    1    1    0   
+$EndComp
+Text Notes 5500 5050 0    60   ~ 0
+I2C addr 0x43
+$Comp
+L Conn_01x02 J103
+U 1 1 59F0C397
+P 5750 6150
+F 0 "J103" H 5750 6250 50  0000 C CNN
+F 1 "INA_43" H 5750 5950 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 5750 6150 50  0001 C CNN
+F 3 "" H 5750 6150 50  0001 C CNN
+	1    5750 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper_NO_Small JP5
+U 1 1 59F0C39D
+P 3900 5950
+F 0 "JP5" H 3900 6030 50  0000 C CNN
+F 1 "Jumper_NO" H 3910 5890 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 3900 5950 50  0001 C CNN
+F 3 "" H 3900 5950 50  0001 C CNN
+	1    3900 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 5500 4150 5600
+Wire Wire Line
+	4150 5900 4150 5950
+Connection ~ 4150 5950
+Wire Wire Line
+	5350 5950 5350 6150
+Wire Wire Line
+	5350 6150 5550 6150
+Wire Wire Line
+	5550 6250 5350 6250
+Wire Wire Line
+	5350 6250 5350 6450
+Wire Wire Line
+	4300 6350 4050 6350
+$Comp
+L Conn_01x04 J100
+U 1 1 59F0C3AB
+P 4750 5100
+F 0 "J100" H 4750 5300 50  0000 C CNN
+F 1 "INA_43" H 4750 4800 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 4750 5100 50  0001 C CNN
+F 3 "" H 4750 5100 50  0001 C CNN
+	1    4750 5100
+	0    -1   -1   0   
+$EndComp
+Text Label 4650 5300 3    60   ~ 0
+VCC
+Text Label 4850 5300 3    60   ~ 0
+SDA
+Text Label 4950 5300 3    60   ~ 0
+SCL
+$Comp
+L Conn_01x04 J101
+U 1 1 59F0C3B4
+P 4750 7450
+F 0 "J101" H 4750 7650 50  0000 C CNN
+F 1 "INA_43" H 4750 7150 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 4750 7450 50  0001 C CNN
+F 3 "" H 4750 7450 50  0001 C CNN
+	1    4750 7450
+	0    -1   1    0   
+$EndComp
+Text Label 4650 7250 1    60   ~ 0
+VCC
+Text Label 4850 7250 1    60   ~ 0
+SDA
+Text Label 4950 7250 1    60   ~ 0
+SCL
+Text Label 3600 5950 2    60   ~ 0
+VCC
+Text Label 3600 6050 2    60   ~ 0
+SCL
+Wire Wire Line
+	4000 5950 4300 5950
+Text Label 3600 6150 2    60   ~ 0
+SDA
+$Comp
+L GND #PWR089
+U 1 1 59F0C3C1
+P 4750 5450
+F 0 "#PWR089" H 4750 5200 50  0001 C CNN
+F 1 "GND" H 4750 5300 50  0000 C CNN
+F 2 "" H 4750 5450 50  0001 C CNN
+F 3 "" H 4750 5450 50  0001 C CNN
+	1    4750 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 5300 4750 5450
+Wire Wire Line
+	3600 5950 3800 5950
+Wire Wire Line
+	3600 6050 4300 6050
+Wire Wire Line
+	3600 6150 4300 6150
+$Comp
+L GND #PWR090
+U 1 1 59F0C3CB
+P 3600 6450
+F 0 "#PWR090" H 3600 6200 50  0001 C CNN
+F 1 "GND" H 3600 6300 50  0000 C CNN
+F 2 "" H 3600 6450 50  0001 C CNN
+F 3 "" H 3600 6450 50  0001 C CNN
+	1    3600 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 6450 4300 6450
+$Comp
+L GND #PWR091
+U 1 1 59F0C3D2
+P 4750 7050
+F 0 "#PWR091" H 4750 6800 50  0001 C CNN
+F 1 "GND" H 4750 6900 50  0000 C CNN
+F 2 "" H 4750 7050 50  0001 C CNN
+F 3 "" H 4750 7050 50  0001 C CNN
+	1    4750 7050
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4750 7050 4750 7250
+Text Notes 3500 4900 0    118  ~ 0
+INA_43
+Wire Notes Line
+	3400 4650 3400 7700
+Wire Notes Line
+	3400 7700 6200 7700
+Wire Notes Line
+	6200 7700 6200 4650
+Wire Notes Line
+	6200 4650 3400 4650
+Wire Notes Line
+	3400 4950 6200 4950
+Wire Wire Line
+	3750 6350 3600 6350
+Wire Wire Line
+	3600 6350 3600 6450
+Wire Wire Line
+	900  6350 750  6350
+Wire Wire Line
+	750  6350 750  6450
+Wire Wire Line
+	1150 6250 800  6250
+Wire Wire Line
+	800  6250 800  6150
+Connection ~ 800  6150
+Text Notes 5500 1950 0    60   ~ 0
+I2C addr 0x41\n
+Text Notes 2650 5050 0    60   ~ 0
+I2C addr 0x42
+Wire Wire Line
+	3650 6050 3650 6250
+Wire Wire Line
+	3650 6250 4000 6250
+Connection ~ 3650 6050
+$Comp
+L TEST TP105
+U 1 1 59F0E87E
+P 2600 3000
+F 0 "TP105" H 2600 3300 50  0000 C BNN
+F 1 "V+" H 2600 3250 50  0000 C CNN
+F 2 "TestPoint:TestPoint" H 2600 3000 50  0001 C CNN
+F 3 "" H 2600 3000 50  0001 C CNN
+	1    2600 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST TP106
+U 1 1 59F0E99B
+P 2600 3200
+F 0 "TP106" H 2600 3500 50  0000 C BNN
+F 1 "V-" H 2600 3450 50  0000 C CNN
+F 2 "TestPoint:TestPoint" H 2600 3200 50  0001 C CNN
+F 3 "" H 2600 3200 50  0001 C CNN
+	1    2600 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2600 3200 2600 3150
+Connection ~ 2600 3150
+Wire Wire Line
+	2600 3000 2600 3050
+Connection ~ 2600 3050
+$Comp
+L TEST TP109
+U 1 1 59F0EB4F
+P 5450 3000
+F 0 "TP109" H 5450 3300 50  0000 C BNN
+F 1 "V+" H 5450 3250 50  0000 C CNN
+F 2 "TestPoint:TestPoint" H 5450 3000 50  0001 C CNN
+F 3 "" H 5450 3000 50  0001 C CNN
+	1    5450 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST TP110
+U 1 1 59F0EC40
+P 5450 3200
+F 0 "TP110" H 5450 3500 50  0000 C BNN
+F 1 "V-" H 5450 3450 50  0000 C CNN
+F 2 "TestPoint:TestPoint" H 5450 3200 50  0001 C CNN
+F 3 "" H 5450 3200 50  0001 C CNN
+	1    5450 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5450 3000 5450 3050
+Connection ~ 5450 3050
+Wire Wire Line
+	5450 3200 5450 3150
+Connection ~ 5450 3150
+$Comp
+L TEST TP112
+U 1 1 59F0F32E
+P 5450 6300
+F 0 "TP112" H 5450 6600 50  0000 C BNN
+F 1 "V-" H 5450 6550 50  0000 C CNN
+F 2 "TestPoint:TestPoint" H 5450 6300 50  0001 C CNN
+F 3 "" H 5450 6300 50  0001 C CNN
+	1    5450 6300
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST TP108
+U 1 1 59F0F4AA
+P 2600 6300
+F 0 "TP108" H 2600 6600 50  0000 C BNN
+F 1 "V-" H 2600 6550 50  0000 C CNN
+F 2 "TestPoint:TestPoint" H 2600 6300 50  0001 C CNN
+F 3 "" H 2600 6300 50  0001 C CNN
+	1    2600 6300
+	-1   0    0    1   
+$EndComp
+$Comp
+L TEST TP107
+U 1 1 59F0F5A4
+P 2600 6100
+F 0 "TP107" H 2600 6400 50  0000 C BNN
+F 1 "V+" H 2600 6350 50  0000 C CNN
+F 2 "TestPoint:TestPoint" H 2600 6100 50  0001 C CNN
+F 3 "" H 2600 6100 50  0001 C CNN
+	1    2600 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 6100 2600 6150
+Connection ~ 2600 6150
+Wire Wire Line
+	2600 6300 2600 6250
+Connection ~ 2600 6250
+$Comp
+L TEST TP111
+U 1 1 59F0F804
+P 5450 6100
+F 0 "TP111" H 5450 6400 50  0000 C BNN
+F 1 "V+" H 5450 6350 50  0000 C CNN
+F 2 "TestPoint:TestPoint" H 5450 6100 50  0001 C CNN
+F 3 "" H 5450 6100 50  0001 C CNN
+	1    5450 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 6100 5450 6150
+Connection ~ 5450 6150
+Text HLabel 1300 1100 0    60   BiDi ~ 0
+I2C-SDA
+Text HLabel 1300 1250 0    60   BiDi ~ 0
+I2C-SCK
+Text HLabel 1300 1400 0    60   Input ~ 0
+C4-VCC-3V3
+Text Label 1450 1100 0    60   ~ 0
+SDA
+Text Label 1450 1250 0    60   ~ 0
+SCL
+Wire Wire Line
+	1300 1100 1450 1100
+Wire Wire Line
+	1300 1250 1450 1250
+Wire Wire Line
+	1450 1400 1300 1400
+Text Label 1450 1400 0    60   ~ 0
+VCC
+Text Notes 550  1000 0    118  ~ 0
+Sheet Connections
+Wire Notes Line
+	550  800  2200 800 
+Wire Notes Line
+	2200 800  2200 1500
+Wire Notes Line
+	2200 1500 550  1500
+Wire Notes Line
+	550  1500 550  800 
+Wire Notes Line
+	550  1000 2200 1000
+Wire Wire Line
+	5450 6300 5450 6250
+Connection ~ 5450 6250
+$EndSCHEMATC

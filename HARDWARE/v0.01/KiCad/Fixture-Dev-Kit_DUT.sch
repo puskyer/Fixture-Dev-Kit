@@ -39,7 +39,7 @@ EELAYER 25 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 5 10
+Sheet 5 9
 Title "DUT"
 Date "2017-10-25"
 Rev "v0.01"

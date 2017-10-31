@@ -14822,7 +14822,7 @@
   (gr_text 3V3 (at 136.32472 70.0596 90) (layer F.SilkS) (tstamp 59F3917B)
     (effects (font (size 1 1) (thickness 0.25)))
   )
-  (gr_text GND (at 138.82408 69.97832 180) (layer F.SilkS) (tstamp 59F3917A)
+  (gr_text GND (at 138.82408 69.97832 90) (layer F.SilkS) (tstamp 59F3917A)
     (effects (font (size 1 1) (thickness 0.25)))
   )
   (gr_text SDA (at 141.3844 70.03928 90) (layer F.SilkS) (tstamp 59F39179)
