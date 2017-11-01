@@ -1307,7 +1307,7 @@ U 1 1 59F93EB1
 P 3350 3600
 F 0 "JP3" H 3350 3680 50  0000 C CNN
 F 1 "Jumper_NC_Small" H 3360 3540 50  0000 C CNN
-F 2 "Wire_Connections_Bridges:WireConnection_2.50mmDrill" H 3350 3600 50  0001 C CNN
+F 2 "ConnectedCutJumper:connectedCutJumper" H 3350 3600 50  0001 C CNN
 F 3 "" H 3350 3600 50  0001 C CNN
 	1    3350 3600
 	1    0    0    -1  
@@ -1329,7 +1329,7 @@ U 1 1 59F95B4A
 P 7150 3600
 F 0 "JP4" H 7150 3680 50  0000 C CNN
 F 1 "Jumper_NC_Small" H 7160 3540 50  0000 C CNN
-F 2 "Wire_Connections_Bridges:WireConnection_2.50mmDrill" H 7150 3600 50  0001 C CNN
+F 2 "ConnectedCutJumper:connectedCutJumper" H 7150 3600 50  0001 C CNN
 F 3 "" H 7150 3600 50  0001 C CNN
 	1    7150 3600
 	1    0    0    -1  
@@ -1340,7 +1340,7 @@ U 1 1 59F95D66
 P 3350 6800
 F 0 "JP7" H 3350 6880 50  0000 C CNN
 F 1 "Jumper_NC_Small" H 3360 6740 50  0000 C CNN
-F 2 "Wire_Connections_Bridges:WireConnection_2.50mmDrill" H 3350 6800 50  0001 C CNN
+F 2 "ConnectedCutJumper:connectedCutJumper" H 3350 6800 50  0001 C CNN
 F 3 "" H 3350 6800 50  0001 C CNN
 	1    3350 6800
 	1    0    0    -1  
@@ -1351,7 +1351,7 @@ U 1 1 59F96431
 P 7150 6800
 F 0 "JP8" H 7150 6880 50  0000 C CNN
 F 1 "Jumper_NC_Small" H 7160 6740 50  0000 C CNN
-F 2 "Wire_Connections_Bridges:WireConnection_2.50mmDrill" H 7150 6800 50  0001 C CNN
+F 2 "ConnectedCutJumper:connectedCutJumper" H 7150 6800 50  0001 C CNN
 F 3 "" H 7150 6800 50  0001 C CNN
 	1    7150 6800
 	1    0    0    -1  

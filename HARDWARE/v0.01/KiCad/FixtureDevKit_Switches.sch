@@ -697,7 +697,7 @@ U 1 1 59F99E32
 P 4400 1200
 F 0 "J7" H 4400 1400 50  0000 C CNN
 F 1 "LED_0" H 4400 1000 50  0000 C CNN
-F 2 "TerminalBlocks_Phoenix:TerminalBlock_Phoenix_MPT-2.54mm_3pol" H 4400 1200 50  0001 C CNN
+F 2 "TerminalBlocks:3Pin5.08" H 4400 1200 50  0001 C CNN
 F 3 "" H 4400 1200 50  0001 C CNN
 	1    4400 1200
 	0    -1   -1   0   
@@ -711,7 +711,7 @@ U 1 1 59F9A08B
 P 5250 1200
 F 0 "J8" H 5250 1400 50  0000 C CNN
 F 1 "LED_1" H 5250 1000 50  0000 C CNN
-F 2 "TerminalBlocks_Phoenix:TerminalBlock_Phoenix_MPT-2.54mm_3pol" H 5250 1200 50  0001 C CNN
+F 2 "TerminalBlocks:3Pin5.08" H 5250 1200 50  0001 C CNN
 F 3 "" H 5250 1200 50  0001 C CNN
 	1    5250 1200
 	0    -1   -1   0   
@@ -725,7 +725,7 @@ U 1 1 59F9A396
 P 5950 1200
 F 0 "J9" H 5950 1400 50  0000 C CNN
 F 1 "LED_2" H 5950 1000 50  0000 C CNN
-F 2 "TerminalBlocks_Phoenix:TerminalBlock_Phoenix_MPT-2.54mm_3pol" H 5950 1200 50  0001 C CNN
+F 2 "TerminalBlocks:3Pin5.08" H 5950 1200 50  0001 C CNN
 F 3 "" H 5950 1200 50  0001 C CNN
 	1    5950 1200
 	0    -1   -1   0   
@@ -740,8 +740,8 @@ L Screw_Terminal_01x03 J10
 U 1 1 59F9A617
 P 6800 1200
 F 0 "J10" H 6800 1400 50  0000 C CNN
-F 1 "LED_2" H 6800 1000 50  0000 C CNN
-F 2 "TerminalBlocks_Phoenix:TerminalBlock_Phoenix_MPT-2.54mm_3pol" H 6800 1200 50  0001 C CNN
+F 1 "LED_3" H 6800 1000 50  0000 C CNN
+F 2 "TerminalBlocks:3Pin5.08" H 6800 1200 50  0001 C CNN
 F 3 "" H 6800 1200 50  0001 C CNN
 	1    6800 1200
 	0    -1   -1   0   
