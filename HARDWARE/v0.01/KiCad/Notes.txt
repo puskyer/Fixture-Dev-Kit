@@ -1,0 +1,23 @@
+﻿Keep in their approximate area and orientation:
+J35
+J26
+J36
+J28
+J37
+J29
+J38
+J30
+J1
+
+Keep in their exact location:
+J15
+J16
+J17
+J23
+J20
+J21
+
+Overall Board Dimensions:
+145mm x 120mmm
+
+
