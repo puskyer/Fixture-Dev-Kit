@@ -1,0 +1,25 @@
+Schemetic Items to Verify:
+1) Is the Load mosfet wired up correctly on the INA circuit?
+2) Is the Load mosfet wired up correctly on the ADS circuit?
+3) add PWR line through the B2B connector
+
+
+Layout items to verify:
+a) power everywhere
+b) gnd everywhere
+c) I2C goes through everything
+d) power terminal jack polariy is correct
+e) jst terminal jack polarity is correct
+f) there is enough room for adding silk screen labeling
+g) trace widths are correct
+f) C4 widths are correct
+
+
+Comments for the initial layout:
+1) board edge should have rounded corner. Co-centric with mounting holes
+2) B2B connector should be properly sized
+	a) space consumption for DUT
+	b) location of headers
+	c) add SMT nuts for mounting DUT
+3) add proto area
+4) 
