@@ -1,22 +1,22 @@
 (export (version D)
   (design
     (source /home/mitch/Documents/C4Boards/Fixture-Dev-Kit/HARDWARE/v0.02/KiCad/Fixture-Dev-Kit.sch)
-    (date "Mon 06 Nov 2017 04:33:56 PM PST")
+    (date "Mon 06 Nov 2017 05:51:34 PM PST")
     (tool "Eeschema 4.0.7-e2-6376~58~ubuntu17.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
-        (title "CHIP4 Fixture Dev Kit")
-        (company "Next Thing Co")
+        (title "Ms. Smith's 7th Period Science Class Project")
+        (company)
         (rev v0.01)
         (date 2017-10-25)
         (source Fixture-Dev-Kit.sch)
-        (comment (number 1) (value "Havin' a Blast!"))
+        (comment (number 1) (value ""))
         (comment (number 2) (value ""))
         (comment (number 3) (value ""))
         (comment (number 4) (value ""))))
     (sheet (number 2) (name "/Fixture Dev Kit Switches/") (tstamps /59EE3928/)
       (title_block
-        (title "Buttons and LEDs")
+        (title "Ms. Smith's 7th Period Science Class Project")
         (company "Next Thing Co")
         (rev v0.01)
         (date 2017-10-25)
@@ -27,7 +27,7 @@
         (comment (number 4) (value ""))))
     (sheet (number 3) (name "/Fixture Dev Kit - PMosfets/") (tstamps /59EFF8A7/)
       (title_block
-        (title "P-Channel MOSFETS")
+        (title "Ms. Smith's 7th Period Science Class Project")
         (company "Next Thing Co")
         (rev v0.01)
         (date 2017-10-25)
@@ -38,7 +38,7 @@
         (comment (number 4) (value ""))))
     (sheet (number 4) (name "/Fixture Dev Kits - NMosfets/") (tstamps /59F1138D/)
       (title_block
-        (title "N-Chanel MOSFETS")
+        (title "Ms. Smith's 7th Period Science Class Project")
         (company "Next Thing Co")
         (rev v0.01)
         (date 2017-10-25)
@@ -49,7 +49,7 @@
         (comment (number 4) (value ""))))
     (sheet (number 5) (name "/Fixture Dev Kit - Functional Computer/") (tstamps /59EE6806/)
       (title_block
-        (title "CHIP4 Functional Computer")
+        (title "Ms. Smith's 7th Period Science Class Project")
         (company "Next Thing Co")
         (rev v0.01)
         (date 2017-10-25)
@@ -60,7 +60,7 @@
         (comment (number 4) (value ""))))
     (sheet (number 6) (name "/Fixture Dev Kit - INA/") (tstamps /59EE50B5/)
       (title_block
-        (title "INA Circuits")
+        (title "Ms. Smith's 7th Period Science Class Project")
         (company "Next Thing Co")
         (rev v0.01)
         (date 2017-10-25)
@@ -71,7 +71,7 @@
         (comment (number 4) (value ""))))
     (sheet (number 7) (name "/Fixture Dev Kit - ADS/") (tstamps /59EEAF92/)
       (title_block
-        (title "ADS Circuits")
+        (title "Ms. Smith's 7th Period Science Class Project")
         (company "Next Thing Co")
         (rev v0.01)
         (date 2017-10-25)
@@ -1545,14 +1545,14 @@
       (pins
         (pin (num 1) (name ~) (type passive)))))
   (libraries
-    (library (logical device)
-      (uri /usr/share/kicad/library/device.lib))
-    (library (logical switches)
-      (uri /usr/share/kicad/library/switches.lib))
-    (library (logical conn)
-      (uri /usr/share/kicad/library/conn.lib))
     (library (logical adc-dac)
       (uri /usr/share/kicad/library/adc-dac.lib))
+    (library (logical switches)
+      (uri /usr/share/kicad/library/switches.lib))
+    (library (logical device)
+      (uri /usr/share/kicad/library/device.lib))
+    (library (logical conn)
+      (uri /usr/share/kicad/library/conn.lib))
     (library (logical Fixture-Dev-Kit-cache)
       (uri /home/mitch/Documents/C4Boards/Fixture-Dev-Kit/HARDWARE/v0.02/KiCad/Fixture-Dev-Kit-cache.lib)))
   (nets

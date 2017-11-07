@@ -40,7 +40,7 @@ EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 7 7
-Title "ADS Circuits"
+Title "Ms. Smith's 7th Period Science Class Project"
 Date "2017-10-25"
 Rev "v0.01"
 Comp "Next Thing Co"
