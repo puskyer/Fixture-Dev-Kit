@@ -40,7 +40,7 @@ EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 7
-Title "Ms. Smith's 7th Period Science Class Project"
+Title "Fixture-Dev-Kit"
 Date "2017-10-25"
 Rev "v0.01"
 Comp ""
@@ -467,10 +467,10 @@ Wire Wire Line
 Wire Wire Line
 	7850 3250 8700 3250
 $Comp
-L Fuse F?
+L Fuse F7
 U 1 1 5A01306A
 P 7850 2900
-F 0 "F?" V 7930 2900 50  0000 C CNN
+F 0 "F7" V 7930 2900 50  0000 C CNN
 F 1 "Fuse" V 7775 2900 50  0000 C CNN
 F 2 "1206:1206" V 7780 2900 50  0001 C CNN
 F 3 "" H 7850 2900 50  0001 C CNN
