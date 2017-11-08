@@ -1,4 +1,4 @@
-update=Fri 27 Oct 2017 02:20:11 PM PDT
+update=Wednesday 08 November 2017 02:42:38 PM IST
 version=1
 last_client=kicad
 [pcbnew]
@@ -65,3 +65,4 @@ LibName33=valves
 LibName34=Libraries/FDN337N/FDN337N
 LibName35=Libraries/TCA6424ARGJR.petty/TCA6424ARGJR
 LibName36=Libraries/USB-A1HSW6.petty/USB-A1HSW6
+LibName37=Libraries/Schematic Library/jumper

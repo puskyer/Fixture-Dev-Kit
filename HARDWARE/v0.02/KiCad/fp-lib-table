@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name TL9210AF260Q)(type KiCad)(uri "$(KIPRJMOD)/Libraries/TL9210AF260Q.petty")(options "")(descr ""))
+  (lib (name YSS-19-1202-N)(type KiCad)(uri "$(KIPRJMOD)/Libraries/YSS-19-1202-N.petty")(options "")(descr ""))
+  (lib (name SolderWire)(type KiCad)(uri "$(KIPRJMOD)/Libraries/SolderWire.pretty")(options "")(descr ""))
+  (lib (name Jumper)(type KiCad)(uri "$(KIPRJMOD)/Libraries/Jumper.pretty")(options "")(descr ""))
+)

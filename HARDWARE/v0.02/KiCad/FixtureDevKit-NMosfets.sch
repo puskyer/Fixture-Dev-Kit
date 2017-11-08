@@ -34,6 +34,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:TCA6424ARGJR
 LIBS:USB-A1HSW6
+LIBS:jumper
 LIBS:Fixture-Dev-Kit-cache
 EELAYER 25 0
 EELAYER END

@@ -1,0 +1,548 @@
+EESchema Schematic File Version 2
+LIBS:Fixture-Dev-Kit-rescue
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:TCA6424ARGJR
+LIBS:USB-A1HSW6
+LIBS:Fixture-Dev-Kit-cache
+EELAYER 25 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 4 10
+Title "Dummy Loads"
+Date "2017-10-25"
+Rev "v0.01"
+Comp "Next Thing Co"
+Comment1 "Havin' a Blast!"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 2500 2800 1    60   ~ 0
+D->GND
+Text Notes 2600 2800 1    60   ~ 0
+G
+Text Notes 2700 2800 1    60   ~ 0
+VS
+$Comp
+L R R45
+U 1 1 59EE69C1
+P 2500 3800
+F 0 "R45" V 2580 3800 50  0000 C CNN
+F 1 "SQP500JB-10R" V 2500 3800 50  0000 C CNN
+F 2 "RES_TWM3J560E:RES_TWM3J560E" V 2430 3800 50  0001 C CNN
+F 3 "" H 2500 3800 50  0001 C CNN
+	1    2500 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L Conn_01x03 J30
+U 1 1 59EE6A91
+P 2550 2900
+F 0 "J30" H 2550 3100 50  0000 C CNN
+F 1 "LOAD_0" H 2550 2700 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 2550 2900 50  0001 C CNN
+F 3 "" H 2550 2900 50  0001 C CNN
+	1    2550 2900
+	0    -1   -1   0   
+$EndComp
+Text Notes 550  750  0    157  ~ 0
+Dummy Load Circuit
+$Comp
+L Q_NMOS_GDSD Q1
+U 1 1 59EE6A15
+P 2550 3450
+F 0 "Q1" H 2750 3500 50  0000 L CNN
+F 1 "NTF2955T1G" H 2750 3400 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-223" H 2750 3550 50  0001 C CNN
+F 3 "" H 2550 3450 50  0001 C CNN
+	1    2550 3450
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2650 3100 2650 3250
+Wire Wire Line
+	2750 3650 2650 3650
+Wire Wire Line
+	2650 3650 2650 3800
+Wire Wire Line
+	2350 3800 2250 3800
+Wire Wire Line
+	2250 3800 2250 3250
+Wire Wire Line
+	2250 3250 2450 3250
+Wire Wire Line
+	2450 3250 2450 3100
+Wire Wire Line
+	2350 3450 2350 3300
+Wire Wire Line
+	2350 3300 2550 3300
+Wire Wire Line
+	2550 3300 2550 3100
+$Comp
+L TEST TP13
+U 1 1 59F066A1
+P 2050 3150
+F 0 "TP13" H 2050 3450 50  0000 C BNN
+F 1 "S" H 2050 3400 50  0000 C CNN
+F 2 "TestPoint:TestPoint" H 2050 3150 50  0001 C CNN
+F 3 "" H 2050 3150 50  0001 C CNN
+	1    2050 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TEST TP14
+U 1 1 59F06708
+P 2050 3400
+F 0 "TP14" H 2050 3700 50  0000 C BNN
+F 1 "G" H 2050 3650 50  0000 C CNN
+F 2 "TestPoint:TestPoint" H 2050 3400 50  0001 C CNN
+F 3 "" H 2050 3400 50  0001 C CNN
+	1    2050 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TEST TP15
+U 1 1 59F0672F
+P 2050 3650
+F 0 "TP15" H 2050 3950 50  0000 C BNN
+F 1 "D" H 2050 3900 50  0000 C CNN
+F 2 "TestPoint:TestPoint" H 2050 3650 50  0001 C CNN
+F 3 "" H 2050 3650 50  0001 C CNN
+	1    2050 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2050 3150 2650 3150
+Connection ~ 2650 3150
+Wire Wire Line
+	2050 3400 2350 3400
+Connection ~ 2350 3400
+Wire Wire Line
+	2050 3650 2250 3650
+Connection ~ 2250 3650
+Text Notes 1600 2200 0    197  ~ 0
+LOAD_0\n
+Wire Notes Line
+	1550 1900 3400 1900
+Wire Notes Line
+	3400 1900 3400 3950
+Wire Notes Line
+	3400 3950 1550 3950
+Wire Notes Line
+	1550 3950 1550 1900
+Wire Notes Line
+	1550 2250 3400 2250
+Text Notes 4400 2800 1    60   ~ 0
+D->GND
+Text Notes 4500 2800 1    60   ~ 0
+G
+Text Notes 4600 2800 1    60   ~ 0
+VS
+$Comp
+L R R46
+U 1 1 59F074EB
+P 4400 3800
+F 0 "R46" V 4480 3800 50  0000 C CNN
+F 1 "SQP500JB-10R" V 4400 3800 50  0000 C CNN
+F 2 "RES_TWM3J560E:RES_TWM3J560E" V 4330 3800 50  0001 C CNN
+F 3 "" H 4400 3800 50  0001 C CNN
+	1    4400 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L Conn_01x03 J31
+U 1 1 59F074F1
+P 4450 2900
+F 0 "J31" H 4450 3100 50  0000 C CNN
+F 1 "LOAD_1" H 4450 2700 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 4450 2900 50  0001 C CNN
+F 3 "" H 4450 2900 50  0001 C CNN
+	1    4450 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Q_NMOS_GDSD Q2
+U 1 1 59F074F7
+P 4450 3450
+F 0 "Q2" H 4650 3500 50  0000 L CNN
+F 1 "NTF2955T1G" H 4650 3400 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-223" H 4650 3550 50  0001 C CNN
+F 3 "" H 4450 3450 50  0001 C CNN
+	1    4450 3450
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	4550 3100 4550 3250
+Wire Wire Line
+	4650 3650 4550 3650
+Wire Wire Line
+	4550 3650 4550 3800
+Wire Wire Line
+	4250 3800 4150 3800
+Wire Wire Line
+	4150 3800 4150 3250
+Wire Wire Line
+	4150 3250 4350 3250
+Wire Wire Line
+	4350 3250 4350 3100
+Wire Wire Line
+	4250 3450 4250 3300
+Wire Wire Line
+	4250 3300 4450 3300
+Wire Wire Line
+	4450 3300 4450 3100
+$Comp
+L TEST TP16
+U 1 1 59F07507
+P 3950 3150
+F 0 "TP16" H 3950 3450 50  0000 C BNN
+F 1 "S" H 3950 3400 50  0000 C CNN
+F 2 "TestPoint:TestPoint" H 3950 3150 50  0001 C CNN
+F 3 "" H 3950 3150 50  0001 C CNN
+	1    3950 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TEST TP17
+U 1 1 59F0750D
+P 3950 3400
+F 0 "TP17" H 3950 3700 50  0000 C BNN
+F 1 "G" H 3950 3650 50  0000 C CNN
+F 2 "TestPoint:TestPoint" H 3950 3400 50  0001 C CNN
+F 3 "" H 3950 3400 50  0001 C CNN
+	1    3950 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TEST TP18
+U 1 1 59F07513
+P 3950 3650
+F 0 "TP18" H 3950 3950 50  0000 C BNN
+F 1 "D" H 3950 3900 50  0000 C CNN
+F 2 "TestPoint:TestPoint" H 3950 3650 50  0001 C CNN
+F 3 "" H 3950 3650 50  0001 C CNN
+	1    3950 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3950 3150 4550 3150
+Connection ~ 4550 3150
+Wire Wire Line
+	3950 3400 4250 3400
+Connection ~ 4250 3400
+Wire Wire Line
+	3950 3650 4150 3650
+Connection ~ 4150 3650
+Text Notes 3500 2200 0    197  ~ 0
+LOAD_1
+Wire Notes Line
+	3450 1900 5300 1900
+Wire Notes Line
+	5300 1900 5300 3950
+Wire Notes Line
+	5300 3950 3450 3950
+Wire Notes Line
+	3450 3950 3450 1900
+Wire Notes Line
+	3450 2250 5300 2250
+Text Notes 6300 2800 1    60   ~ 0
+D->GND
+Text Notes 6400 2800 1    60   ~ 0
+G
+Text Notes 6500 2800 1    60   ~ 0
+VS
+$Comp
+L R R47
+U 1 1 59F07D08
+P 6300 3800
+F 0 "R47" V 6380 3800 50  0000 C CNN
+F 1 "SQP500JB-10R" V 6300 3800 50  0000 C CNN
+F 2 "RES_TWM3J560E:RES_TWM3J560E" V 6230 3800 50  0001 C CNN
+F 3 "" H 6300 3800 50  0001 C CNN
+	1    6300 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L Conn_01x03 J32
+U 1 1 59F07D0E
+P 6350 2900
+F 0 "J32" H 6350 3100 50  0000 C CNN
+F 1 "LOAD_2" H 6350 2700 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 6350 2900 50  0001 C CNN
+F 3 "" H 6350 2900 50  0001 C CNN
+	1    6350 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Q_NMOS_GDSD Q3
+U 1 1 59F07D14
+P 6350 3450
+F 0 "Q3" H 6550 3500 50  0000 L CNN
+F 1 "NTF2955T1G" H 6550 3400 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-223" H 6550 3550 50  0001 C CNN
+F 3 "" H 6350 3450 50  0001 C CNN
+	1    6350 3450
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6450 3100 6450 3250
+Wire Wire Line
+	6550 3650 6450 3650
+Wire Wire Line
+	6450 3650 6450 3800
+Wire Wire Line
+	6150 3800 6050 3800
+Wire Wire Line
+	6050 3800 6050 3250
+Wire Wire Line
+	6050 3250 6250 3250
+Wire Wire Line
+	6250 3250 6250 3100
+Wire Wire Line
+	6150 3450 6150 3300
+Wire Wire Line
+	6150 3300 6350 3300
+Wire Wire Line
+	6350 3300 6350 3100
+$Comp
+L TEST TP19
+U 1 1 59F07D24
+P 5850 3150
+F 0 "TP19" H 5850 3450 50  0000 C BNN
+F 1 "S" H 5850 3400 50  0000 C CNN
+F 2 "TestPoint:TestPoint" H 5850 3150 50  0001 C CNN
+F 3 "" H 5850 3150 50  0001 C CNN
+	1    5850 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TEST TP20
+U 1 1 59F07D2A
+P 5850 3400
+F 0 "TP20" H 5850 3700 50  0000 C BNN
+F 1 "G" H 5850 3650 50  0000 C CNN
+F 2 "TestPoint:TestPoint" H 5850 3400 50  0001 C CNN
+F 3 "" H 5850 3400 50  0001 C CNN
+	1    5850 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TEST TP21
+U 1 1 59F07D30
+P 5850 3650
+F 0 "TP21" H 5850 3950 50  0000 C BNN
+F 1 "D" H 5850 3900 50  0000 C CNN
+F 2 "TestPoint:TestPoint" H 5850 3650 50  0001 C CNN
+F 3 "" H 5850 3650 50  0001 C CNN
+	1    5850 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5850 3150 6450 3150
+Connection ~ 6450 3150
+Wire Wire Line
+	5850 3400 6150 3400
+Connection ~ 6150 3400
+Wire Wire Line
+	5850 3650 6050 3650
+Connection ~ 6050 3650
+Text Notes 5400 2200 0    197  ~ 0
+LOAD_2
+Wire Notes Line
+	5350 1900 7200 1900
+Wire Notes Line
+	7200 1900 7200 3950
+Wire Notes Line
+	7200 3950 5350 3950
+Wire Notes Line
+	5350 3950 5350 1900
+Wire Notes Line
+	5350 2250 7200 2250
+Text Notes 8200 2800 1    60   ~ 0
+D->GND
+Text Notes 8300 2800 1    60   ~ 0
+G
+Text Notes 8400 2800 1    60   ~ 0
+VS
+$Comp
+L R R48
+U 1 1 59F07D45
+P 8200 3800
+F 0 "R48" V 8280 3800 50  0000 C CNN
+F 1 "SQP500JB-10R" V 8200 3800 50  0000 C CNN
+F 2 "RES_TWM3J560E:RES_TWM3J560E" V 8130 3800 50  0001 C CNN
+F 3 "" H 8200 3800 50  0001 C CNN
+	1    8200 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L Conn_01x03 J33
+U 1 1 59F07D4B
+P 8250 2900
+F 0 "J33" H 8250 3100 50  0000 C CNN
+F 1 "LOAD_3" H 8250 2700 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 8250 2900 50  0001 C CNN
+F 3 "" H 8250 2900 50  0001 C CNN
+	1    8250 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Q_NMOS_GDSD Q4
+U 1 1 59F07D51
+P 8250 3450
+F 0 "Q4" H 8450 3500 50  0000 L CNN
+F 1 "NTF2955T1G" H 8450 3400 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-223" H 8450 3550 50  0001 C CNN
+F 3 "" H 8250 3450 50  0001 C CNN
+	1    8250 3450
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	8350 3100 8350 3250
+Wire Wire Line
+	8450 3650 8350 3650
+Wire Wire Line
+	8350 3650 8350 3800
+Wire Wire Line
+	8050 3800 7950 3800
+Wire Wire Line
+	7950 3800 7950 3250
+Wire Wire Line
+	7950 3250 8150 3250
+Wire Wire Line
+	8150 3250 8150 3100
+Wire Wire Line
+	8050 3450 8050 3300
+Wire Wire Line
+	8050 3300 8250 3300
+Wire Wire Line
+	8250 3300 8250 3100
+$Comp
+L TEST TP22
+U 1 1 59F07D61
+P 7750 3150
+F 0 "TP22" H 7750 3450 50  0000 C BNN
+F 1 "S" H 7750 3400 50  0000 C CNN
+F 2 "TestPoint:TestPoint" H 7750 3150 50  0001 C CNN
+F 3 "" H 7750 3150 50  0001 C CNN
+	1    7750 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TEST TP23
+U 1 1 59F07D67
+P 7750 3400
+F 0 "TP23" H 7750 3700 50  0000 C BNN
+F 1 "G" H 7750 3650 50  0000 C CNN
+F 2 "TestPoint:TestPoint" H 7750 3400 50  0001 C CNN
+F 3 "" H 7750 3400 50  0001 C CNN
+	1    7750 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L TEST TP24
+U 1 1 59F07D6D
+P 7750 3650
+F 0 "TP24" H 7750 3950 50  0000 C BNN
+F 1 "D" H 7750 3900 50  0000 C CNN
+F 2 "TestPoint:TestPoint" H 7750 3650 50  0001 C CNN
+F 3 "" H 7750 3650 50  0001 C CNN
+	1    7750 3650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7750 3150 8350 3150
+Connection ~ 8350 3150
+Wire Wire Line
+	7750 3400 8050 3400
+Connection ~ 8050 3400
+Wire Wire Line
+	7750 3650 7950 3650
+Connection ~ 7950 3650
+Text Notes 7300 2200 0    197  ~ 0
+LOAD_3
+Wire Notes Line
+	7250 1900 9100 1900
+Wire Notes Line
+	9100 1900 9100 3950
+Wire Notes Line
+	9100 3950 7250 3950
+Wire Notes Line
+	7250 3950 7250 1900
+Wire Notes Line
+	7250 2250 9100 2250
+Text Notes 550  7200 0    118  ~ 0
+Ohm's Law Cheat Sheet
+Text Notes 550  7400 0    60   ~ 0
+V = C * R\nP = V * i
+Text Notes 550  7500 0    60   ~ 0
+V\n
+Text Notes 800  7500 0    60   ~ 0
+i
+Text Notes 1050 7500 0    60   ~ 0
+R
+Text Notes 1350 7500 0    60   ~ 0
+P
+Text Notes 550  7700 0    60   ~ 0
+5
+Text Notes 800  7700 0    60   ~ 0
+0.5
+Text Notes 1050 7700 0    60   ~ 0
+10
+Text Notes 1350 7700 0    60   ~ 0
+5
+Wire Notes Line
+	500  7000 2750 7000
+Wire Notes Line
+	2750 7000 2750 7750
+Wire Notes Line
+	2750 7750 500  7750
+Wire Notes Line
+	500  7750 500  7000
+Wire Notes Line
+	500  7200 2750 7200
+Wire Notes Line
+	500  7400 2750 7400
+Wire Notes Line
+	700  7400 700  7750
+Wire Notes Line
+	1000 7400 1000 7750
+Wire Notes Line
+	1250 7400 1250 7750
+Wire Notes Line
+	1500 7400 1500 7750
+Wire Notes Line
+	500  7550 1500 7550
+$EndSCHEMATC
