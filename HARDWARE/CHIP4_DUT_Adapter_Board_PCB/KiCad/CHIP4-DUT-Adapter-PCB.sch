@@ -291,6 +291,317 @@ Text Label 9800 3900 0    60   ~ 0
 GPIODV_13
 Text Label 9800 4000 0    60   ~ 0
 GPIODV_14
+Text Label 1150 7350 2    60   ~ 0
+GPIOH_8
+Text Label 1150 7250 2    60   ~ 0
+GPIOH_9
+Text Label 1150 7150 2    60   ~ 0
+GPIOX_8
+Text Label 1150 7050 2    60   ~ 0
+GPIOX_9
+Text Label 1150 6950 2    60   ~ 0
+GPIOX_10
+Text Label 1150 6850 2    60   ~ 0
+GPIOX_11
+Text Label 1150 6750 2    60   ~ 0
+GPIOX_16
+Text Label 1150 6650 2    60   ~ 0
+PWM_AO_A
+Text Label 1150 6550 2    60   ~ 0
+PWM_AO_B
+Text Label 1150 6450 2    60   ~ 0
+PWM_C
+Text Label 1150 6350 2    60   ~ 0
+GPIODV_6
+Text Label 1150 6250 2    60   ~ 0
+GPIODV_7
+Text Label 1150 6150 2    60   ~ 0
+GPIODV_14
+Text Label 1150 6050 2    60   ~ 0
+GPIODV_15
+Text Label 1150 5950 2    60   ~ 0
+GPIODV_22
+Text Label 1150 5850 2    60   ~ 0
+GPIODV_23
+Text Label 1150 5750 2    60   ~ 0
+SARADC_CH2
+Text Label 1150 5650 2    60   ~ 0
+SARADC_CH3
+$Comp
+L TCA6426A U?
+U 1 1 5A065B58
+P 4600 7000
+F 0 "U?" H 4500 7850 60  0000 C CNN
+F 1 "TCA6426A" H 4750 5300 60  0000 C CNN
+F 2 "" H 4600 7000 60  0001 C CNN
+F 3 "" H 4600 7000 60  0001 C CNN
+	1    4600 7000
+	-1   0    0    1   
+$EndComp
+Text Label 1150 5550 2    60   ~ 0
+GPIOH_4
+Text Label 1150 5450 2    60   ~ 0
+GPIODV_16
+Text Label 4050 7750 2    60   ~ 0
+GPIODV_17
+Text Label 4050 7650 2    60   ~ 0
+GPIODV_18
+Text Label 4050 7550 2    60   ~ 0
+GPIODV_19
+Text Label 4050 7450 2    60   ~ 0
+GPIODV_20
+Text Label 4050 7350 2    60   ~ 0
+GPIODV_21
+Text Label 4050 7250 2    60   ~ 0
+GPIODV_24
+Text Label 4050 7150 2    60   ~ 0
+GPIODV_25
+Text Label 4050 7050 2    60   ~ 0
+GPIODV_26
+Text Label 4050 6950 2    60   ~ 0
+GPIODV_27
+Text Label 4050 6850 2    60   ~ 0
+GPIODV_28
+Text Label 4050 6750 2    60   ~ 0
+GPIODV_29
+Text Label 4050 6650 2    60   ~ 0
+GPIODV_0
+Text Label 4050 6550 2    60   ~ 0
+GPIODV_1
+Text Label 4050 6450 2    60   ~ 0
+GPIODV_2
+Text Label 4050 6350 2    60   ~ 0
+GPIODV_3
+Text Label 4050 6250 2    60   ~ 0
+GPIODV_4
+Text Label 4050 6150 2    60   ~ 0
+GPIODV_5
+Text Label 4050 6050 2    60   ~ 0
+GPIODV_8
+Text Label 4050 5950 2    60   ~ 0
+GPIODV_9
+Text Label 4050 5850 2    60   ~ 0
+GPIODV_10
+Text Label 4050 5750 2    60   ~ 0
+GPIODV_11
+Text Label 4050 5650 2    60   ~ 0
+GPIODV_12
+Text Label 4050 5550 2    60   ~ 0
+GPIODV_13
+Text Label 4050 5450 2    60   ~ 0
+GPIODV_14
+Text Label 2500 7050 0    60   ~ 0
+I2C-SCK
+Text Label 2500 7150 0    60   ~ 0
+I2C-SDA
+$Comp
+L GND #PWR?
+U 1 1 5A0674FC
+P 2500 6450
+F 0 "#PWR?" H 2500 6200 50  0001 C CNN
+F 1 "GND" H 2500 6300 50  0000 C CNN
+F 2 "" H 2500 6450 50  0001 C CNN
+F 3 "" H 2500 6450 50  0001 C CNN
+	1    2500 6450
+	-1   0    0    1   
+$EndComp
+Text Label 1950 2250 1    60   ~ 0
++5V
+Text Label 1750 2250 1    60   ~ 0
++3V3
+Text Label 3250 6800 1    60   ~ 0
++3V3
+$Comp
+L R R?
+U 1 1 5A0679EC
+P 3100 6950
+F 0 "R?" V 3180 6950 50  0000 C CNN
+F 1 "R" V 3100 6950 50  0000 C CNN
+F 2 "" V 3030 6950 50  0001 C CNN
+F 3 "" H 3100 6950 50  0001 C CNN
+	1    3100 6950
+	0    1    1    0   
+$EndComp
+NoConn ~ 2350 7350
+Text Label 5400 7050 0    60   ~ 0
+I2C-SCK
+Text Label 5400 7150 0    60   ~ 0
+I2C-SDA
+$Comp
+L GND #PWR?
+U 1 1 5A068567
+P 5400 6450
+F 0 "#PWR?" H 5400 6200 50  0001 C CNN
+F 1 "GND" H 5400 6300 50  0000 C CNN
+F 2 "" H 5400 6450 50  0001 C CNN
+F 3 "" H 5400 6450 50  0001 C CNN
+	1    5400 6450
+	-1   0    0    1   
+$EndComp
+Text Label 6150 6650 1    60   ~ 0
++3V3
+$Comp
+L R R?
+U 1 1 5A068572
+P 6000 6950
+F 0 "R?" V 6080 6950 50  0000 C CNN
+F 1 "R" V 6000 6950 50  0000 C CNN
+F 2 "" V 5930 6950 50  0001 C CNN
+F 3 "" H 6000 6950 50  0001 C CNN
+	1    6000 6950
+	0    1    1    0   
+$EndComp
+Text Notes 650  5100 0    118  ~ 0
+TCA_22
+Text Notes 3550 5100 0    118  ~ 0
+TCA_23
+NoConn ~ 5250 7350
+$Comp
+L R 10K
+U 1 1 5A069970
+P 5850 2250
+F 0 "10K" V 5930 2250 50  0000 C CNN
+F 1 "R" V 5850 2250 50  0000 C CNN
+F 2 "" V 5780 2250 50  0001 C CNN
+F 3 "" H 5850 2250 50  0001 C CNN
+	1    5850 2250
+	0    1    1    0   
+$EndComp
+Text Label 6950 6300 1    60   ~ 0
+ADAPTER_ID
+$Comp
+L R 10K
+U 1 1 5A069CCA
+P 6750 6550
+F 0 "10K" V 6830 6550 50  0000 C CNN
+F 1 "R" V 6750 6550 50  0000 C CNN
+F 2 "" V 6680 6550 50  0001 C CNN
+F 3 "" H 6750 6550 50  0001 C CNN
+	1    6750 6550
+	0    1    1    0   
+$EndComp
+$Comp
+L R 10K
+U 1 1 5A069DDE
+P 7150 6550
+F 0 "10K" V 7230 6550 50  0000 C CNN
+F 1 "R" V 7150 6550 50  0000 C CNN
+F 2 "" V 7080 6550 50  0001 C CNN
+F 3 "" H 7150 6550 50  0001 C CNN
+	1    7150 6550
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A069E20
+P 7400 6550
+F 0 "#PWR?" H 7400 6300 50  0001 C CNN
+F 1 "GND" H 7400 6400 50  0000 C CNN
+F 2 "" H 7400 6550 50  0001 C CNN
+F 3 "" H 7400 6550 50  0001 C CNN
+	1    7400 6550
+	0    -1   -1   0   
+$EndComp
+Text Label 6500 6550 2    60   ~ 0
++5V
+Text Notes 6350 5700 0    118  ~ 0
+ADAPTER_ID
+NoConn ~ 7800 2600
+NoConn ~ 5300 2550
+NoConn ~ 9350 2200
+Text Notes 7850 5700 0    118  ~ 0
+AudioJack
+Text Label 9800 2300 0    60   ~ 0
+LOLP
+Text Label 9800 2400 0    60   ~ 0
+LOLN
+Text Label 9800 2500 0    60   ~ 0
+LORP
+Text Label 9800 2600 0    60   ~ 0
+LORN
+Text Label 8500 6300 3    60   ~ 0
+LOLP
+Text Label 8000 6300 0    60   ~ 0
+LOLN
+Text Label 8750 6300 3    60   ~ 0
+LORP
+Text Label 8000 6450 0    60   ~ 0
+LORN
+Text Label 7400 2500 2    60   ~ 0
+UPDATE
+Text Label 9950 5950 0    60   ~ 0
+UPDATE
+$Comp
+L LED D?
+U 1 1 5A06BCE2
+P 9550 6150
+F 0 "D?" H 9550 6250 50  0000 C CNN
+F 1 "LED" H 9550 6050 50  0000 C CNN
+F 2 "" H 9550 6150 50  0001 C CNN
+F 3 "" H 9550 6150 50  0001 C CNN
+	1    9550 6150
+	0    1    1    0   
+$EndComp
+$Comp
+L Q_NMOS_GDSD Q?
+U 1 1 5A06BDA9
+P 9850 6300
+F 0 "Q?" H 10050 6350 50  0000 L CNN
+F 1 "ZXMN4A06GT" H 10050 6250 50  0000 L CNN
+F 2 "" H 10050 6400 50  0001 C CNN
+F 3 "" H 9850 6300 50  0001 C CNN
+	1    9850 6300
+	1    0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A06BF66
+P 9950 6600
+F 0 "#PWR?" H 9950 6350 50  0001 C CNN
+F 1 "GND" H 9950 6450 50  0000 C CNN
+F 2 "" H 9950 6600 50  0001 C CNN
+F 3 "" H 9950 6600 50  0001 C CNN
+	1    9950 6600
+	0    1    1    0   
+$EndComp
+Text Label 9400 6300 2    60   ~ 0
+UPDATE_XIO
+$Comp
+L R 160R
+U 1 1 5A06C5DC
+P 9400 5900
+F 0 "160R" V 9480 5900 50  0000 C CNN
+F 1 "R" V 9400 5900 50  0000 C CNN
+F 2 "" V 9330 5900 50  0001 C CNN
+F 3 "" H 9400 5900 50  0001 C CNN
+	1    9400 5900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A06C90B
+P 9150 5900
+F 0 "#PWR?" H 9150 5650 50  0001 C CNN
+F 1 "GND" H 9150 5750 50  0000 C CNN
+F 2 "" H 9150 5900 50  0001 C CNN
+F 3 "" H 9150 5900 50  0001 C CNN
+	1    9150 5900
+	0    1    1    0   
+$EndComp
+Text Notes 8900 5050 0    118  ~ 0
+UPDATE CONTROL
+Text Notes 8900 5650 0    60   ~ 0
+IF XIO is LOW:\n		LED = OFF\n		UPDATE = NO\nIF XIO is HIGH:\n		LED = ON\n		UPDATE = YES
+Text Notes 11300 6300 0    236  ~ 0
+PLEASE CONFIRM THIS
+Text Notes 600  900  0    236  ~ 47
+CHIP4 DUT ADAPTER PCB
+Text Label 1150 7850 2    60   ~ 0
+UPDATE_XIO
+Text Label 1150 7750 2    60   ~ 0
+AXP_GPIO_1
+Text Label 1150 7650 2    60   ~ 0
+AXP_GPIO_2
 Wire Wire Line
 	1550 2700 1550 2750
 Wire Wire Line
@@ -456,42 +767,6 @@ Wire Wire Line
 	7800 3900 7400 3900
 Wire Wire Line
 	7400 4000 7800 4000
-Text Label 1150 7350 2    60   ~ 0
-GPIOH_8
-Text Label 1150 7250 2    60   ~ 0
-GPIOH_9
-Text Label 1150 7150 2    60   ~ 0
-GPIOX_8
-Text Label 1150 7050 2    60   ~ 0
-GPIOX_9
-Text Label 1150 6950 2    60   ~ 0
-GPIOX_10
-Text Label 1150 6850 2    60   ~ 0
-GPIOX_11
-Text Label 1150 6750 2    60   ~ 0
-GPIOX_16
-Text Label 1150 6650 2    60   ~ 0
-PWM_AO_A
-Text Label 1150 6550 2    60   ~ 0
-PWM_AO_B
-Text Label 1150 6450 2    60   ~ 0
-PWM_C
-Text Label 1150 6350 2    60   ~ 0
-GPIODV_6
-Text Label 1150 6250 2    60   ~ 0
-GPIODV_7
-Text Label 1150 6150 2    60   ~ 0
-GPIODV_14
-Text Label 1150 6050 2    60   ~ 0
-GPIODV_15
-Text Label 1150 5950 2    60   ~ 0
-GPIODV_22
-Text Label 1150 5850 2    60   ~ 0
-GPIODV_23
-Text Label 1150 5750 2    60   ~ 0
-SARADC_CH2
-Text Label 1150 5650 2    60   ~ 0
-SARADC_CH3
 Wire Wire Line
 	1150 7750 1250 7750
 Wire Wire Line
@@ -580,69 +855,6 @@ Wire Wire Line
 	5700 3750 5300 3750
 Wire Wire Line
 	5300 3850 5700 3850
-$Comp
-L TCA6426A U?
-U 1 1 5A065B58
-P 4600 7000
-F 0 "U?" H 4500 7850 60  0000 C CNN
-F 1 "TCA6426A" H 4750 5300 60  0000 C CNN
-F 2 "" H 4600 7000 60  0001 C CNN
-F 3 "" H 4600 7000 60  0001 C CNN
-	1    4600 7000
-	-1   0    0    1   
-$EndComp
-Text Label 1150 5550 2    60   ~ 0
-GPIOH_4
-Text Label 1150 5450 2    60   ~ 0
-GPIODV_16
-Text Label 4050 7750 2    60   ~ 0
-GPIODV_17
-Text Label 4050 7650 2    60   ~ 0
-GPIODV_18
-Text Label 4050 7550 2    60   ~ 0
-GPIODV_19
-Text Label 4050 7450 2    60   ~ 0
-GPIODV_20
-Text Label 4050 7350 2    60   ~ 0
-GPIODV_21
-Text Label 4050 7250 2    60   ~ 0
-GPIODV_24
-Text Label 4050 7150 2    60   ~ 0
-GPIODV_25
-Text Label 4050 7050 2    60   ~ 0
-GPIODV_26
-Text Label 4050 6950 2    60   ~ 0
-GPIODV_27
-Text Label 4050 6850 2    60   ~ 0
-GPIODV_28
-Text Label 4050 6750 2    60   ~ 0
-GPIODV_29
-Text Label 4050 6650 2    60   ~ 0
-GPIODV_0
-Text Label 4050 6550 2    60   ~ 0
-GPIODV_1
-Text Label 4050 6450 2    60   ~ 0
-GPIODV_2
-Text Label 4050 6350 2    60   ~ 0
-GPIODV_3
-Text Label 4050 6250 2    60   ~ 0
-GPIODV_4
-Text Label 4050 6150 2    60   ~ 0
-GPIODV_5
-Text Label 4050 6050 2    60   ~ 0
-GPIODV_8
-Text Label 4050 5950 2    60   ~ 0
-GPIODV_9
-Text Label 4050 5850 2    60   ~ 0
-GPIODV_10
-Text Label 4050 5750 2    60   ~ 0
-GPIODV_11
-Text Label 4050 5650 2    60   ~ 0
-GPIODV_12
-Text Label 4050 5550 2    60   ~ 0
-GPIODV_13
-Text Label 4050 5450 2    60   ~ 0
-GPIODV_14
 Wire Wire Line
 	1150 5550 1250 5550
 Wire Wire Line
@@ -695,46 +907,14 @@ Wire Wire Line
 	4050 5550 4150 5550
 Wire Wire Line
 	4150 5450 4050 5450
-Text Label 2500 7050 0    60   ~ 0
-I2C-SCK
-Text Label 2500 7150 0    60   ~ 0
-I2C-SDA
-$Comp
-L GND #PWR?
-U 1 1 5A0674FC
-P 2500 6450
-F 0 "#PWR?" H 2500 6200 50  0001 C CNN
-F 1 "GND" H 2500 6300 50  0000 C CNN
-F 2 "" H 2500 6450 50  0001 C CNN
-F 3 "" H 2500 6450 50  0001 C CNN
-	1    2500 6450
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	2500 6650 2350 6650
 Wire Wire Line
 	2500 6750 2350 6750
 Wire Wire Line
 	2500 6450 2500 6750
-Text Label 1950 2250 1    60   ~ 0
-+5V
-Text Label 1750 2250 1    60   ~ 0
-+3V3
-Text Label 3250 6800 1    60   ~ 0
-+3V3
 Wire Wire Line
 	2350 6850 3250 6850
-$Comp
-L R R?
-U 1 1 5A0679EC
-P 3100 6950
-F 0 "R?" V 3180 6950 50  0000 C CNN
-F 1 "R" V 3100 6950 50  0000 C CNN
-F 2 "" V 3030 6950 50  0001 C CNN
-F 3 "" H 3100 6950 50  0001 C CNN
-	1    3100 6950
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	3250 6800 3250 7250
 Connection ~ 3250 6850
@@ -747,43 +927,14 @@ Wire Wire Line
 Wire Wire Line
 	3250 7250 2350 7250
 Connection ~ 3250 6950
-NoConn ~ 2350 7350
 Connection ~ 2500 6650
 Wire Wire Line
 	2350 6550 2500 6550
 Connection ~ 2500 6550
-Text Label 5400 7050 0    60   ~ 0
-I2C-SCK
-Text Label 5400 7150 0    60   ~ 0
-I2C-SDA
-$Comp
-L GND #PWR?
-U 1 1 5A068567
-P 5400 6450
-F 0 "#PWR?" H 5400 6200 50  0001 C CNN
-F 1 "GND" H 5400 6300 50  0000 C CNN
-F 2 "" H 5400 6450 50  0001 C CNN
-F 3 "" H 5400 6450 50  0001 C CNN
-	1    5400 6450
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	5400 6650 5250 6650
-Text Label 6150 6650 1    60   ~ 0
-+3V3
 Wire Wire Line
 	6150 6850 5250 6850
-$Comp
-L R R?
-U 1 1 5A068572
-P 6000 6950
-F 0 "R?" V 6080 6950 50  0000 C CNN
-F 1 "R" V 6000 6950 50  0000 C CNN
-F 2 "" V 5930 6950 50  0001 C CNN
-F 3 "" H 6000 6950 50  0001 C CNN
-	1    6000 6950
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	6150 6650 6150 7250
 Connection ~ 6150 6850
@@ -798,17 +949,12 @@ Wire Wire Line
 Connection ~ 6150 6950
 Wire Wire Line
 	5250 6550 5400 6550
-Text Notes 650  5100 0    118  ~ 0
-TCA_22
-Text Notes 3550 5100 0    118  ~ 0
-TCA_23
 Wire Wire Line
 	5400 6450 5400 6650
 Connection ~ 5400 6550
 Wire Wire Line
 	5250 6750 6150 6750
 Connection ~ 6150 6750
-NoConn ~ 5250 7350
 Wire Notes Line
 	550  7950 550  4900
 Wire Notes Line
@@ -816,7 +962,7 @@ Wire Notes Line
 Wire Notes Line
 	3350 4900 3350 7950
 Wire Notes Line
-	3350 4900 550  4900
+	550  4900 3350 4900
 Wire Notes Line
 	550  5200 3350 5200
 Wire Notes Line
@@ -827,60 +973,12 @@ Wire Notes Line
 	3450 4900 6200 4900
 Wire Notes Line
 	3450 5200 6200 5200
-$Comp
-L R 10K
-U 1 1 5A069970
-P 5850 2250
-F 0 "10K" V 5930 2250 50  0000 C CNN
-F 1 "R" V 5850 2250 50  0000 C CNN
-F 2 "" V 5780 2250 50  0001 C CNN
-F 3 "" H 5850 2250 50  0001 C CNN
-	1    5850 2250
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	5300 2350 6050 2350
 Wire Wire Line
 	6050 2350 6050 2250
 Wire Wire Line
 	6050 2250 6000 2250
-Text Label 6950 6300 1    60   ~ 0
-ADAPTER_ID
-$Comp
-L R 10K
-U 1 1 5A069CCA
-P 6750 6550
-F 0 "10K" V 6830 6550 50  0000 C CNN
-F 1 "R" V 6750 6550 50  0000 C CNN
-F 2 "" V 6680 6550 50  0001 C CNN
-F 3 "" H 6750 6550 50  0001 C CNN
-	1    6750 6550
-	0    1    1    0   
-$EndComp
-$Comp
-L R 10K
-U 1 1 5A069DDE
-P 7150 6550
-F 0 "10K" V 7230 6550 50  0000 C CNN
-F 1 "R" V 7150 6550 50  0000 C CNN
-F 2 "" V 7080 6550 50  0001 C CNN
-F 3 "" H 7150 6550 50  0001 C CNN
-	1    7150 6550
-	0    1    1    0   
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 5A069E20
-P 7400 6550
-F 0 "#PWR?" H 7400 6300 50  0001 C CNN
-F 1 "GND" H 7400 6400 50  0000 C CNN
-F 2 "" H 7400 6550 50  0001 C CNN
-F 3 "" H 7400 6550 50  0001 C CNN
-	1    7400 6550
-	0    -1   -1   0   
-$EndComp
-Text Label 6500 6550 2    60   ~ 0
-+5V
 Wire Wire Line
 	6500 6550 6600 6550
 Wire Wire Line
@@ -890,8 +988,6 @@ Wire Wire Line
 Wire Wire Line
 	6950 6300 6950 6550
 Connection ~ 6950 6550
-Text Notes 6350 5700 0    118  ~ 0
-ADAPTER_ID
 Wire Notes Line
 	6250 6700 7650 6700
 Wire Notes Line
@@ -902,19 +998,6 @@ Wire Notes Line
 	6250 5450 6250 6700
 Wire Notes Line
 	6250 5750 7650 5750
-NoConn ~ 7800 2600
-NoConn ~ 5300 2550
-NoConn ~ 9350 2200
-Text Notes 7850 5700 0    118  ~ 0
-AudioJack
-Text Label 9800 2300 0    60   ~ 0
-LOLP
-Text Label 9800 2400 0    60   ~ 0
-LOLN
-Text Label 9800 2500 0    60   ~ 0
-LORP
-Text Label 9800 2600 0    60   ~ 0
-LORN
 Wire Wire Line
 	9350 2300 9800 2300
 Wire Wire Line
@@ -923,14 +1006,6 @@ Wire Wire Line
 	9350 2500 9800 2500
 Wire Wire Line
 	9800 2600 9350 2600
-Text Label 8400 6150 0    60   ~ 0
-LOLP
-Text Label 8400 6250 0    60   ~ 0
-LOLN
-Text Label 8400 6350 0    60   ~ 0
-LORP
-Text Label 8400 6450 0    60   ~ 0
-LORN
 Wire Notes Line
 	7700 5450 8800 5450
 Wire Notes Line
@@ -941,86 +1016,21 @@ Wire Notes Line
 	7700 6700 7700 5450
 Wire Notes Line
 	7700 5750 8800 5750
-Text Label 7400 2500 2    60   ~ 0
-UPDATE
 Wire Wire Line
 	7400 2500 7800 2500
-Text Label 9950 5950 0    60   ~ 0
-UPDATE
-$Comp
-L LED D?
-U 1 1 5A06BCE2
-P 9550 6150
-F 0 "D?" H 9550 6250 50  0000 C CNN
-F 1 "LED" H 9550 6050 50  0000 C CNN
-F 2 "" H 9550 6150 50  0001 C CNN
-F 3 "" H 9550 6150 50  0001 C CNN
-	1    9550 6150
-	0    1    1    0   
-$EndComp
-$Comp
-L Q_NMOS_GDSD Q?
-U 1 1 5A06BDA9
-P 9850 6300
-F 0 "Q?" H 10050 6350 50  0000 L CNN
-F 1 "ZXMN4A06GT" H 10050 6250 50  0000 L CNN
-F 2 "" H 10050 6400 50  0001 C CNN
-F 3 "" H 9850 6300 50  0001 C CNN
-	1    9850 6300
-	1    0    0    1   
-$EndComp
-$Comp
-L GND #PWR?
-U 1 1 5A06BF66
-P 9950 6600
-F 0 "#PWR?" H 9950 6350 50  0001 C CNN
-F 1 "GND" H 9950 6450 50  0000 C CNN
-F 2 "" H 9950 6600 50  0001 C CNN
-F 3 "" H 9950 6600 50  0001 C CNN
-	1    9950 6600
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	9950 6600 9950 6500
 Wire Wire Line
 	9950 6500 10050 6500
 Wire Wire Line
 	9950 6100 9950 5950
-Text Label 9400 6300 2    60   ~ 0
-UPDATE_XIO
 Wire Wire Line
 	9400 6300 9650 6300
 Connection ~ 9550 6300
-$Comp
-L R 160R
-U 1 1 5A06C5DC
-P 9400 5900
-F 0 "160R" V 9480 5900 50  0000 C CNN
-F 1 "R" V 9400 5900 50  0000 C CNN
-F 2 "" V 9330 5900 50  0001 C CNN
-F 3 "" H 9400 5900 50  0001 C CNN
-	1    9400 5900
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	9550 6000 9550 5900
-$Comp
-L GND #PWR?
-U 1 1 5A06C90B
-P 9150 5900
-F 0 "#PWR?" H 9150 5650 50  0001 C CNN
-F 1 "GND" H 9150 5750 50  0000 C CNN
-F 2 "" H 9150 5900 50  0001 C CNN
-F 3 "" H 9150 5900 50  0001 C CNN
-	1    9150 5900
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	9150 5900 9250 5900
-Text Notes 8900 5050 0    118  ~ 0
-UPDATE CONTROL
-Text Notes 8900 5650 0    60   ~ 0
-IF XIO is LOW:\n		LED = OFF\n		UPDATE = NO\nIF XIO is HIGH:\n		LED = ON\n		UPDATE = YES
 Wire Notes Line
 	8850 4850 8850 6700
 Wire Notes Line
@@ -1031,18 +1041,132 @@ Wire Notes Line
 	10550 4850 8850 4850
 Wire Notes Line
 	8850 5050 10550 5050
-Text Notes 11300 6300 0    236  ~ 0
-PLEASE CONFIRM THIS
 Wire Notes Line
 	11300 6100 10250 6100
 Wire Notes Line
 	10250 6100 10250 6050
 Wire Notes Line
 	3350 7950 550  7950
-Text Notes 600  900  0    236  ~ 47
-CHIP4 DUT ADAPTER PCB
-Text Label 1150 7750 2    60   ~ 0
-UPDATE_XIO
-Text Label 1150 7650 2    60   ~ 0
-AXP_GPIO_1
+Wire Wire Line
+	1150 7850 1250 7850
+Wire Wire Line
+	1250 7850 1250 7750
+$Comp
+L LED D?
+U 1 1 5A062FFF
+P 6950 5250
+F 0 "D?" H 6950 5350 50  0000 C CNN
+F 1 "LED" H 6950 5150 50  0000 C CNN
+F 2 "" H 6950 5250 50  0001 C CNN
+F 3 "" H 6950 5250 50  0001 C CNN
+	1    6950 5250
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A063080
+P 6650 5250
+F 0 "#PWR?" H 6650 5000 50  0001 C CNN
+F 1 "GND" H 6650 5100 50  0000 C CNN
+F 2 "" H 6650 5250 50  0001 C CNN
+F 3 "" H 6650 5250 50  0001 C CNN
+	1    6650 5250
+	0    1    1    0   
+$EndComp
+Text Label 7300 5250 0    60   ~ 0
+AIN1
+Wire Wire Line
+	6650 5250 6800 5250
+Wire Wire Line
+	7100 5250 7300 5250
+Text Notes 6450 5050 0    118  ~ 0
+STATUS_LED
+Wire Notes Line
+	6250 4850 6250 5400
+Wire Notes Line
+	6250 5400 7650 5400
+Wire Notes Line
+	7650 5400 7650 4850
+Wire Notes Line
+	7650 4850 6250 4850
+Wire Notes Line
+	6250 5050 7650 5050
+$Comp
+L Audio-Jack-3 J?
+U 1 1 5A063866
+P 8000 6000
+F 0 "J?" H 7950 6175 50  0000 C CNN
+F 1 "Audio-Jack-3" H 8100 5930 50  0000 C CNN
+F 2 "" H 8250 6100 50  0001 C CNN
+F 3 "" H 8250 6100 50  0001 C CNN
+	1    8000 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5A063B8F
+P 8750 6150
+F 0 "R?" V 8830 6150 50  0000 C CNN
+F 1 "R" V 8750 6150 50  0000 C CNN
+F 2 "" V 8680 6150 50  0001 C CNN
+F 3 "" H 8750 6150 50  0001 C CNN
+	1    8750 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5A063C00
+P 8600 5900
+F 0 "C?" H 8625 6000 50  0000 L CNN
+F 1 "C" H 8625 5800 50  0000 L CNN
+F 2 "" H 8638 5750 50  0001 C CNN
+F 3 "" H 8600 5900 50  0001 C CNN
+	1    8600 5900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8450 5900 8200 5900
+$Comp
+L R R?
+U 1 1 5A063E13
+P 8500 6150
+F 0 "R?" V 8580 6150 50  0000 C CNN
+F 1 "R" V 8500 6150 50  0000 C CNN
+F 2 "" V 8430 6150 50  0001 C CNN
+F 3 "" H 8500 6150 50  0001 C CNN
+	1    8500 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 5A063E67
+P 8350 6000
+F 0 "C?" H 8375 6100 50  0000 L CNN
+F 1 "C" H 8375 5900 50  0000 L CNN
+F 2 "" H 8388 5850 50  0001 C CNN
+F 3 "" H 8350 6000 50  0001 C CNN
+	1    8350 6000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A063F2F
+P 7800 6500
+F 0 "#PWR?" H 7800 6250 50  0001 C CNN
+F 1 "GND" H 7800 6350 50  0000 C CNN
+F 2 "" H 7800 6500 50  0001 C CNN
+F 3 "" H 7800 6500 50  0001 C CNN
+	1    7800 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7800 6500 7800 6100
+Wire Wire Line
+	8000 6450 7800 6450
+Connection ~ 7800 6450
+Wire Wire Line
+	8000 6300 7800 6300
+Connection ~ 7800 6300
+Wire Wire Line
+	8750 6000 8750 5900
 $EndSCHEMATC
