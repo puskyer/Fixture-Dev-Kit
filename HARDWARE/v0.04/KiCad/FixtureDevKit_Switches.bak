@@ -1,0 +1,759 @@
+EESchema Schematic File Version 2
+LIBS:Fixture-Dev-Kit-rescue
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:TCA6424ARGJR
+LIBS:USB-A1HSW6
+LIBS:jumper
+LIBS:Fixture-Dev-Kit-cache
+EELAYER 25 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 2 7
+Title "Fixture-Dev-Kit"
+Date "2017-10-25"
+Rev "v0.01"
+Comp "Next Thing Co"
+Comment1 "Havin' a Blast!"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Conn_01x03 J3
+U 1 1 59EF71A1
+P 4400 1750
+F 0 "J3" H 4400 1950 50  0000 C CNN
+F 1 "LED_0" H 4400 1550 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 4400 1750 50  0001 C CNN
+F 3 "" H 4400 1750 50  0001 C CNN
+	1    4400 1750
+	0    -1   -1   0   
+$EndComp
+Text Notes 4500 1650 1    60   ~ 0
+GND\n
+Text Notes 4400 1650 1    60   ~ 0
+SIG
+Text Notes 4300 1650 1    60   ~ 0
+VS
+$Comp
+L R R5
+U 1 1 59EF753E
+P 4300 3100
+F 0 "R5" V 4380 3100 50  0000 C CNN
+F 1 "1K" V 4300 3100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4230 3100 50  0001 C CNN
+F 3 "" H 4300 3100 50  0001 C CNN
+	1    4300 3100
+	1    0    0    1   
+$EndComp
+$Comp
+L R R1
+U 1 1 59EF799A
+P 4300 2100
+F 0 "R1" V 4380 2100 50  0000 C CNN
+F 1 "1K" V 4300 2100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 4230 2100 50  0001 C CNN
+F 3 "" H 4300 2100 50  0001 C CNN
+	1    4300 2100
+	1    0    0    1   
+$EndComp
+Text Notes 1050 850  0    157  ~ 0
+LED_Status_Indicators\n
+Text Notes 900  4350 0    157  ~ 0
+BUTTONS :)
+$Comp
+L LED D5
+U 1 1 59EFBE3C
+P 4300 2800
+F 0 "D5" H 4300 2900 50  0000 C CNN
+F 1 "Green" H 4300 2700 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 4300 2800 50  0001 C CNN
+F 3 "" H 4300 2800 50  0001 C CNN
+	1    4300 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D1
+U 1 1 59EFC041
+P 4300 2400
+F 0 "D1" H 4300 2500 50  0000 C CNN
+F 1 "Purple" H 4300 2300 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 4300 2400 50  0001 C CNN
+F 3 "" H 4300 2400 50  0001 C CNN
+	1    4300 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR12
+U 1 1 59EFC9DE
+P 4500 1950
+F 0 "#PWR12" H 4500 1700 50  0001 C CNN
+F 1 "GND" H 4500 1800 50  0000 C CNN
+F 2 "" H 4500 1950 50  0001 C CNN
+F 3 "" H 4500 1950 50  0001 C CNN
+	1    4500 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR11
+U 1 1 59EFCA83
+P 4300 3250
+F 0 "#PWR11" H 4300 3000 50  0001 C CNN
+F 1 "GND" H 4300 3100 50  0000 C CNN
+F 2 "" H 4300 3250 50  0001 C CNN
+F 3 "" H 4300 3250 50  0001 C CNN
+	1    4300 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST TP1
+U 1 1 59EFEE69
+P 4300 2600
+F 0 "TP1" H 4300 2900 50  0000 C BNN
+F 1 "SIG" H 4300 2850 50  0000 C CNN
+F 2 "TestPoint:TestPoint" H 4300 2600 50  0001 C CNN
+F 3 "" H 4300 2600 50  0001 C CNN
+	1    4300 2600
+	0    -1   -1   0   
+$EndComp
+Text Notes 750  1300 0    60   ~ 0
+HIGH side LED = Violet/Purple\nLOW side LED = Ultra Emerald Green
+Text Notes 750  1100 0    79   ~ 0
+NOTES:\n
+Text Notes 750  4550 0    79   ~ 0
+NOTES:\n
+Wire Notes Line
+	700  550  10250 550 
+Wire Notes Line
+	10250 550  10250 3550
+Wire Notes Line
+	10250 3550 700  3550
+Wire Notes Line
+	700  3550 700  550 
+Wire Notes Line
+	700  950  10250 950 
+Wire Notes Line
+	10250 950  10250 900 
+Wire Notes Line
+	700  4050 10250 4050
+Wire Notes Line
+	10250 4050 10250 6250
+Wire Notes Line
+	10250 6250 700  6250
+Wire Notes Line
+	700  6250 700  4050
+Wire Notes Line
+	700  4400 10250 4400
+Wire Notes Line
+	10250 4400 10250 4300
+Wire Wire Line
+	4300 2550 4300 2650
+Wire Wire Line
+	4300 2600 4450 2600
+Wire Wire Line
+	4450 2600 4450 2000
+Wire Wire Line
+	4450 2000 4400 2000
+Wire Wire Line
+	4400 2000 4400 1400
+Connection ~ 4300 2600
+$Comp
+L Conn_01x03 J4
+U 1 1 59F311DE
+P 5250 1750
+F 0 "J4" H 5250 1950 50  0000 C CNN
+F 1 "LED_1" H 5250 1550 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 5250 1750 50  0001 C CNN
+F 3 "" H 5250 1750 50  0001 C CNN
+	1    5250 1750
+	0    -1   -1   0   
+$EndComp
+Text Notes 5350 1650 1    60   ~ 0
+GND\n
+Text Notes 5250 1650 1    60   ~ 0
+SIG
+Text Notes 5150 1650 1    60   ~ 0
+VS
+$Comp
+L R R6
+U 1 1 59F311E7
+P 5150 3100
+F 0 "R6" V 5230 3100 50  0000 C CNN
+F 1 "1K" V 5150 3100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5080 3100 50  0001 C CNN
+F 3 "" H 5150 3100 50  0001 C CNN
+	1    5150 3100
+	1    0    0    1   
+$EndComp
+$Comp
+L R R2
+U 1 1 59F311ED
+P 5150 2100
+F 0 "R2" V 5230 2100 50  0000 C CNN
+F 1 "1K" V 5150 2100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5080 2100 50  0001 C CNN
+F 3 "" H 5150 2100 50  0001 C CNN
+	1    5150 2100
+	1    0    0    1   
+$EndComp
+$Comp
+L LED D6
+U 1 1 59F311F3
+P 5150 2800
+F 0 "D6" H 5150 2900 50  0000 C CNN
+F 1 "Green" H 5150 2700 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 5150 2800 50  0001 C CNN
+F 3 "" H 5150 2800 50  0001 C CNN
+	1    5150 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D2
+U 1 1 59F311F9
+P 5150 2400
+F 0 "D2" H 5150 2500 50  0000 C CNN
+F 1 "Purple" H 5150 2300 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 5150 2400 50  0001 C CNN
+F 3 "" H 5150 2400 50  0001 C CNN
+	1    5150 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR14
+U 1 1 59F311FF
+P 5350 1950
+F 0 "#PWR14" H 5350 1700 50  0001 C CNN
+F 1 "GND" H 5350 1800 50  0000 C CNN
+F 2 "" H 5350 1950 50  0001 C CNN
+F 3 "" H 5350 1950 50  0001 C CNN
+	1    5350 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR13
+U 1 1 59F31205
+P 5150 3250
+F 0 "#PWR13" H 5150 3000 50  0001 C CNN
+F 1 "GND" H 5150 3100 50  0000 C CNN
+F 2 "" H 5150 3250 50  0001 C CNN
+F 3 "" H 5150 3250 50  0001 C CNN
+	1    5150 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST TP2
+U 1 1 59F3120B
+P 5150 2600
+F 0 "TP2" H 5150 2900 50  0000 C BNN
+F 1 "SIG" H 5150 2850 50  0000 C CNN
+F 2 "TestPoint:TestPoint" H 5150 2600 50  0001 C CNN
+F 3 "" H 5150 2600 50  0001 C CNN
+	1    5150 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5150 2550 5150 2650
+Wire Wire Line
+	5150 2600 5300 2600
+Wire Wire Line
+	5300 2600 5300 2000
+Wire Wire Line
+	5300 2000 5250 2000
+Wire Wire Line
+	5250 2000 5250 1400
+Connection ~ 5150 2600
+$Comp
+L Conn_01x03 J5
+U 1 1 59F3150F
+P 5950 1750
+F 0 "J5" H 5950 1950 50  0000 C CNN
+F 1 "LED_2" H 5950 1550 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 5950 1750 50  0001 C CNN
+F 3 "" H 5950 1750 50  0001 C CNN
+	1    5950 1750
+	0    -1   -1   0   
+$EndComp
+Text Notes 6050 1650 1    60   ~ 0
+GND\n
+Text Notes 5950 1650 1    60   ~ 0
+SIG
+Text Notes 5850 1650 1    60   ~ 0
+VS
+$Comp
+L R R7
+U 1 1 59F31518
+P 5850 3100
+F 0 "R7" V 5930 3100 50  0000 C CNN
+F 1 "1K" V 5850 3100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5780 3100 50  0001 C CNN
+F 3 "" H 5850 3100 50  0001 C CNN
+	1    5850 3100
+	1    0    0    1   
+$EndComp
+$Comp
+L R R3
+U 1 1 59F3151E
+P 5850 2100
+F 0 "R3" V 5930 2100 50  0000 C CNN
+F 1 "1K" V 5850 2100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 5780 2100 50  0001 C CNN
+F 3 "" H 5850 2100 50  0001 C CNN
+	1    5850 2100
+	1    0    0    1   
+$EndComp
+$Comp
+L LED D7
+U 1 1 59F31524
+P 5850 2800
+F 0 "D7" H 5850 2900 50  0000 C CNN
+F 1 "Green" H 5850 2700 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 5850 2800 50  0001 C CNN
+F 3 "" H 5850 2800 50  0001 C CNN
+	1    5850 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D3
+U 1 1 59F3152A
+P 5850 2400
+F 0 "D3" H 5850 2500 50  0000 C CNN
+F 1 "Purple" H 5850 2300 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 5850 2400 50  0001 C CNN
+F 3 "" H 5850 2400 50  0001 C CNN
+	1    5850 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR16
+U 1 1 59F31530
+P 6050 1950
+F 0 "#PWR16" H 6050 1700 50  0001 C CNN
+F 1 "GND" H 6050 1800 50  0000 C CNN
+F 2 "" H 6050 1950 50  0001 C CNN
+F 3 "" H 6050 1950 50  0001 C CNN
+	1    6050 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR15
+U 1 1 59F31536
+P 5850 3250
+F 0 "#PWR15" H 5850 3000 50  0001 C CNN
+F 1 "GND" H 5850 3100 50  0000 C CNN
+F 2 "" H 5850 3250 50  0001 C CNN
+F 3 "" H 5850 3250 50  0001 C CNN
+	1    5850 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST TP3
+U 1 1 59F3153C
+P 5850 2600
+F 0 "TP3" H 5850 2900 50  0000 C BNN
+F 1 "SIG" H 5850 2850 50  0000 C CNN
+F 2 "TestPoint:TestPoint" H 5850 2600 50  0001 C CNN
+F 3 "" H 5850 2600 50  0001 C CNN
+	1    5850 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5850 2550 5850 2650
+Wire Wire Line
+	5850 2600 6000 2600
+Wire Wire Line
+	6000 2600 6000 2000
+Wire Wire Line
+	6000 2000 5950 2000
+Wire Wire Line
+	5950 2000 5950 1400
+Connection ~ 5850 2600
+$Comp
+L Conn_01x03 J6
+U 1 1 59F31548
+P 6800 1750
+F 0 "J6" H 6800 1950 50  0000 C CNN
+F 1 "LED_3" H 6800 1550 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 6800 1750 50  0001 C CNN
+F 3 "" H 6800 1750 50  0001 C CNN
+	1    6800 1750
+	0    -1   -1   0   
+$EndComp
+Text Notes 6900 1650 1    60   ~ 0
+GND\n
+Text Notes 6800 1650 1    60   ~ 0
+SIG
+Text Notes 6700 1650 1    60   ~ 0
+VS
+$Comp
+L R R8
+U 1 1 59F31551
+P 6700 3100
+F 0 "R8" V 6780 3100 50  0000 C CNN
+F 1 "1K" V 6700 3100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6630 3100 50  0001 C CNN
+F 3 "" H 6700 3100 50  0001 C CNN
+	1    6700 3100
+	1    0    0    1   
+$EndComp
+$Comp
+L R R4
+U 1 1 59F31557
+P 6700 2100
+F 0 "R4" V 6780 2100 50  0000 C CNN
+F 1 "1K" V 6700 2100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 6630 2100 50  0001 C CNN
+F 3 "" H 6700 2100 50  0001 C CNN
+	1    6700 2100
+	1    0    0    1   
+$EndComp
+$Comp
+L LED D8
+U 1 1 59F3155D
+P 6700 2800
+F 0 "D8" H 6700 2900 50  0000 C CNN
+F 1 "Green" H 6700 2700 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 6700 2800 50  0001 C CNN
+F 3 "" H 6700 2800 50  0001 C CNN
+	1    6700 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED D4
+U 1 1 59F31563
+P 6700 2400
+F 0 "D4" H 6700 2500 50  0000 C CNN
+F 1 "Purple" H 6700 2300 50  0000 C CNN
+F 2 "LEDs:LED_0805_HandSoldering" H 6700 2400 50  0001 C CNN
+F 3 "" H 6700 2400 50  0001 C CNN
+	1    6700 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR18
+U 1 1 59F31569
+P 6900 1950
+F 0 "#PWR18" H 6900 1700 50  0001 C CNN
+F 1 "GND" H 6900 1800 50  0000 C CNN
+F 2 "" H 6900 1950 50  0001 C CNN
+F 3 "" H 6900 1950 50  0001 C CNN
+	1    6900 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR17
+U 1 1 59F3156F
+P 6700 3250
+F 0 "#PWR17" H 6700 3000 50  0001 C CNN
+F 1 "GND" H 6700 3100 50  0000 C CNN
+F 2 "" H 6700 3250 50  0001 C CNN
+F 3 "" H 6700 3250 50  0001 C CNN
+	1    6700 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L TEST TP4
+U 1 1 59F31575
+P 6700 2600
+F 0 "TP4" H 6700 2900 50  0000 C BNN
+F 1 "SIG" H 6700 2850 50  0000 C CNN
+F 2 "TestPoint:TestPoint" H 6700 2600 50  0001 C CNN
+F 3 "" H 6700 2600 50  0001 C CNN
+	1    6700 2600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6700 2550 6700 2650
+Wire Wire Line
+	6700 2600 6850 2600
+Wire Wire Line
+	6850 2600 6850 2000
+Wire Wire Line
+	6850 2000 6800 2000
+Wire Wire Line
+	6800 2000 6800 1400
+Connection ~ 6700 2600
+$Comp
+L SW_Push SW1
+U 1 1 59F988DA
+P 3650 5300
+F 0 "SW1" H 3700 5400 50  0000 L CNN
+F 1 "TL9210AF260Q" H 3650 5240 50  0000 C CNN
+F 2 "TL9210AF260Q:TL9210AF260Q" H 3650 5500 50  0001 C CNN
+F 3 "" H 3650 5500 50  0001 C CNN
+	1    3650 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x02 J18
+U 1 1 59F98AD8
+P 3600 4600
+F 0 "J18" H 3600 4700 50  0000 C CNN
+F 1 "SW_0" H 3600 4400 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x01_Pitch2.54mm" H 3600 4600 50  0001 C CNN
+F 3 "" H 3600 4600 50  0001 C CNN
+	1    3600 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Screw_Terminal_01x02 J26
+U 1 1 59F98BB3
+P 3600 5700
+F 0 "J26" H 3600 5800 50  0000 C CNN
+F 1 "SW_0" H 3600 5500 50  0000 C CNN
+F 2 "TerminalBlocks:2Pin5.08" H 3600 5700 50  0001 C CNN
+F 3 "" H 3600 5700 50  0001 C CNN
+	1    3600 5700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3600 4800 3450 4800
+Wire Wire Line
+	3450 4800 3450 5900
+Wire Wire Line
+	3450 5900 3600 5900
+Connection ~ 3450 5300
+Wire Wire Line
+	3700 4800 3850 4800
+Wire Wire Line
+	3850 4800 3850 5900
+Wire Wire Line
+	3850 5900 3700 5900
+Connection ~ 3850 5300
+$Comp
+L SW_Push SW2
+U 1 1 59F9943F
+P 4350 5300
+F 0 "SW2" H 4400 5400 50  0000 L CNN
+F 1 "TL9210AF260Q" H 4350 5240 50  0000 C CNN
+F 2 "TL9210AF260Q:TL9210AF260Q" H 4350 5500 50  0001 C CNN
+F 3 "" H 4350 5500 50  0001 C CNN
+	1    4350 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x02 J19
+U 1 1 59F99445
+P 4300 4600
+F 0 "J19" H 4300 4700 50  0000 C CNN
+F 1 "SW_0" H 4300 4400 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x01_Pitch2.54mm" H 4300 4600 50  0001 C CNN
+F 3 "" H 4300 4600 50  0001 C CNN
+	1    4300 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Screw_Terminal_01x02 J32
+U 1 1 59F9944B
+P 4300 5700
+F 0 "J32" H 4300 5800 50  0000 C CNN
+F 1 "SW_0" H 4300 5500 50  0000 C CNN
+F 2 "TerminalBlocks:2Pin5.08" H 4300 5700 50  0001 C CNN
+F 3 "" H 4300 5700 50  0001 C CNN
+	1    4300 5700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4300 4800 4150 4800
+Wire Wire Line
+	4150 4800 4150 5900
+Wire Wire Line
+	4150 5900 4300 5900
+Connection ~ 4150 5300
+Wire Wire Line
+	4400 4800 4550 4800
+Wire Wire Line
+	4550 4800 4550 5900
+Wire Wire Line
+	4550 5900 4400 5900
+Connection ~ 4550 5300
+$Comp
+L SW_Push SW3
+U 1 1 59F9979B
+P 5150 5300
+F 0 "SW3" H 5200 5400 50  0000 L CNN
+F 1 "TL9210AF260Q" H 5150 5240 50  0000 C CNN
+F 2 "TL9210AF260Q:TL9210AF260Q" H 5150 5500 50  0001 C CNN
+F 3 "" H 5150 5500 50  0001 C CNN
+	1    5150 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x02 J22
+U 1 1 59F997A1
+P 5100 4600
+F 0 "J22" H 5100 4700 50  0000 C CNN
+F 1 "SW_0" H 5100 4400 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x01_Pitch2.54mm" H 5100 4600 50  0001 C CNN
+F 3 "" H 5100 4600 50  0001 C CNN
+	1    5100 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Screw_Terminal_01x02 J33
+U 1 1 59F997A7
+P 5100 5700
+F 0 "J33" H 5100 5800 50  0000 C CNN
+F 1 "SW_0" H 5100 5500 50  0000 C CNN
+F 2 "TerminalBlocks:2Pin5.08" H 5100 5700 50  0001 C CNN
+F 3 "" H 5100 5700 50  0001 C CNN
+	1    5100 5700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5100 4800 4950 4800
+Wire Wire Line
+	4950 4800 4950 5900
+Wire Wire Line
+	4950 5900 5100 5900
+Connection ~ 4950 5300
+Wire Wire Line
+	5200 4800 5350 4800
+Wire Wire Line
+	5350 4800 5350 5900
+Wire Wire Line
+	5350 5900 5200 5900
+Connection ~ 5350 5300
+$Comp
+L SW_Push SW4
+U 1 1 59F997B5
+P 5850 5300
+F 0 "SW4" H 5900 5400 50  0000 L CNN
+F 1 "TL9210AF260Q" H 5850 5240 50  0000 C CNN
+F 2 "TL9210AF260Q:TL9210AF260Q" H 5850 5500 50  0001 C CNN
+F 3 "" H 5850 5500 50  0001 C CNN
+	1    5850 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x02 J24
+U 1 1 59F997BB
+P 5800 4600
+F 0 "J24" H 5800 4700 50  0000 C CNN
+F 1 "SW_0" H 5800 4400 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x01_Pitch2.54mm" H 5800 4600 50  0001 C CNN
+F 3 "" H 5800 4600 50  0001 C CNN
+	1    5800 4600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Screw_Terminal_01x02 J34
+U 1 1 59F997C1
+P 5800 5700
+F 0 "J34" H 5800 5800 50  0000 C CNN
+F 1 "SW_0" H 5800 5500 50  0000 C CNN
+F 2 "TerminalBlocks:2Pin5.08" H 5800 5700 50  0001 C CNN
+F 3 "" H 5800 5700 50  0001 C CNN
+	1    5800 5700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5800 4800 5650 4800
+Wire Wire Line
+	5650 4800 5650 5900
+Wire Wire Line
+	5650 5900 5800 5900
+Connection ~ 5650 5300
+Wire Wire Line
+	5900 4800 6050 4800
+Wire Wire Line
+	6050 4800 6050 5900
+Wire Wire Line
+	6050 5900 5900 5900
+Connection ~ 6050 5300
+$Comp
+L Screw_Terminal_01x03 J7
+U 1 1 59F99E32
+P 4400 1200
+F 0 "J7" H 4400 1400 50  0000 C CNN
+F 1 "LED_0" H 4400 1000 50  0000 C CNN
+F 2 "TerminalBlocks:3Pin5.08" H 4400 1200 50  0001 C CNN
+F 3 "" H 4400 1200 50  0001 C CNN
+	1    4400 1200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4500 1950 4500 1400
+Connection ~ 4400 1950
+$Comp
+L Screw_Terminal_01x03 J8
+U 1 1 59F9A08B
+P 5250 1200
+F 0 "J8" H 5250 1400 50  0000 C CNN
+F 1 "LED_1" H 5250 1000 50  0000 C CNN
+F 2 "TerminalBlocks:3Pin5.08" H 5250 1200 50  0001 C CNN
+F 3 "" H 5250 1200 50  0001 C CNN
+	1    5250 1200
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5250 1950
+Wire Wire Line
+	5150 1950 5150 1400
+$Comp
+L Screw_Terminal_01x03 J9
+U 1 1 59F9A396
+P 5950 1200
+F 0 "J9" H 5950 1400 50  0000 C CNN
+F 1 "LED_2" H 5950 1000 50  0000 C CNN
+F 2 "TerminalBlocks:3Pin5.08" H 5950 1200 50  0001 C CNN
+F 3 "" H 5950 1200 50  0001 C CNN
+	1    5950 1200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6050 1950 6050 1400
+Connection ~ 5950 1950
+Wire Wire Line
+	5850 1950 5850 1400
+$Comp
+L Screw_Terminal_01x03 J10
+U 1 1 59F9A617
+P 6800 1200
+F 0 "J10" H 6800 1400 50  0000 C CNN
+F 1 "LED_3" H 6800 1000 50  0000 C CNN
+F 2 "TerminalBlocks:3Pin5.08" H 6800 1200 50  0001 C CNN
+F 3 "" H 6800 1200 50  0001 C CNN
+	1    6800 1200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6900 1950 6900 1400
+Connection ~ 6800 1950
+Wire Wire Line
+	6700 1950 6700 1400
+Wire Wire Line
+	4300 1400 4300 1950
+Wire Wire Line
+	5350 1400 5350 1950
+$EndSCHEMATC

@@ -1,4 +1,4 @@
-update=Fri 10 Nov 2017 10:00:05 AM PST
+update=Thursday 09 November 2017 09:14:37 AM IST
 version=1
 last_client=kicad
 [pcbnew]
@@ -66,13 +66,3 @@ LibName36=Libraries/USB-A1HSW6.petty/USB-A1HSW6
 LibName37=Libraries/Schematic Library/jumper
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
