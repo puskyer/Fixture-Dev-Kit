@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TCA6424A
+D 24-bit I/O expander for the two-line bidirectional bus (I 2 C)
+K TCA6424A, 24-BIT Expander
+F datasheets/TCA6424A.pdf
+$ENDCMP
+#
+#End Doc Library
